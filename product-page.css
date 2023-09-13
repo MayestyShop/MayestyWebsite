@@ -1,0 +1,470 @@
+body {
+    font-weight: 200;
+    font-family:Avenir, Arial,sans-serif;
+    margin: 0px;
+    overflow-x: hidden;
+  }
+  
+.header {
+    background-color: Black;
+    width: 100%;
+    height:30px;
+    margin-top: -20px;
+    margin-bottom: auto;
+    position:static;
+  }
+  
+  .txtheader {
+      color: white;
+      text-align: center;
+      font-weight: bold;
+      padding-top: 7px;
+  }
+
+  .whitebox {
+    background: white;
+    width: 100%;
+    height: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  
+  }
+
+  .imgheader {
+    width: 30%;
+    height: 37.5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-top: 31.25px;
+    padding-bottom:31.25px;
+    margin-bottom: 0px;
+    position: absolute;
+}
+
+#menu {
+    display:none;
+  }
+  #HOME {
+    text-decoration: none;
+    color:white;
+    padding-left:155px;
+    padding-right:45px;
+    font-size: 35px; 
+    font-weight:bold; 
+    margin-top:60px; 
+    padding-top:0px; 
+    padding-bottom:30px;
+    position:fixed;
+    line-height: 0px;
+  }
+  #HOME:hover{
+    color:#3300FF;
+    cursor:pointer;
+  }
+  #CART {
+    color:white;
+    text-decoration: none;
+    padding-left:159px;
+    padding-right:159px;  
+    font-size: 35px; 
+    font-weight:bold; 
+    margin-top:155px; 
+    padding-top:30px; 
+    padding-bottom:60px;
+    position:fixed;
+    line-height: 0px;
+  }
+  #CART:hover{
+    color:#3300FF;
+    cursor:pointer;
+  }
+  #SHOP {
+    text-decoration: none;
+    color:white;
+    padding-left:157px;
+    padding-right:157px;  
+    font-size: 35px; 
+    font-weight:bold; 
+    margin-top:285px;
+    padding-top:30px; 
+    padding-bottom:60px;
+    position:fixed;
+    line-height: 0px;
+  }
+  #SHOP:hover{
+    color:#3300FF;
+    cursor:pointer;
+  }
+  #ABOUTUS {
+    text-decoration: none;
+    color:white;
+    padding-left:110px;
+    padding-right:110px;  
+    font-size: 35px; 
+    font-weight:bold; 
+    margin-top:415px;
+    padding-top:30px; 
+    padding-bottom:60px; 
+    position:fixed;
+    line-height: 0px;
+  }
+  #ABOUTUS:hover{
+    color:#3300FF;
+    cursor:pointer;
+  }
+  #FAQs {
+    text-decoration: none;
+    color:white;
+    padding-left:161px;
+    padding-right:161px;  
+    font-size: 35px; 
+    font-weight:bold; 
+    margin-top:545px;
+    padding-top:30px; 
+    padding-bottom:60px; 
+    position:fixed;
+    line-height: 0px;
+  }
+  #FAQs:hover{
+    color:#3300FF;
+    cursor:pointer;
+  }
+  #CONTACT {
+    text-decoration: none;
+    color:white;
+    padding-left:121px;
+    padding-right:121px;
+    font-size: 35px; 
+    font-weight:bold;
+    margin-top:675px;
+    padding-top:30px; 
+    padding-bottom:60px; 
+    position:fixed;
+    line-height: 0px;
+  }
+  #CONTACT:hover{
+    color:#3300FF;
+    cursor:pointer;
+  }
+
+.product-overview {
+    width:auto;
+    height:850px;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: white;
+}
+
+.path-product-1 {
+    font-weight: 200;
+    font-size: 15px;
+    color: darkgrey;
+    margin-top:40px
+}
+#product-img-1 {
+    width: 500px;
+    height:500px;
+    margin-top: -5px;
+    position: absolute;
+    opacity: 100%;
+    margin-bottom: 0px;
+}
+#product-img-1s {
+    width: 90px;
+    height: 90px;
+    margin-top: 505px;
+    margin-left:0px;
+    position: absolute;
+    opacity: 100%;
+    margin-bottom: 0px;
+}
+#product-img-1s:hover {
+    cursor: pointer;
+    opacity:60%;
+}
+
+#product-img-2s {
+    width: 90px;
+    height: 90px;
+    margin-top: 505px;
+    margin-left:95px;
+    position: absolute;
+    opacity: 100%;
+    margin-bottom: 0px;
+}
+#product-img-2s:hover {
+    cursor: pointer;
+    opacity:60%;
+}
+
+#product-img-3s {
+    width: 90px;
+    height: 90px;
+    margin-top: 505px;
+    margin-left:190px;
+    position: absolute;
+    opacity: 100%;
+    margin-bottom: 0px;
+}
+#product-img-3s:hover {
+    cursor: pointer;
+    opacity:60%;
+}
+
+#product-img-4s {
+    width: 90px;
+    height: 90px;
+    margin-top: 505px;
+    margin-left: 285px;
+    position: absolute;
+    opacity: 100%;
+    margin-bottom: 0px;
+}
+#product-img-4s:hover {
+    cursor: pointer;
+    opacity:60%;
+}
+
+#product-img-5s {
+    width: 90px;
+    height: 90px;
+    margin-top: 505px;
+    margin-left: 380px;
+    position: absolute;
+    opacity: 100%;
+    margin-bottom: 0px;
+}
+#product-img-5s:hover {
+    cursor: pointer;
+    opacity:60%;
+}
+
+#name-product {
+    margin-left: 535px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 35px;
+    margin-bottom: 0px;
+}
+
+#price-product {
+    margin-top:0px;
+    margin-left: 535px;
+    font-size:20px;
+    margin-bottom: 25px;
+}
+
+#text-dropdown {
+    margin-left: 535px;
+    line-height: 0px;
+    margin-top:60px;
+
+}
+
+#Option-Dropdown{
+    margin-left:535px;
+}
+
+#option-button { 
+    border-radius: 2px;
+    background-color: white;
+    border-color: gray;
+    border-style: solid; 
+    font-size: 15px;
+    width: 375px;
+    height: 40px;
+    text-align: left;
+    padding-left:10px;
+    z-index: 1;
+}
+
+#option-button:hover{
+    cursor:pointer;
+}
+
+#optiondropdownmenu{
+    border-radius: 2px;
+    position: fixed;
+    background-color: white;
+    height: 165px;
+    margin-top:-2px;
+    width:372px;
+    border: black;
+    border-style: solid;
+    opacity:100%;
+    display: none;
+    z-index: 10;
+}
+
+#plugdropdownmenu{
+    border-radius: 2px;
+    position: fixed;
+    background-color: white;
+    height: 165px;
+    margin-top:-2px;
+    width:372px;
+    border: black;
+    border-style: solid;
+    opacity:100%;
+    display: none;
+    z-index: 10;
+}
+
+#arrow {
+    width: 15px;
+    margin-left: 290px;
+}
+
+#option-1 {
+    text-align: left;
+    width:100%;
+    height: 35px;
+    margin-top: 5px;
+    border: hidden;
+    background-color: white;
+    font-size:15px;
+}
+
+#option-1:hover {
+    background-color: lightgray;
+    cursor:pointer;
+}
+
+#option-2 {
+    text-align: left;
+    width:100%;
+    height: 35px;
+    margin-top: 5px;
+    border: hidden;
+    background-color: white;
+    font-size:15px;
+}
+
+#option-2:hover {
+    background-color: lightgray;
+    cursor:pointer;
+}
+
+#option-3 {
+    text-align: left;
+    width:100%;
+    height: 35px;
+    margin-top: 5px;
+    border: hidden;
+    background-color: white;
+    font-size:15px;
+}
+
+#option-3:hover {
+    background-color: lightgray;
+    cursor:pointer;
+}
+
+#option-4 {
+    text-align: left;
+    width:100%;
+    height: 35px;
+    margin-top: 5px;
+    border: hidden;
+    background-color: white;
+    font-size:15px;
+}
+
+#option-4:hover {
+    background-color: lightgray;
+    cursor:pointer;
+}
+
+#text-dropdown-plug {
+    margin-left: 0px;
+    line-height: 0px;
+    margin-top:30px;
+
+}
+
+#plug-button { 
+    border-radius: 2px;
+   background-color: white;
+    border-color: gray;
+    border-style: solid; 
+    font-size: 15px;
+    width: 375px;
+    height: 40px;
+    text-align: left;
+    padding-left:10px;
+    z-index: 1;
+}
+
+#plug-button:hover{
+    cursor:pointer;
+}
+
+#plug-1 {
+    text-align: left;
+    width:100%;
+    height: 35px;
+    margin-top: 5px;
+    border: hidden;
+    background-color: white;
+    font-size:15px;
+}
+
+#plug-1:hover {
+    background-color: lightgray;
+    cursor:pointer;
+}
+
+#plug-2 {
+    text-align: left;
+    width:100%;
+    height: 35px;
+    margin-top: 5px;
+    border: hidden;
+    background-color: white;
+    font-size:15px;
+}
+
+#plug-2:hover {
+    background-color: lightgray;
+    cursor:pointer;
+}
+
+#plug-3 {
+    text-align: left;
+    width:100%;
+    height: 35px;
+    margin-top: 5px;
+    border: hidden;
+    background-color: white;
+    font-size:15px;
+}
+
+#plug-3:hover {
+    background-color: lightgray;
+    cursor:pointer;
+}
+
+#plug-4 {
+    text-align: left;
+    width:100%;
+    height: 35px;
+    margin-top: 5px;
+    border: hidden;
+    background-color: white;
+    font-size:15px;
+}
+
+#plug-4:hover {
+    background-color: lightgray;
+    cursor:pointer;
+}
+
+#footer {
+    background-color: black;
+    width:100%;
+    height: 190px;
+    margin-top:-125px;
+    padding-top:0px;
+    color:white;
+    
+}

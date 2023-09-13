@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="contact.css">
+    <title >CONTACT | MAYESTY</title>
+</head>
+
+<body>
+<!--MENU-->
+<div id="menu"style="border-left:solid #3300FF 10px;color:white;z-index:10;margin-left:70%;position:fixed;background-color:black; width:30%;height:1100px;">
+  <a href="#" onclick="menuClosed()"><img style="padding-left:25px; padding-bottom: 25px;width:35px; position: fixed;margin-top:15px; margin-left:325px;"src="/Users/Carsten/VSCode/Website/files/cross.png"></a>
+  <a id="HOME"href="/Users/Carsten/VSCode/Website/code/index.html"><p>HOME</p></a>
+  <a id="CART" href="/Users/Carsten/VSCode/Website/code/cart.html"><p>CART</p></a>
+  <a id="SHOP" href="/Users/Carsten/VSCode/Website/code/shop.html"><p>SHOP</p></a>
+  <a id="ABOUTUS" href="/Users/Carsten/VSCode/Website/code/about-us.html"><p>ABOUT US</p></a>
+  <a id="FAQs" href="#"><p>FAQs</p></a>
+  <a id="CONTACT"href="/Users/Carsten/VSCode/Website/code/contact.html"><p>CONTACT</p></a>
+</div>
+
+<!-- Headers-->
+  <div class="header">
+    <p class=txtheader>FREE SHIPPING WORDWIDE</p>
+  </div>
+  <div class="whitebox">
+    <a href="cart.html"><img style="margin-top:15px;margin-left:78px;position:absolute;width:80px;"src="/Users/Carsten/VSCode/Website/files/cart.png"/></a>
+    <a href="index.html"><img class="imgheader" src="/Users/Carsten/VSCode/Website/files/Mayestylogowhite.png"></a>
+    <a href="#" onclick="menuClicked()"><img style="position:absolute;margin-top:17.5px;margin-left:1230px;width:65px;"src="/Users/Carsten/VSCode/Website/files/Menu.png"/></a>
+  </div>
+
+
+<div style="margin-bottom:0%;width:100%; height:500px; background-color: #AFAFAF; margin-top:75px;">
+
+<p style="font-size:100px;color:white; text-align: center; font-weight: bold; line-height: 160px; letter-spacing: 3px; margin-top:0px;">Get in touch with us</p>
+<p style="color:white;line-height:75px;font-size:40px; text-align: center; margin-top:-50px;">You can contact us by emailing us to:</p>
+<a style="text-decoration: none;"href="mailto:shop.mayesty@gmail.com"><p style="line-height:100px;font-style:oblique;color:white; text-decoration:none; font-size: 30px; text-align: center;">shop.mayesty@gmail.com</p></a>
+
+</div>
+
+<!--Footer-->
+<div id="footer">
+    <p style="line-height:30px;padding-top:40px;position:absolute;padding-left:430px;text-align: left; width:550px">At Mayesty we offer products that are desired by our customers. We do our best to satisfy every customer we get. Our aim is to provide products to people all around the world, and we'll keep doing that.</p>
+  
+    <p style="position:absolute;font-size:15px;padding-left:250px;line-height:30px;width:65px; height:75px; padding-top:40px; ">
+      <a style="color:white; text-decoration: none;"href="#">Shop</a>
+      <a style="color:white; text-decoration: none;" href="/Users/Carsten/VSCode/Website/code/about-us.html" >About us</a>
+      <a style="color:white; text-decoration: none;" href="/Users/Carsten/VSCode/Website/code/contact.html">Contact</a>
+    </p>
+</div>
+
+    <script>
+      function menuClicked(){
+        document.querySelector('#menu').style.display= 'block';
+    
+      }
+      function menuClosed() {
+        document.querySelector('#menu').style.display= 'none';
+      }
+    </script>
+</body>
+</html
