@@ -5,21 +5,21 @@ var option3 = 'Blue';
 
 
 function img1clicked(){
-    document.getElementById("product-img-1").src = "/Users/Carsten/VSCode/Website/files/Modern Desk Lights/all_blackbackground.jpg"
+    document.getElementById("product-img-1").src = "all_blackbackground.jpg"
 }
 function img2clicked(){
-    document.getElementById("product-img-1").src= "/Users/Carsten/VSCode/Website/files/Modern Desk Lights/bendingexample.png"
+    document.getElementById("product-img-1").src= "bendingexample.png"
 }
 
 function img3clicked(){
-    document.getElementById("product-img-1").src = "/Users/Carsten/VSCode/Website/files/Modern Desk Lights/green_whitebackground.jpg"
+    document.getElementById("product-img-1").src = "green_whitebackground.jpg"
 }
 
 function img4clicked(){
-    document.getElementById("product-img-1").src = "/Users/Carsten/VSCode/Website/files/Modern Desk Lights/blue_whitebackground.jpg"
+    document.getElementById("product-img-1").src = "blue_whitebackground.jpg"
 }
 function img5clicked(){
-    document.getElementById("product-img-1").src = "/Users/Carsten/VSCode/Website/files/Modern Desk Lights/pink_whitebackground.jpg"
+    document.getElementById("product-img-1").src = "pink_whitebackground.jpg"
 }
 
 
