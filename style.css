@@ -38,7 +38,7 @@ body {
   color:white;
   padding-left:155px;
   padding-right:45px;
-  font-size: 35px; 
+  font-size: 50px; 
   font-weight:bold; 
   margin-top:60px; 
   padding-top:0px; 
@@ -50,29 +50,13 @@ body {
   color:#3300FF;
   cursor:pointer;
 }
-#CART {
-  color:white;
-  text-decoration: none;
-  padding-left:159px;
-  padding-right:159px;  
-  font-size: 35px; 
-  font-weight:bold; 
-  margin-top:155px; 
-  padding-top:30px; 
-  padding-bottom:60px;
-  position:fixed;
-  line-height: 0px;
-}
-#CART:hover{
-  color:#3300FF;
-  cursor:pointer;
-}
+
 #SHOP {
   text-decoration: none;
   color:white;
   padding-left:157px;
   padding-right:157px;  
-  font-size: 35px; 
+  font-size: 50px; 
   font-weight:bold; 
   margin-top:285px;
   padding-top:30px; 
@@ -89,7 +73,7 @@ body {
   color:white;
   padding-left:110px;
   padding-right:110px;  
-  font-size: 35px; 
+  font-size: 50px; 
   font-weight:bold; 
   margin-top:415px;
   padding-top:30px; 
@@ -101,29 +85,13 @@ body {
   color:#3300FF;
   cursor:pointer;
 }
-#FAQs {
-  text-decoration: none;
-  color:white;
-  padding-left:161px;
-  padding-right:161px;  
-  font-size: 35px; 
-  font-weight:bold; 
-  margin-top:545px;
-  padding-top:30px; 
-  padding-bottom:60px; 
-  position:fixed;
-  line-height: 0px;
-}
-#FAQs:hover{
-  color:#3300FF;
-  cursor:pointer;
-}
+
 #CONTACT {
   text-decoration: none;
   color:white;
   padding-left:121px;
   padding-right:121px;
-  font-size: 35px; 
+  font-size: 50px; 
   font-weight:bold;
   margin-top:675px;
   padding-top:30px; 
