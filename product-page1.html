@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="product-page1.css">
+    <title >Product Page | MAYESTY</title>
+</head>
+
+<body>
+ <!--MENU-->
+ <div id="menu"style="border-left:solid #3300FF 10px;color:white;z-index:10;margin-left:70%;position:fixed;background-color:black; width:30%;height:1100px;">
+  <a href="#" onclick="menuClosed()"><img style="padding-left:25px; padding-bottom: 25px;width:35px; position: fixed;margin-top:15px; margin-left:325px;"src="/Users/Carsten/VSCode/Website/files/cross.png"></a>
+  <a id="HOME"href="/Users/Carsten/VSCode/Website/code/index.html"><p>HOME</p></a>
+  <a id="SHOP" href="/Users/Carsten/VSCode/Website/code/shop.html"><p>SHOP</p></a>
+  <a id="ABOUTUS" href="/Users/Carsten/VSCode/Website/code/about-us.html"><p>ABOUT US</p></a>
+  <a id="CONTACT"href="/Users/Carsten/VSCode/Website/code/contact.html"><p>CONTACT</p></a>
+</div>
+
+</div>
+    <div class="header">
+        <p class=txtheader>FREE SHIPPING WORDWIDE</p>
+      </div>
+      <div class="whitebox">
+        <a href="index.html"><img class="imgheader" src="/Users/Carsten/VSCode/Website/files/Mayestylogowhite.png"></a>
+        <a href="#" onclick="menuClicked()"><img style="position:absolute;margin-top:17.5px;margin-left:1230px;width:65px;"src="/Users/Carsten/VSCode/Website/files/Menu.png"/></a>
+          </div>
+    </div>
+
+    <div class="product-overview">
+        <h2 class="path-product-1"> <a style="color:black;font-weight:bold; text-decoration: none;"href="/Users/Carsten/VSCode/Website/code/index.html">Home / </a>Modern Desk Lights LED USB</h2>
+        <div id="product-div">
+            <img id="product-img-1" src="/Users/Carsten/VSCode/Website/files/Modern Desk Lights/all_blackbackground.jpg"/>
+            <img id="product-img-1s" onclick="img1clicked()" src="/Users/Carsten/VSCode/Website/files/Modern Desk Lights/all_blackbackground.jpg"/>
+            <img id="product-img-2s" onclick="img2clicked()"src="/Users/Carsten/VSCode/Website/files/Modern Desk Lights/bendingexample.png"/>
+            <img id="product-img-3s" onclick="img3clicked()"src="/Users/Carsten/VSCode/Website/files/Modern Desk Lights/green_whitebackground.jpg"/>
+            <img id="product-img-4s" onclick="img4clicked()"src="/Users/Carsten/VSCode/Website/files/Modern Desk Lights/blue_whitebackground.jpg"/>
+            <img id="product-img-5s" onclick="img5clicked()"src="/Users/Carsten/VSCode/Website/files/Modern Desk Lights/pink_whitebackground.jpg"/>
+            <p id="name-product">Modern Desk Lights LED USB</p>
+            <p id="price-product">$12.49</p>
+        </div>
+        
+
+        <!--Dropdown menu - option-->
+       <p id="text-dropdown">Color</p>
+        <div id="Option-Dropdown">
+          <button onclick="optionDropdown()"id="option-button" ><p style="position:absolute;margin:0px;" id="select-option">Select</p><img style="margin-left: 325px;width:15px;"src="/Users/Carsten/VSCode/Website/files/arrow.png"></button>
+          <div id="optiondropdownmenu">
+            <button onclick="optionClicked1()"id="option-1">- Green</button>
+            <button onclick="optionClicked2()"id="option-2">- Pink</button>
+            <button onclick="optionClicked3()"id="option-3">- Blue</button>    
+          </div>
+
+       
+         <!--Quantity-->
+         <p style="line-height: 0px; margin-top:30px">Quantity</p>
+      <div style="cursor:text;width:75px; height:40px; background-color: white; margin-top: 0px; border-color: black; border-style: solid;">  
+        <p style="line-height: 0; margin-bottom: auto; margin-top: 20px; padding-left: 10px">1 </p>
+      </div>
+      
+      <!--Add to Cart
+      <div onclick="AddToCart()" style="cursor:pointer;border-style:solid;background-color:white;height:40px;width:375px; margin-top:30px;";><p style="margin-top:10px;text-align: center;">Add to Cart</p></div>
+     -->
+
+      <!--Buy Now-->
+      <div onclick="Checkout()" style="cursor:pointer;border-color:black;border-style:solid;color: white;background-color:black;height:45px;width:375px; margin-top:40px;";><p style="margin-top:12.5px;text-align: center;">Buy Now</p></div>
+      
+    </div>
+
+</div>
+
+
+<div id="footer">
+  <p style="line-height:30px;padding-top:40px;position:absolute;padding-left:469.5px;text-align: center; width:550px">At Mayesty we offer products that are desired by our customers. We do our best to satisfy every customer we get. Our aim is to provide products to people all around the world, and we'll keep doing that.</p>
+
+  <p style="position:absolute;font-size:15px;padding-left:250px;line-height:30px;width:65px; height:75px; padding-top:40px; ">
+    <a style="color:white; text-decoration: none;"href="#">Shop</a>
+    <a style="color:white; text-decoration: none;" href="/Users/Carsten/VSCode/Website/code/about-us.html" >About us</a>
+    <a style="color:white; text-decoration: none;" href="#">Contact</a>
+  </p>
+
+</div>
+
+<script src="product-page1.js"></script>
+</body>
+</html>
