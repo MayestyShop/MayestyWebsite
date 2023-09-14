@@ -253,7 +253,7 @@ body {
 
 #optiondropdownmenu{
     border-radius: 2px;
-    position: fixed;
+    position: absolute;
     background-color: white;
     height: 125px;
     margin-top:-2px;
