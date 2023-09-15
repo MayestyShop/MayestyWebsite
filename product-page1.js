@@ -60,7 +60,6 @@ var selectoption = document.getElementById("select-option");
 var selectplug = document.getElementById("select-plug");
 
 function Checkout(){
-function Checkout(){
 switch (selectoption.textContent) {
     //Option 1
     case option1:
