@@ -60,15 +60,15 @@ function Checkout(){
 switch (selectoption.textContent) {
     //Option 1
     case option1:
-        window.location.href = "https://buy.stripe.com/eVabLQdgZfRM5SE8wx";
+        window.location.href = "https://buy.stripe.com/6oEeY2gtbcFAgxi004";
     break
     //Option 2
     case option2:
-        window.location.href = "https://buy.stripe.com/eVabLQdgZfRM5SE8wx";
+        window.location.href = "https://buy.stripe.com/00gg26el38pkdl68wz";
     break
     //Option 3
     case option3:
-        window.location.href = "https://buy.stripe.com/eVabLQdgZfRM5SE8wx";
+        window.location.href = "https://buy.stripe.com/fZeeY26SB6hc2Gs3ce";
     break
     
     }}
