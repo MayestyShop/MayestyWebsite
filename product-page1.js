@@ -30,15 +30,18 @@ document.querySelector('#optiondropdownmenu').style.display= 'block';
 function optionClicked1(){
 document.querySelector('#optiondropdownmenu').style.display='none';
 document.querySelector('#select-option').innerHTML = option1;
+document.querySelector('#no-option').style.display= 'none';
 }
 function optionClicked2(){
 document.querySelector('#optiondropdownmenu').style.display='none';
 document.querySelector('#select-option').innerHTML = option2;
+document.querySelector('#no-option').style.display= 'none';
 
 }
 function optionClicked3(){
 document.querySelector('#optiondropdownmenu').style.display='none';
 document.querySelector('#select-option').innerHTML = option3;
+document.querySelector('#no-option').style.display= 'none';
 
 }
 
@@ -57,6 +60,7 @@ var selectoption = document.getElementById("select-option");
 var selectplug = document.getElementById("select-plug");
 
 function Checkout(){
+function Checkout(){
 switch (selectoption.textContent) {
     //Option 1
     case option1:
@@ -70,5 +74,7 @@ switch (selectoption.textContent) {
     case option3:
         window.location.href = "https://buy.stripe.com/fZeeY26SB6hc2Gs3ce";
     break
-    
+    default:
+        document.querySelector('#no-option').style.display= 'block';
+        break
     }}
