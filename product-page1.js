@@ -71,7 +71,7 @@ switch (selectoption.textContent) {
     break
     //Option 3
     case option3:
-        window.location.href = "https://buy.stripe.com/fZeeY26SB6hc2Gs3ce";
+        window.location.href = "https://buy.stripe.com/bIY2bga4N6hc0ykeV1";
     break
     default:
         document.querySelector('#no-option').style.display= 'block';
