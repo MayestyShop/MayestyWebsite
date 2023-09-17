@@ -7,25 +7,27 @@ body {
 
 .header {
   background-color: Black;
-  width: 100%;
-  height:30px;
-  margin-top: -20px;
+  width: 100vw;
+  height:2vw;
+  margin-top:-1.65vw;
   margin-bottom: auto;
   position:static;
 }
 
 .txtheader {
+    letter-spacing: 0.25vw;
+    font-size: 0.9vw;
     color: white;
     text-align: center;
     font-weight: bold;
-    padding-top: 7px;
+    padding-top: 0.75vw;
 }
 
 
 .whitebox {
   background: white;
-  width: 100%;
-  height: 100px;
+  width: 100vw;
+  height: 6.7vw;
   margin-top: 0px;
   margin-bottom: 0px;
 
@@ -71,7 +73,7 @@ body {
 #ABOUTUS {
   text-decoration: none;
   color:white;
-  padding-left:80px;
+  padding-left:75.5px;
   padding-right:74.5px;  
   font-size: 50px; 
   font-weight:bold; 
@@ -104,14 +106,11 @@ body {
   cursor:pointer;
 }
 
-
 .imgheader {
-    width: 30%;
-    height: 37.5px;
-    margin-left: 35%;
-    margin-right: 35%;
-    padding-top: 31.25px;
-    padding-bottom:31.25px;
+    width: 25vw;
+    margin-left: 37.5vw;
+    padding-top: 1.5vw;
+    margin-top: 0px;
     margin-bottom: 0px;
     position: absolute;
 }
@@ -121,53 +120,68 @@ body {
 .blackbox {
   font-weight: bold;
   background-color: black;
-  width: 100%;
-  height: 633px;
+  width: 100vw;
+  height: 32.5vw;
   margin-top: 0px;
 
 }
 
+#earthimg {
+  position: absolute;
+  height:32.5vw;
+  width: 100%;
+  opacity: 65%;
+}
 
 .biglogoimg {
-  width: 50%;
-  height: 65px;
-  margin-top:150px;
+  position: absolute;
+  width: 40vw;
+  margin-top:5.5vw;
   margin-bottom: 0px;
-  margin-left: 25%;
-  margin-right:25%;
-  padding-top: 17.5px;
-  padding-bottom:17.5px;
+  margin-left: 30vw;
 }
 
 #subtitle {
-  font-weight: normal;
+  position: absolute;
+  z-index: 10;
+  width: 60vw;
+  font-weight: bold;
   font-style: italic;
   color: white;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 15vw;
   margin-bottom: 0px;
-  font-size: 25px;
+  margin-left:20vw;
+  margin-right:20vw;
+  font-size: 1.75vw;
 
 }
 
 .shopnowbox {
-  width: 13%;
-  height: 70px;
-  background: black;
-  margin-left:43.5%;
-  margin-right:43.5%;
-  margin-top: 100px;
+  position: absolute;
+  z-index: 10;
+  width: 15vw;
+  height: 5vw;
+  background: transparent;
+  margin-left:42.5vw;
+  margin-top: 22.5vw;
   border-style: solid;
   border-color: white;
 
 }
 
 #shopnowtxt {
-  font-weight: normal;
+  font-size:1.25vw;
+  position: absolute;
+  font-weight: bold;  
+  width: 85%;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  height: 100%;
   color:white;
   text-align: center;
-  padding: 29px;
-  margin-top: -5px;
+  margin:0px;
+  padding-top:11.125%;
 }
 
 .shopnowbox:hover {
@@ -181,40 +195,42 @@ body {
 }
 
 .fc {
-  width: 100%;
-  height:900px;
+  width: 100vw;
+  height:57.5vw;
   background-color: white;
 }
 
 #fctext {
   font-weight: bold;
+  width:37vw;
   color: black;
-  font-size: 55px;
-  margin-left: 467px;
-  margin-top:70px;
+  font-size: 4vw;
+  margin-left: 31.5vw;
+  margin-top:6vw;
   margin-bottom: 0px;
 }
 
 #bestproducts {
-  margin-top: 100px;
-  margin-left: 40px;
+  margin-top: 2vw;
+  margin-left: 3vw;
 }
 
 #products-slider {
   position: relative;
   overflow-x: scroll;
   margin-top: 0px;
-  height: 580px;
-  width: 100%;
+  height: 37vw;
+  width: 100vw;
   margin: 0px;
   background-color:#ededed;
 }
 
 
-/* PRODUCT TEMPLATE */
 .product-img {
-  height:500px;
-  width:500px;
+  margin-top:2.25vw;
+  margin-left:3vw;
+  height:32.5vw;
+  width:32.5vw;;
   position: absolute;
 }
 
@@ -223,13 +239,15 @@ body {
 }
 
 .product-txt {
+  font-size:1.5vw;
+  margin-left:3vw;
   font-weight: bold;
   color:white;
   position: absolute;
   line-height:0px;
-  margin-top: 450px;
-  padding-left: 5px;
-  padding-right:5px;
+  margin-top: 31.5vw;
+  padding-left: 0.35vw;
+  padding-right:0.35vw;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -238,12 +256,14 @@ body {
 }
 
 .product-price {
+  font-size:1.25vw;
   font-weight: bold;
   color:white;  position: absolute;
-  margin-top: 480px;
+  margin-top: 33.5vw;
   line-height:0px;
-  padding-left: 5px;
-  padding-right:5px;
+  margin-left:3vw;
+  padding-left: 0.35vw;
+  padding-right:0.35vw;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
@@ -252,61 +272,7 @@ body {
   opacity: 65%;
 }
 
-#product-1-div {
-  position: absolute;
-  height: 300px;
-  width:265px;
-  margin-top:40px;
-  margin-bottom: 70px;
-  margin-left: 40px;
 
-}
-
-#product-2-div {
-  position:absolute;
-  height: 300px;
-  width:265px;
-  margin-top:40px;
-  margin-bottom: 70px;
-  margin-left: 345px;
-}
-
-#product-3-div {
-  position:absolute;
-  height: 300px;
-  width:265px;
-  margin-top:40px;
-  margin-bottom: 70px;
-  margin-left: 650px;
-
-}
-
-#product-4-div {
-  position:absolute;
-  height: 300px;
-  width:265px;
-  margin-top:40px;
-  margin-bottom: 70px;
-  margin-left: 955px;
-}
-
-#product-5-div {
-  position:absolute;
-  height: 300px;
-  width:265px;
-  margin-top:40px;
-  margin-bottom: 70px;
-  margin-left: 1260px;
-}
-
-#product-6-div {
-  position:absolute;
-  height: 300px;
-  width:265px;
-  margin-top:40px;
-  margin-bottom: 70px;
-  margin-left: 1565px;
-}
 
 #footer {
   background-color: black;
