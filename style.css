@@ -312,8 +312,8 @@ body {
   .blackbox{display:none;}
   .header{display:none;}
   .whitebox{background-color: black; height:14vw}
-  .imgheader{content: url("/Users/Carsten/VSCode/Website/files/logonobackgrounWhite.png"); width:56.25vw; margin-left:21.89vw; padding-top:3.35vw}
-  #menubutton{content: url("/Users/Carsten/VSCode/Website/files/MenuBlack.png"); width:7.5vw; margin-top:3.75vw; margin-left:86.7vw;}
+  .imgheader{content: url("logonobackgrounWhite.png"); width:56.25vw; margin-left:21.89vw; padding-top:3.35vw}
+  #menubutton{content: url("MenuBlack.png"); width:7.5vw; margin-top:3.75vw; margin-left:86.7vw;}
   .fc {height: 57.5vw;}
   #fctext{margin-top:5vw;font-size:7.5vw; width:100vw; margin-left:15vw;}
   #bestproducts{font-size:5vw; margin-bottom: 0px; margin-top:7.5vw}
