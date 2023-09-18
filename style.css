@@ -308,7 +308,7 @@ body {
   
 }
 
-@media screen and (max-width:1080px) {
+@media screen and (max-width:483px) {
   .blackbox{display:none;}
   .header{display:none;}
   .whitebox{background-color: black; height:14vw}
