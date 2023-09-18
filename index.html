@@ -21,7 +21,7 @@
 
   <div class="whitebox">
     <a href="index.html"><img class="imgheader" src="logonobackground.png"></a>
-    <a href="#" onclick="menuClicked()"><img style="position:absolute;margin-top:1.3vw;margin-left:90vw;width:4.2vw;"src="Menu.png"/></a>
+    <a href="#" onclick="menuClicked()"><img id="menubutton"src="Menu.png"/></a>
   </div> 
   <div class="blackbox"><img id="earthimg"src="earth.png">
     <img class="biglogoimg"src= "logonobackgrounWhite.png"/>
@@ -37,7 +37,10 @@
   <h1 id="fctext">Featured Collection</h1>
   <h2 id="bestproducts">Best Products</h2>
   <div id="products-slider">
-    <!--PRODUCT TEMPLATE-->
+  <img id="arrowleft"src="Arrowleft.png">
+  <img id="arrowright"src="Arrowright.png">
+
+  <!--PRODUCT TEMPLATE-->
     
     <div id="product-1-div">
       <a href="product-page1.html"><img src="all_blackbackground.jpg"class="product-img"/></a>
@@ -51,14 +54,15 @@
 
  <!--Footer-->
  <div id="footer">
-  <p style="line-height:30px;padding-top:40px;position:absolute;padding-left:430px;text-align: left; width:550px">At Mayesty we offer products that are desired by our customers. We do our best to satisfy every customer we get. Our aim is to provide products to people all around the world, and we'll keep doing that.</p>
+  <p style="font-size:1vw;line-height:2vw;padding-top:3vw;position:absolute;padding-left:30vw;text-align: left; width:40vw">At Mayesty we offer products that are desired by our customers. We do our best to satisfy every customer we get. Our aim is to provide products to people all around the world, and we'll keep doing that.</p>
 
-  <p style="position:absolute;font-size:15px;padding-left:250px;line-height:30px;width:65px; height:75px; padding-top:40px; ">
+  <p style="position:absolute;font-size:1vw;padding-left:18vw;line-height:2vw;width:5vw; height:5.5vw; padding-top:3vw; ">
     <a style="color:white; text-decoration: none;"href="#">Shop</a>
     <a style="color:white; text-decoration: none;" href="about-us.html" >About us</a>
     <a style="color:white; text-decoration: none;" href="contact.html">Contact</a>
   </p>
 </div>
+
 <script>
   function menuClicked(){
     document.querySelector('#menu').style.display= 'block';
