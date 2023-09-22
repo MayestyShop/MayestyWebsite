@@ -27,7 +27,7 @@ body {
 .whitebox {
   background: white;
   width: 100vw;
-  height: 6.7vw;
+  height: 4vw;
   margin-top: 0px;
   margin-bottom: 0px;
 
@@ -107,21 +107,46 @@ body {
 }
 
 .imgheader {
-    width: 25vw;
-    margin-left: 37.5vw;
-    padding-top: 1.5vw;
-    margin-top: 0px;
+    opacity: 75%;
+    width: 15vw;
+    margin-left: 42.5vw;
+    padding-top: 1vw;
     margin-bottom: 0px;
     position: absolute;
 }
 
-#menubutton {
-  position:absolute;
-  margin-top:1.3vw;
-  margin-left:90vw;
-  width:4.2vw;
+
+#HomeHeader {
+  font-style:italic;
+  font-weight: 500;
+  position: absolute;
+  margin-left:22.14vw;
+  margin-top:1.4vw
 }
 
+#ShopHeader {
+  font-style:italic;
+  font-weight: 500;
+  position: absolute;
+  margin-left:32.14vw;
+  margin-top:1.4vw
+}
+
+#ContactHeader {
+  font-style:italic;
+  font-weight: 500;
+  position: absolute;
+  margin-left:65vw;
+  margin-top:1.4vw
+}
+
+#AboutusHeader {
+  font-style:italic;
+  font-weight: 500;
+  position: absolute;
+  margin-left:75vw;
+  margin-top:1.4vw
+}
 
 .blackbox {
   font-weight: bold;
@@ -164,6 +189,7 @@ body {
 }
 
 .shopnowbox {
+  border-radius: 0.5vw;
   position: absolute;
   z-index: 10;
   width: 15vw;
@@ -223,17 +249,27 @@ body {
 }
 
 #products-slider {
+  border-top: black solid 0.1vw;
+  border-bottom: black solid 0.1vw;
   position: relative;
   overflow-x: scroll;
   margin-top: 0px;
   height: 37vw;
   width: 100vw;
   margin: 0px;
-  background-color:#ededed;
+  background-color:#EAEAEA;
+  scrollbar-width: none;  
+  -ms-overflow-style: none;  
+}
+
+#products-slider::-webkit-scrollbar {
+  display:none;
 }
 
 
+
 .product-img {
+  border-radius: 0.5vw;
   margin-top:2.25vw;
   margin-left:3vw;
   height:32.5vw;
@@ -246,6 +282,8 @@ body {
 }
 
 .product-txt {
+  text-shadow: 0vw -0.12vw 0.5vw black;
+  text-shadow: 0vw 0.12vw 0.5vw black;
   font-size:1.5vw;
   margin-left:3vw;
   font-weight: bold;
@@ -263,6 +301,8 @@ body {
 }
 
 .product-price {
+  text-shadow: 0vw -0.12vw 0.5vw black;
+  text-shadow: 0vw 0.12vw 0.5vw black;
   font-size:1.25vw;
   font-weight: bold;
   color:white;  position: absolute;
@@ -308,7 +348,7 @@ body {
   
 }
 
-@media screen and (max-width:483px) {
+@media screen and (max-width:481px) {
   .blackbox{display:none;}
   .header{display:none;}
   .whitebox{background-color: black; height:14vw}
