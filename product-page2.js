@@ -4,18 +4,18 @@ var option2 = 'Two Pieces';
 
 
 function img1clicked(){
-    document.getElementById("product-img-1").src = "/Users/Carsten/VSCode/Website/files/Colorful Cup Holder/ColorfulCupHolder1.webp"
+    document.getElementById("product-img-1").src = "ColorfulCupHolder1.webp"
 }
 function img2clicked(){
-    document.getElementById("product-img-1").src= "/Users/Carsten/VSCode/Website/files/Colorful Cup Holder/ColorfulCupHolder2.webp"
+    document.getElementById("product-img-1").src= "Colorful Cup Holder/ColorfulCupHolder2.webp"
 }
 
 function img3clicked(){
-    document.getElementById("product-img-1").src = "/Users/Carsten/VSCode/Website/files/Colorful Cup Holder/ColorfulCupHolder3.webp"
+    document.getElementById("product-img-1").src = "ColorfulCupHolder3.webp"
 }
 
 function img4clicked(){
-    document.getElementById("product-img-1").src = "/Users/Carsten/VSCode/Website/files/Colorful Cup Holder/ColorfulCupHolder4.webp"
+    document.getElementById("product-img-1").src = "ColorfulCupHolder4.webp"
 }
 
 
