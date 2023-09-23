@@ -5,21 +5,21 @@ var option3 = 'Blue';
 
 
 function img1clicked(){
-    document.getElementById("product-img-1").src = "all_blackbackground.jpg"
+    document.getElementById("product-img-1").src = "all_blackbackground.webp"
 }
 function img2clicked(){
-    document.getElementById("product-img-1").src= "bendingexample.png"
+    document.getElementById("product-img-1").src= "bendingexample.webp"
 }
 
 function img3clicked(){
-    document.getElementById("product-img-1").src = "green_whitebackground.jpg"
+    document.getElementById("product-img-1").src = "green_whitebackground.webp"
 }
 
 function img4clicked(){
-    document.getElementById("product-img-1").src = "blue_whitebackground.jpg"
+    document.getElementById("product-img-1").src = "blue_whitebackground.webp"
 }
 function img5clicked(){
-    document.getElementById("product-img-1").src = "pink_whitebackground.jpg"
+    document.getElementById("product-img-1").src = "pink_whitebackground.webp"
 }
 
 
