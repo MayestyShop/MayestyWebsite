@@ -2,38 +2,50 @@
 <html>
 <head>
 <link rel="stylesheet" href="shop.css">
+<link rel="icon" type="image/x-icon" href="icon.ico" />
 <title >SHOP | MAYESTY</title>
 </head>
 <body>
-  <!--MENU-->
-  <div id="menu"style="border-left:solid #3300FF 10px;color:white;z-index:10;margin-left:70%;position:fixed;background-color:black; width:30%;height:1100px;">
-    <a href="#" onclick="menuClosed()"><img style="padding-left:25px; padding-bottom: 25px;width:35px; position: fixed;margin-top:15px; margin-left:325px;"src="cross.png"></a>
-    <a id="HOME"href="index.html"><p>HOME</p></a>
-    <a id="SHOP" href="shop.html"><p>SHOP</p></a>
-    <a id="ABOUTUS" href="about-us.html"><p>ABOUT US</p></a>
-    <a id="CONTACT"href="contact.html"><p>CONTACT</p></a>
-  </div>
-
   <!-- Headers-->
   <div class="header">
     <p class=txtheader>FREE SHIPPING WORDWIDE</p>
   </div>
-  <div class="whitebox">
-    <a href="cart.html"><img style="margin-top:15px;margin-left:78px;position:absolute;width:80px;"src="cart.png"/></a>
-    <a href="index.html"><img class="imgheader" src="Mayestylogowhite.png"></a>
-    <a href="#" onclick="menuClicked()"><img style="position:absolute;margin-top:17.5px;margin-left:1230px;width:65px;"src="Menu.png"/></a>
-  </div>
 
-<p style="margin-left:80px;font-size: 50px; line-height: 0px;margin-top: 75px;">All Products</p>
-<div style="position:relative;background-color:lightgray;margin-left: 2.5%; width:95%; height:750px;">
+  <div class="whitebox">
+    <a href="index.html"><img class="imgheader" src="logonobackground.png"></a>
+    <a id="HomeHeader"href="index.html" style="text-decoration: none; margin-top:0.2vw; color: black;"><p>Home</p></a>
+    <a id="ShopHeader"href="shop.html" style="text-decoration: none; margin-top:0.2vw; color: black;"><p>Shop</p></a>
+    <a id="AboutusHeader"href="about-us.html" style="text-decoration: none; margin-top:0.2vw; color: black;"><p>About Us</p></a>
+    <a id="ContactHeader"href="contact.html" style="text-decoration: none; margin-top:0.2vw; color: black; "><p>Contact</p></a>
+  </div> 
+
+<p style="margin-left:5.7vw;font-size: 3.5vw; line-height: 0vw;margin-top: 5vw;">All Products</p>
+<div style="position:relative;background-color:white;margin-left: 0vw; width:100vw; height:40vw; border-top: solid black 0.2vw;border-bottom: solid black 0.2vw;">
 
   <div id="product-1-div">
-    <a href="product-page1.html"><img src="all_blackbackground.jpg"class="product-img"/></a>
+    <a href="product-page1.html"><img src="all_blackbackground.webp"class="product-img"/></a>
     <a href="product-page1.html"><p class="product-txt" >Modern Desk Lights LED USB</p></a>
-    <a href="product-page1.html"><p class="product-price" >$22.49</p></a>
+    <a href="product-page1.html"><p class="product-price" >$24.49</p></a>
+  </div>
+
+  <div id="product-2-div">
+    <a href="product-page2.html"><img src="ColorfulCupHolder1.webp"class="product-img"/></a>
+    <a href="product-page2.html"><p class="product-txt" >Colorful Cup Holder</p></a>
+    <a href="product-page2.html"><p class="product-price" >$12.49</p></a>
   </div>
   
 </div>
+
+<!--Footer-->
+<div id="footer">
+  <p style="position:absolute;font-size:1.1vw;padding-left:18vw;line-height:2.1vw;width:4.5vw; height:5.35vw; padding-top:2.8vw; ">
+    <a style="color:white; text-decoration: none;"href="shop.html">Shop</a>
+    <a style="color:white; text-decoration: none;" href="about-us.html" >About us</a>
+    <a style="color:white; text-decoration: none;" href="contact.html">Contact</a>
+  </p>
+  <p style="line-height:2.1vw;padding-top:2.8vw;position:absolute;padding-left:32vw;text-align: left; width:46vw">Mayesty offers all sorts of products that our customers desire. We do our best to satisfy every customer we get. We want to keep providing desired products to people all around the world. Do you have any suggestions for products send us a e-mail.</p>
+</div>
+
 <script>
   function menuClicked(){
     document.querySelector('#menu').style.display= 'block';
