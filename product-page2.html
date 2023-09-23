@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="product-page2.css">
+    <link rel="icon" type="image/x-icon" href="/Users/Carsten/VSCode/Website/files/icon.ico" />
+    <title >Colorful Cup Holder | MAYESTY</title>
+</head>
+
+<body>
+ 
+
+<!-- Headers-->
+<div class="header">
+  <p class=txtheader>FREE SHIPPING WORDWIDE</p>
+</div>
+
+<div class="whitebox">
+  <a href="/Users/Carsten/VSCode/Website/code/index.html"><img class="imgheader" src="/Users/Carsten/VSCode/Website/files/logonobackground.png"></a>
+  <a id="HomeHeader"href="/Users/Carsten/VSCode/Website/code/index.html" style="text-decoration: none; margin-top:0.2vw; color: black;"><p>Home</p></a>
+  <a id="ShopHeader"href="/Users/Carsten/VSCode/Website/code/shop.html" style="text-decoration: none; margin-top:0.2vw; color: black;"><p>Shop</p></a>
+  <a id="AboutusHeader"href="/Users/Carsten/VSCode/Website/code/about-us.html" style="text-decoration: none; margin-top:0.2vw; color: black;"><p>About Us</p></a>
+  <a id="ContactHeader"href="/Users/Carsten/VSCode/Website/code/contact.html" style="text-decoration: none; margin-top:0.2vw; color: black; "><p>Contact</p></a>
+</div> 
+
+    <div class="product-overview">
+        <h2 class="path-product-1"> <a style="color:black;font-weight:bold; text-decoration: none;"href="/Users/Carsten/VSCode/Website/code/index.html">Home / </a>Colorful Cup Holder</h2>
+        <div id="product-div">
+            <img id="product-img-1" src="/Users/Carsten/VSCode/Website/files/Colorful Cup Holder/ColorfulCupHolder1.webp"/>
+            <img id="product-img-1s" onclick="img1clicked()" src="/Users/Carsten/VSCode/Website/files/Colorful Cup Holder/ColorfulCupHolder1.webp"/>
+            <img id="product-img-2s" onclick="img2clicked()"src="/Users/Carsten/VSCode/Website/files/Colorful Cup Holder/ColorfulCupHolder2.webp"/>
+            <img id="product-img-3s" onclick="img3clicked()"src="/Users/Carsten/VSCode/Website/files/Colorful Cup Holder/ColorfulCupHolder3.webp"/>
+            <img id="product-img-4s" onclick="img4clicked()"src="/Users/Carsten/VSCode/Website/files/Colorful Cup Holder/ColorfulCupHolder4.webp"/>
+            <p id="name-product">Colorful Cup Holder</p>
+            <p id="price-product">$12.49</p>
+        </div>
+        
+        <!--Discription-->
+      
+      <div style="width: 70%;margin-top:525px; position: absolute;">
+      <p><b>7 LED COLORS</b> Various LED colors (White/Red/Blue/Green/Yellow/Pink/Ice blue) to choose.</p>
+
+      <p><b>LED RGB Atmosphere Lamp</b> and Drink Glass Bottle Cup Coaster Mat, Convenient and safe to be used as a cup holder in the car, but also can be a car Interior decorative Light, creating an wonderful atmosphere for you.</p>
+        
+      <p><b>EASY TO USE:</b> there is a button on the back of USB charging cup mat for you to control light mode and change lights color, a adorable gift to family, fiends, colleagues and most car owner.</p>
+      <p style="font-size: 13px;">Material: Acrylic + LED</p>
+      <p style="font-size: 13px; position:absolute; margin-left:840px; margin-top:-30px">Size: 68mm</p>
+      <p style="font-size: 13px; position:absolute; margin-left:420px; margin-top:-30px">Outlet: USB</p>
+      
+    
+    </div>
+        <!--Dropdown menu - option-->
+       <p id="text-dropdown">Quantity</p>
+        <div id="Option-Dropdown">
+          <button onclick="optionDropdown()"id="option-button" ><p style="position:absolute;margin:0px;" id="select-option">Select</p><img style="margin-left: 325px;width:15px;"src="/Users/Carsten/VSCode/Website/files/arrow.png"></button>
+          <div id="optiondropdownmenu">
+            <button onclick="optionClicked1()"id="option-1">- One Piece ($12.49)</button>
+            <button onclick="optionClicked2()"id="option-2">- Two Pieces ($14.49)</button>
+          </div>
+
+       
+      
+      <!--Add to Cart
+      <div onclick="AddToCart()" style="cursor:pointer;border-style:solid;background-color:white;height:40px;width:375px; margin-top:30px;";><p style="margin-top:10px;text-align: center;">Add to Cart</p></div>
+     -->
+
+      <!--Buy Now-->
+      <div onclick="Checkout()" style="border-radius: 7.5px;cursor:pointer;border-color:black;border-style:solid;color: white;background-color:black;height:45px;width:375px; margin-top:40px;";><p style="margin-top:12.5px;text-align: center;">Buy Now</p></div>
+      
+      <p id="no-option"style="color:red; display:none;">*Please Select Option*</p>
+    </div>
+</div>
+
+<!--Footer-->
+<div id="footer">
+  <p style="position:absolute;font-size:1.1vw;padding-left:18vw;line-height:2.1vw;width:4.5vw; height:5.35vw; padding-top:2.8vw; ">
+    <a style="color:white; text-decoration: none;"href="/Users/Carsten/VSCode/Website/code/shop.html">Shop</a>
+    <a style="color:white; text-decoration: none;" href="/Users/Carsten/VSCode/Website/code/about-us.html" >About us</a>
+    <a style="color:white; text-decoration: none;" href="/Users/Carsten/VSCode/Website/code/contact.html">Contact</a>
+  </p>
+  <p style="line-height:2.1vw;padding-top:2.8vw;position:absolute;padding-left:32vw;text-align: left; width:46vw">Mayesty offers all sorts of products that our customers desire. We do our best to satisfy every customer we get. We want to keep providing desired products to people all around the world. Do you have any suggestions for products send us a e-mail.</p>
+</div>
+
+<script src="product-page2.js"></script>
+</body>
+</html>
