@@ -5,114 +5,78 @@ body {
     overflow-x: hidden;
   }
   
-.header {
+  .header {
     background-color: Black;
-    width: 100%;
-    height:30px;
-    margin-top: -20px;
+    width: 100vw;
+    height:2vw;
+    margin-top:-1.65vw;
     margin-bottom: auto;
     position:static;
   }
   
   .txtheader {
+      letter-spacing: 0.25vw;
+      font-size: 0.9vw;
       color: white;
       text-align: center;
       font-weight: bold;
-      padding-top: 7px;
+      padding-top: 0.75vw;
   }
-
+  
+  
   .whitebox {
     background: white;
-    width: 100%;
-    height: 100px;
+    width: 100vw;
+    height: 4vw;
     margin-top: 0px;
     margin-bottom: 0px;
-  
+    border-bottom:solid black 0.1vw;
   }
-
+  
   .imgheader {
-    width: 30%;
-    height: 37.5px;
-    margin-left: 35%;
-    margin-right: 35%;
-    padding-top: 31.25px;
-    padding-bottom:31.25px;
-    margin-bottom: 0px;
+      opacity: 100%;
+      width: 15vw;
+      margin-left: 42.5vw;
+      padding-top: 1vw;
+      margin-bottom: 0px;
+      position: absolute;
+  }
+  
+  
+  #HomeHeader {
+    font-size:1.15vw;
+    font-style:italic;
+    font-weight: 500;
     position: absolute;
-}
-
-#menu {
-    display:none;
-  }
-  #HOME {
-    text-decoration: none;
-    color:white;
-    padding-left:140px;
-    padding-right:150px;
-    font-size: 50px; 
-    font-weight:bold; 
-    margin-top:60px; 
-    padding-top:3cqmin; 
-    padding-bottom:60px;
-    position:fixed;
-    line-height: 0px;
-  }
-  #HOME:hover{
-    color:#3300FF;
-    cursor:pointer;
+    margin-left:22.14vw;
+    margin-top:1.4vw
   }
   
-  #SHOP {
-    text-decoration: none;
-    color:white;
-    padding-left:145px;
-    padding-right:155px;  
-    font-size: 50px; 
-    font-weight:bold; 
-    margin-top:260px;
-    padding-top:30px; 
-    padding-bottom:60px;
-    position:fixed;
-    line-height: 0px;
-  }
-  #SHOP:hover{
-    color:#3300FF;
-    cursor:pointer;
-  }
-  #ABOUTUS {
-    text-decoration: none;
-    color:white;
-    padding-left:80px;
-    padding-right:74.5px;  
-    font-size: 50px; 
-    font-weight:bold; 
-    margin-top:460px;
-    padding-top:30px; 
-    padding-bottom:60px; 
-    position:fixed;
-    line-height: 0px;
-  }
-  #ABOUTUS:hover{
-    color:#3300FF;
-    cursor:pointer;
+  #ShopHeader {
+    font-size:1.15vw;
+    font-style:italic;
+    font-weight: 500;
+    position: absolute;
+    margin-left:32.14vw;
+    margin-top:1.4vw
   }
   
-  #CONTACT {
-    text-decoration: none;
-    color:white;
-    padding-left:87.5px;
-    padding-right:92.5px;
-    font-size: 50px; 
-    font-weight:bold;
-    margin-top:660px;
-    padding-top:30px; 
-    padding-bottom:60px; 
-    position:fixed;
-    line-height: 0px;
+  #ContactHeader {
+    font-size:1.15vw;
+    font-style:italic;
+    font-weight: 500;
+    position: absolute;
+    margin-left:65vw;
+    margin-top:1.4vw
   }
-  #CONTACT:hover{
-    color:#3300FF;
-    cursor:pointer;
+  
+  #AboutusHeader {
+    font-size:1.15vw;
+    font-style:italic;
+    font-weight: 500;
+    position: absolute;
+    margin-left:75vw;
+    margin-top:1.4vw
   }
 
 .product-overview {
@@ -130,6 +94,7 @@ body {
     margin-top:40px
 }
 #product-img-1 {
+    border-radius: 7.5px;
     width: 500px;
     height:500px;
     margin-top: -5px;
@@ -235,13 +200,13 @@ body {
 }
 
 #option-button { 
-    border-radius: 2px;
+    border-radius: 7.5px;
     background-color: white;
     border-color: gray;
     border-style: solid; 
     font-size: 15px;
     width: 375px;
-    height: 40px;
+    height:45px;
     text-align: left;
     padding-left:10px;
     z-index: 1;
@@ -318,11 +283,11 @@ body {
 
 
 #footer {
+    font-size:1vw;
     background-color: black;
-    width:100%;
-    height: 190px;
-    margin-top:-125px;
+    width:100vw;
+    height: 13.6vw;
+    margin-top:0px;
     padding-top:0px;
     color:white;
-    
-}
+  }
