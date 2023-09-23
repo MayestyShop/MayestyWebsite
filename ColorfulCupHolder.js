@@ -7,7 +7,7 @@ function img1clicked(){
     document.getElementById("product-img-1").src = "ColorfulCupHolder1.webp"
 }
 function img2clicked(){
-    document.getElementById("product-img-1").src= "Colorful Cup Holder/ColorfulCupHolder2.webp"
+    document.getElementById("product-img-1").src= "ColorfulCupHolder2.webp"
 }
 
 function img3clicked(){
