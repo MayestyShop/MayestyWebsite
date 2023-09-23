@@ -2,38 +2,35 @@
 <html>
 <head>
     <link rel="stylesheet" href="product-page1.css">
-    <title >Product Page | MAYESTY</title>
+    <link rel="icon" type="image/x-icon" href="icon.ico" />
+    <title >Modern Desk Lights | MAYESTY</title>
 </head>
 
 <body>
- <!--MENU-->
- <div id="menu"style="border-left:solid #3300FF 10px;color:white;z-index:10;margin-left:70%;position:fixed;background-color:black; width:30%;height:1100px;">
-  <a href="#" onclick="menuClosed()"><img style="padding-left:25px; padding-bottom: 25px;width:35px; position: fixed;margin-top:15px; margin-left:325px;"src="cross.png"></a>
-  <a id="HOME"href="index.html"><p>HOME</p></a>
-  <a id="SHOP" href="shop.html"><p>SHOP</p></a>
-  <a id="ABOUTUS" href="about-us.html"><p>ABOUT US</p></a>
-  <a id="CONTACT"href="contact.html"><p>CONTACT</p></a>
+ 
+
+<!-- Headers-->
+<div class="header">
+  <p class=txtheader>FREE SHIPPING WORDWIDE</p>
 </div>
 
-</div>
-    <div class="header">
-        <p class=txtheader>FREE SHIPPING WORDWIDE</p>
-      </div>
-      <div class="whitebox">
-        <a href="index.html"><img class="imgheader" src="Mayestylogowhite.png"></a>
-        <a href="#" onclick="menuClicked()"><img style="position:absolute;margin-top:17.5px;margin-left:1230px;width:65px;"src="Menu.png"/></a>
-          </div>
-    </div>
+<div class="whitebox">
+  <a href="index.html"><img class="imgheader" src="logonobackground.png"></a>
+  <a id="HomeHeader"href="index.html" style="text-decoration: none; margin-top:0.2vw; color: black;"><p>Home</p></a>
+  <a id="ShopHeader"href="shop.html" style="text-decoration: none; margin-top:0.2vw; color: black;"><p>Shop</p></a>
+  <a id="AboutusHeader"href="about-us.html" style="text-decoration: none; margin-top:0.2vw; color: black;"><p>About Us</p></a>
+  <a id="ContactHeader"href="contact.html" style="text-decoration: none; margin-top:0.2vw; color: black; "><p>Contact</p></a>
+</div> 
 
     <div class="product-overview">
         <h2 class="path-product-1"> <a style="color:black;font-weight:bold; text-decoration: none;"href="index.html">Home / </a>Modern Desk Lights LED USB</h2>
         <div id="product-div">
-            <img id="product-img-1" src="all_blackbackground.jpg"/>
-            <img id="product-img-1s" onclick="img1clicked()" src="all_blackbackground.jpg"/>
-            <img id="product-img-2s" onclick="img2clicked()"src="bendingexample.png"/>
-            <img id="product-img-3s" onclick="img3clicked()"src="green_whitebackground.jpg"/>
-            <img id="product-img-4s" onclick="img4clicked()"src="blue_whitebackground.jpg"/>
-            <img id="product-img-5s" onclick="img5clicked()"src="pink_whitebackground.jpg"/>
+            <img id="product-img-1" src="all_blackbackground.webp"/>
+            <img id="product-img-1s" onclick="img1clicked()" src="all_blackbackground.webp"/>
+            <img id="product-img-2s" onclick="img2clicked()"src="bendingexample.webp"/>
+            <img id="product-img-3s" onclick="img3clicked()"src="green_whitebackground.webp"/>
+            <img id="product-img-4s" onclick="img4clicked()"src="blue_whitebackground.webp"/>
+            <img id="product-img-5s" onclick="img5clicked()"src="pink_whitebackground.webp"/>
             <p id="name-product">Modern Desk Lights LED USB</p>
             <p id="price-product">$22.49</p>
         </div>
@@ -70,8 +67,8 @@
        
          <!--Quantity-->
          <p style="line-height: 0px; margin-top:30px">Quantity</p>
-      <div style="cursor:text;width:75px; height:40px; background-color: white; margin-top: 0px; border-color: black; border-style: solid;">  
-        <p style="line-height: 0; margin-bottom: auto; margin-top: 20px; padding-left: 10px">1 </p>
+      <div style="border-radius: 7.5px;cursor:text;width:75px; height:45px; background-color: white; margin-top: 0px; border-color: black; border-style: solid;">  
+        <p style="line-height: 0; margin-bottom: auto; margin-top: 22.5px; padding-left: 10px">1 </p>
       </div>
       
       <!--Add to Cart
@@ -79,22 +76,21 @@
      -->
 
       <!--Buy Now-->
-      <div onclick="Checkout()" style="cursor:pointer;border-color:black;border-style:solid;color: white;background-color:black;height:45px;width:375px; margin-top:40px;";><p style="margin-top:12.5px;text-align: center;">Buy Now</p></div>
+      <div onclick="Checkout()" style="border-radius: 7.5px;cursor:pointer;border-color:black;border-style:solid;color: white;background-color:black;height:45px;width:375px; margin-top:40px;";><p style="margin-top:12.5px;text-align: center;">Buy Now</p></div>
       
       <p id="no-option"style="color:red; display:none;">*Please Select Option*</p>
     </div>
 </div>
 
 
+<!--Footer-->
 <div id="footer">
-  <p style="line-height:30px;padding-top:40px;position:absolute;padding-left:469.5px;text-align: center; width:550px">Mayesty offers all sorts of products that our customers desire. We do our best to satisfy every customer we get. We want to keep providing desired products to people all around the world. Do you have any suggestions for products send us a e-mail.</p>
-
-  <p style="position:absolute;font-size:15px;padding-left:250px;line-height:30px;width:65px; height:75px; padding-top:40px; ">
-    <a style="color:white; text-decoration: none;"href="#">Shop</a>
+  <p style="position:absolute;font-size:1.1vw;padding-left:18vw;line-height:2.1vw;width:4.5vw; height:5.35vw; padding-top:2.8vw; ">
+    <a style="color:white; text-decoration: none;"href="shop.html">Shop</a>
     <a style="color:white; text-decoration: none;" href="about-us.html" >About us</a>
-    <a style="color:white; text-decoration: none;" href="#">Contact</a>
+    <a style="color:white; text-decoration: none;" href="contact.html">Contact</a>
   </p>
-
+  <p style="line-height:2.1vw;padding-top:2.8vw;position:absolute;padding-left:32vw;text-align: left; width:46vw">Mayesty offers all sorts of products that our customers desire. We do our best to satisfy every customer we get. We want to keep providing desired products to people all around the world. Do you have any suggestions for products send us a e-mail.</p>
 </div>
 
 <script src="product-page1.js"></script>
