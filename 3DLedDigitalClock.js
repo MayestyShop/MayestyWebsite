@@ -198,11 +198,27 @@ function Checkout(){
 switch (selectoption.textContent) {
     //Option 1
     case color1:
-        window.location.href = "https://buy.stripe.com/28o4jo2CleNI0yk3ck";
+        window.location.href = "https://buy.stripe.com/4gw3fk4Kt4940ykcMW";
     break
     //Option 2
     case color2:
-        window.location.href = "https://buy.stripe.com/28o2bg1yhgVQch26ox";
+        window.location.href = "https://buy.stripe.com/4gwaHM5Ox8pkgxibIT";
+    break
+    //Option 3
+    case color3:
+        window.location.href = "https://buy.stripe.com/3cs6rw2CleNIbcY00c";
+    break
+    //Option 4
+    case color4:
+        window.location.href = "https://buy.stripe.com/14k8zE0ud3506WI3cp";
+    break
+    //Option 5
+    case color5:
+        window.location.href = "https://buy.stripe.com/eVaaHM6SB20W94Q6oC";
+    break
+    //Option 6
+    case color6:
+        window.location.href = "https://buy.stripe.com/dR6aHMfp79to1Co5kz";
     break
     default:
         document.querySelector('#no-option').style.display= 'block';
