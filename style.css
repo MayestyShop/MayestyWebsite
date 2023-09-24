@@ -303,7 +303,57 @@ body {
 .product2-price:hover {
   opacity: 65%;
 }
+/* Product 3*/
+.product3-img {
+  border-radius: 0.75vw;
+  margin-top:2.25vw;
+  margin-left:74vw;
+  height:32.5vw;
+  width:32.5vw;;
+  position: absolute;
+}
 
+.product3-img:hover {
+  opacity: 65%;
+}
+
+.product3-txt {
+  text-shadow: 0vw -0.12vw 0.5vw black;
+  text-shadow: 0vw 0.12vw 0.5vw black;
+  font-size:1.5vw;
+  margin-left:74vw;
+  font-weight: bold;
+  color:white;
+  position: absolute;
+  line-height:0vw;
+  margin-top: 31.5vw;
+  padding-left: 0.7vw;
+  padding-right:0.35vw;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.product3-txt:hover {
+  opacity: 65%;
+}
+
+.product3-price {
+  text-shadow: 0vw -0.12vw 0.5vw black;
+  text-shadow: 0vw 0.12vw 0.5vw black;
+  font-size:1.25vw;
+  font-weight: bold;
+  color:white;  position: absolute;
+  margin-top: 33.5vw;
+  line-height:0vw;
+  margin-left:74vw;
+  padding-left: 0.7vw;
+  padding-right:0.35vw;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.product3-price:hover {
+  opacity: 65%;
+}
 
 #arrowleft {
   display:none;margin-left:2.5vw;width:6.5vw; margin-top:37.5vw; position:absolute;
