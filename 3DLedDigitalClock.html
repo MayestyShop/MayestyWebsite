@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="3DLedDigitalClock.css">
+    <link rel="icon" type="image/x-icon" href="/Users/Carsten/VSCode/Website/files/icon.ico" />
+    <title >3D LED Digital Clock | MAYESTY</title>
+</head>
+
+<body>
+ 
+
+<!-- Headers-->
+<div class="header">
+  <p class=txtheader>FREE SHIPPING WORDWIDE</p>
+</div>
+
+<div class="whitebox">
+  <a href="/Users/Carsten/VSCode/Website/code/index.html"><img class="imgheader" src="/Users/Carsten/VSCode/Website/files/logonobackground.png"></a>
+  <a id="HomeHeader"href="/Users/Carsten/VSCode/Website/code/index.html" style="text-decoration: none; margin-top:0.2vw; color: black;"><p>Home</p></a>
+  <a id="ShopHeader"href="/Users/Carsten/VSCode/Website/code/shop.html" style="text-decoration: none; margin-top:0.2vw; color: black;"><p>Shop</p></a>
+  <a id="AboutusHeader"href="/Users/Carsten/VSCode/Website/code/about-us.html" style="text-decoration: none; margin-top:0.2vw; color: black;"><p>About Us</p></a>
+  <a id="ContactHeader"href="/Users/Carsten/VSCode/Website/code/contact.html" style="text-decoration: none; margin-top:0.2vw; color: black; "><p>Contact</p></a>
+</div> 
+
+    <div class="product-overview">
+        <h2 class="path-product-1"> <a style="color:black;font-weight:bold; text-decoration: none;"href="/Users/Carsten/VSCode/Website/code/index.html">Home / </a>3D LED Digital Clock</h2>
+        <div id="product-div">
+            <img id="product-img-1" src="/Users/Carsten/VSCode/Website/files/3D LED Digital Clock/main1.webp"/>
+            <img id="product-img-1s" onclick="img1clicked()" src="/Users/Carsten/VSCode/Website/files/3D LED Digital Clock/main1.webp"/>
+            <img id="product-img-2s" onclick="img2clicked()"src="/Users/Carsten/VSCode/Website/files/3D LED Digital Clock/main2.webp"/>
+            <img id="product-img-3s" onclick="img3clicked()"src="/Users/Carsten/VSCode/Website/files/3D LED Digital Clock/main3.webp"/>
+            <img id="product-img-4s" onclick="img4clicked()"src="/Users/Carsten/VSCode/Website/files/3D LED Digital Clock/main4.webp"/>
+            <img id="product-img-5s" onclick="img5clicked()"src="/Users/Carsten/VSCode/Website/files/3D LED Digital Clock/1.webp"/>
+            <p id="name-product">3D LED Digital Clock</p>
+            <p id="price-product">$26.99</p>
+        </div>
+        
+        <!--Discription-->
+      
+      <div style="width: 70%;margin-top:525px; position: absolute;">
+      <p><b><i>Take your timekeeping to the next level with our amazing 3D LED Digital Clock! This stylish clock does it all, blending great looks with smart features. It's made with great attention to detail and designed for modern living, making it the ideal addition to your space. Whether you want it on your desk or hanging on your wall, it's a fantastic choice! </i></b></p>
+      <p>The battery is a memory battery, which is used to store time and other settings. Memory mode can be entered when there is no power supply</p>
+
+      <p>Memory mode: When a memory battery is installed, it will automatically travel when there is no power supply. When there is no battery or power supply, remember the latest clock and various setting modes</p>
+        
+      <p style="font-size: 13px;">1. LED time display</p>
+      <p style="font-size: 13px;">2. Wall Clocks Display time, date, temperature, alarm clock</p>
+      <p style="font-size: 13px;">3. Temperature range 0°C-50°C (32°F-122°F)</p>
+      <p style="font-size: 13px;">4. Brightness automatic dimming kinetic energy</p>
+      <p style="font-size: 13px;">3. Temperature range 0°C-50°C (32°F-122°F)</p>
+      <p style="font-size: 13px; position:absolute; margin-left:400px; margin-top:-152.5px;" p>6. LED screen automatically performs time, date and temperature conversion</p>
+      <p style="font-size: 13px; position:absolute; margin-left:400px; margin-top:-122px;">7. AL1, AL2, AL3 three alarm clocks</p>
+      <p style="font-size: 13px; position:absolute; margin-left:400px; margin-top:-91px">8. Can be placed on the desktop or wall hanging</p>
+      <p style="font-size: 13px; position:absolute; margin-left:400px; margin-top:-60px;">9. The clock will automatically lower LED brightness under night mode, press MODE twice times to enter night mode.      </p>
+      
+    
+    </div>
+        <!--Color-->
+       <p id="text-dropdown">Color</p>
+        <div id="Option-Dropdown">
+          <button onclick="optionDropdown()"id="option-button" ><p style="position:absolute;margin:0px;" id="select-option">Select</p><img style="margin-left: 325px;width:15px;"src="/Users/Carsten/VSCode/Website/files/arrow.png"></button>
+          <div id="optiondropdownmenu">
+            <button onclick="optionColor1()"id="option-1">- White</button>
+            <button onclick="optionColor2()"id="option-2">- Green</button>
+            <button onclick="optionColor3()"id="option-3">- Red</button>
+            <button onclick="optionColor4()"id="option-4">- Blue</button>
+            <button onclick="optionColor5()"id="option-5">- Pink</button>
+            <button onclick="optionColor6()"id="option-6">- Orange</button>
+          </div>
+
+          <!--Frame-->
+          <p id="text-dropdown-frame">Black Frame</p>
+          <div id="frame-Dropdown">
+            <button onclick="frameDropdown()"id="frame-button" ><p style="position:absolute;margin:0px;" id="select-frame">Select</p><img style="margin-left: 325px;width:15px;"src="/Users/Carsten/VSCode/Website/files/arrow.png"></button>
+            <div id="framedropdownmenu">
+              <button onclick="frameClickedN()"id="frame-1">- No </button>
+              <button onclick="frameClickedY()"id="frame-2">- Yes</button>
+    
+            </div>
+           </div>
+       
+      
+      <!--Add to Cart
+      <div onclick="AddToCart()" style="cursor:pointer;border-style:solid;background-color:white;height:40px;width:375px; margin-top:30px;";><p style="margin-top:10px;text-align: center;">Add to Cart</p></div>
+     -->
+
+      <!--Buy Now-->
+      <div onclick="Checkout()" style="border-radius: 7.5px;cursor:pointer;border-color:black;border-style:solid;color: white;background-color:black;height:45px;width:375px; margin-top:40px;";><p style="margin-top:12.5px;text-align: center;">Buy Now</p></div>
+      
+      <p id="no-option"style="color:red; display:none;">*Please Select Option*</p>
+    </div>
+</div>
+
+<!--Footer-->
+<div id="footer">
+  <p style="position:absolute;font-size:1.1vw;padding-left:18vw;line-height:2.1vw;width:4.5vw; height:5.35vw; padding-top:2.8vw; ">
+    <a style="color:white; text-decoration: none;"href="/Users/Carsten/VSCode/Website/code/shop.html">Shop</a>
+    <a style="color:white; text-decoration: none;" href="/Users/Carsten/VSCode/Website/code/about-us.html" >About us</a>
+    <a style="color:white; text-decoration: none;" href="/Users/Carsten/VSCode/Website/code/contact.html">Contact</a>
+  </p>
+  <p style="line-height:2.1vw;padding-top:2.8vw;position:absolute;padding-left:32vw;text-align: left; width:46vw">Mayesty offers all sorts of products that our customers desire. We do our best to satisfy every customer we get. We want to keep providing desired products to people all around the world. Do you have any suggestions for products send us a e-mail.</p>
+</div>
+
+<script src="3DLedDigitalClock.js"></script>
+</body>
+</html>
