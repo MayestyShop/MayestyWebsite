@@ -5,21 +5,21 @@ var option3 = 'Blue';
 
 
 function img1clicked(){
-    document.getElementById("product-img-1").src = "all_blackbackground.webp"
+    document.getElementById("product-img-1").src = "/Users/Carsten/VSCode/Website/files/Modern Desk Lights/all_blackbackground.webp"
 }
 function img2clicked(){
-    document.getElementById("product-img-1").src= "bendingexample.webp"
+    document.getElementById("product-img-1").src= "/Users/Carsten/VSCode/Website/files/Modern Desk Lights/bendingexample.webp"
 }
 
 function img3clicked(){
-    document.getElementById("product-img-1").src = "green_whitebackground.webp"
+    document.getElementById("product-img-1").src = "/Users/Carsten/VSCode/Website/files/Modern Desk Lights/green_whitebackground.webp"
 }
 
 function img4clicked(){
-    document.getElementById("product-img-1").src = "blue_whitebackground.webp"
+    document.getElementById("product-img-1").src = "/Users/Carsten/VSCode/Website/files/Modern Desk Lights/blue_whitebackground.webp"
 }
 function img5clicked(){
-    document.getElementById("product-img-1").src = "pink_whitebackground.webp"
+    document.getElementById("product-img-1").src = "/Users/Carsten/VSCode/Website/files/Modern Desk Lights/pink_whitebackground.webp"
 }
 
 
@@ -71,7 +71,7 @@ switch (selectoption.textContent) {
     break
     //Option 3
     case option3:
-        window.location.href = "https://buy.stripe.com/bIY2bga4N6hc0ykeV1";
+        window.location.href = "https://buy.stripe.com/fZeeY26SB6hc2Gs3ce";
     break
     default:
         document.querySelector('#no-option').style.display= 'block';

@@ -1,7 +1,7 @@
 body {
     font-weight: 200;
     font-family:Avenir, Arial,sans-serif;
-    margin: 0px;
+    margin: 0vw;
     overflow-x: hidden;
   }
   
@@ -28,8 +28,8 @@ body {
     background: white;
     width: 100vw;
     height: 4vw;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
     border-bottom:solid black 0.1vw;
   }
   
@@ -38,7 +38,7 @@ body {
       width: 15vw;
       margin-left: 42.5vw;
       padding-top: 1vw;
-      margin-bottom: 0px;
+      margin-bottom: 0vw;
       position: absolute;
   }
   
@@ -82,35 +82,36 @@ body {
 .product-overview {
     width:auto;
     height:75vw;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 18vw;
+    margin-right: 18vw;
     background-color: white;
 }
 
 .path-product-1 {
     font-weight: 200;
-    font-size: 15px;
+    font-size: 1vw;
     color: darkgrey;
-    margin-top:40px
+    margin-top:28.5;
 }
 #product-img-1 {
-    border-radius: 7.5px;
-    width: 500px;
-    height:500px;
-    margin-top: -5px;
+    border-radius: 0.5vw;
+    width: 36vw;
+    height:36vw;
+    margin-top: -0.35vw;
     position: absolute;
     opacity: 100%;
-    margin-bottom: 0px;
-    border: solid black 0.5px;
+    margin-bottom: 0vw;
+    border: solid black 0.035vw;
 }
 #product-img-1s {
-    width: 90px;
-    height: 90px;
-    margin-top: 505px;
-    margin-left:0px;
+    border-radius: 0.4vw;
+    width: 6.4vw;
+    height: 6.4vw;
+    margin-top: 36vw;
+    margin-left:0vw;
     position: absolute;
     opacity: 100%;
-    margin-bottom: 0px;
+    margin-bottom: 0vw;
 }
 #product-img-1s:hover {
     cursor: pointer;
@@ -118,13 +119,14 @@ body {
 }
 
 #product-img-2s {
-    width: 90px;
-    height: 90px;
-    margin-top: 505px;
-    margin-left:95px;
+    border-radius: 0.4vw;
+    width: 6.5vw;
+    height: 6.5vw;
+    margin-top: 36vw;
+    margin-left:6.8vw;
     position: absolute;
     opacity: 100%;
-    margin-bottom: 0px;
+    margin-bottom: 0vw;
 }
 #product-img-2s:hover {
     cursor: pointer;
@@ -132,13 +134,14 @@ body {
 }
 
 #product-img-3s {
-    width: 90px;
-    height: 90px;
-    margin-top: 505px;
-    margin-left:190px;
+    border-radius: 0.4vw;
+    width: 6.5vw;
+    height: 6.5vw;
+    margin-top: 36vw;
+    margin-left:13.6vw;
     position: absolute;
     opacity: 100%;
-    margin-bottom: 0px;
+    margin-bottom: 0vw;
 }
 #product-img-3s:hover {
     cursor: pointer;
@@ -146,13 +149,14 @@ body {
 }
 
 #product-img-4s {
-    width: 90px;
-    height: 90px;
-    margin-top: 505px;
-    margin-left: 285px;
+    border-radius: 0.4vw;
+    width: 6.5vw;
+    height: 6.5vw;
+    margin-top: 36vw;
+    margin-left:20.4vw;
     position: absolute;
     opacity: 100%;
-    margin-bottom: 0px;
+    margin-bottom: 0vw;
 }
 #product-img-4s:hover {
     cursor: pointer;
@@ -160,13 +164,14 @@ body {
 }
 
 #product-img-5s {
-    width: 90px;
-    height: 90px;
-    margin-top: 505px;
-    margin-left: 380px;
+    border-radius: 0.4vw;
+    width: 6.5vw;
+    height: 6.5vw;
+    margin-top: 36vw;
+    margin-left:27.2vw;
     position: absolute;
     opacity: 100%;
-    margin-bottom: 0px;
+    margin-bottom: 0vw;
 }
 #product-img-5s:hover {
     cursor: pointer;
@@ -174,29 +179,29 @@ body {
 }
 
 #name-product {
-    margin-left: 535px;
+    margin-left: 38vw;
     font-weight: bold;
-    font-size: 25px;
-    margin-top: 35px;
-    margin-bottom: 0px;
+    font-size: 1.8vw;
+    margin-top: 2.5vw;
+    margin-bottom: 0vw;
 }
 
 #price-product {
     margin-top:0px;
-    margin-left: 535px;
-    font-size:20px;
-    margin-bottom: 25px;
+    margin-left: 38vw;
+    font-size:1.4vw;
+    margin-bottom: 1.8vw;
 }
 
 #text-dropdown {
-    margin-left: 535px;
-    line-height: 0px;
-    margin-top:30px;
+    margin-left: 38vw;
+    line-height: 0vw;
+    margin-top:2.15vw;
 
 }
 
 #Option-Dropdown{
-    margin-left:535px;
+    margin-left:38vw;
 }
 
 #option-button { 
@@ -230,7 +235,12 @@ body {
     z-index: 10;
 }
 
-#arrow {
+#arrowdropdown {
+    width: 15px;
+    margin-left: 290px;
+}
+
+#arrowdropdownframe {
     width: 15px;
     margin-left: 290px;
 }

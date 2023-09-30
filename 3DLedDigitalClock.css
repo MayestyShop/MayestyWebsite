@@ -1,7 +1,7 @@
 body {
     font-weight: 200;
     font-family:Avenir, Arial,sans-serif;
-    margin: 0px;
+    margin: 0vw;
     overflow-x: hidden;
   }
   
@@ -28,8 +28,8 @@ body {
     background: white;
     width: 100vw;
     height: 4vw;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
     border-bottom:solid black 0.1vw;
   }
   
@@ -38,7 +38,7 @@ body {
       width: 15vw;
       margin-left: 42.5vw;
       padding-top: 1vw;
-      margin-bottom: 0px;
+      margin-bottom: 0vw;
       position: absolute;
   }
   
@@ -82,36 +82,36 @@ body {
 .product-overview {
     width:auto;
     height:77.5vw;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 18vw;
+    margin-right: 18vw;
     background-color: white;
 }
 
 .path-product-1 {
     font-weight: 200;
-    font-size: 15px;
+    font-size: 1vw;
     color: darkgrey;
-    margin-top:40px
+    margin-top:3vw;
 }
 #product-img-1 {
-    border-radius: 7.5px;
-    width: 500px;
-    height:500px;
-    margin-top: -5px;
+    border-radius: 0.5vw;
+    width: 36vw;
+    height:36vw;
+    margin-top: -0.5vw;
     position: absolute;
     opacity: 100%;
-    margin-bottom: 0px;
-    border: solid black 0.5px;
+    margin-bottom: 0vw;
+    border: solid black 0.01vw;
 }
 #product-img-1s {
     border-radius: 0.4vw;
-    width: 90px;
-    height: 90px;
-    margin-top: 505px;
-    margin-left:0px;
+    width: 6.5vw;
+    height: 6.5vw;
+    margin-top: 36vw;
+    margin-left:0vw;
     position: absolute;
     opacity: 100%;
-    margin-bottom: 0px;
+    margin-bottom: 0vw;
 }
 #product-img-1s:hover {
     cursor: pointer;
@@ -120,13 +120,13 @@ body {
 
 #product-img-2s {
     border-radius: 0.4vw;
-    width: 90px;
-    height: 90px;
-    margin-top: 505px;
-    margin-left:95px;
+    width: 6.5vw;
+    height: 6.5vw;
+    margin-top: 36vw;
+    margin-left:7vw;
     position: absolute;
-    opacity: 100%;
-    margin-bottom: 0px;
+    opacity: 100vw;
+    margin-bottom: 0vw;
 }
 #product-img-2s:hover {
     cursor: pointer;
@@ -135,13 +135,13 @@ body {
 
 #product-img-3s {
     border-radius: 0.4vw;
-    width: 90px;
-    height: 90px;
-    margin-top: 505px;
-    margin-left:190px;
+    width: 6.5vw;
+    height: 6.5vw;
+    margin-top: 36vw;
+    margin-left:14vw;
     position: absolute;
-    opacity: 100%;
-    margin-bottom: 0px;
+    opacity: 100vw;
+    margin-bottom: 0vw;
 }
 #product-img-3s:hover {
     cursor: pointer;
@@ -150,13 +150,13 @@ body {
 
 #product-img-4s {
     border-radius: 0.4vw;
-    width: 90px;
-    height: 90px;
-    margin-top: 505px;
-    margin-left: 285px;
+    width: 6.5vw;
+    height: 6.5vw;
+    margin-top: 36vw;
+    margin-left:21vw;
     position: absolute;
-    opacity: 100%;
-    margin-bottom: 0px;
+    opacity: 100vw;
+    margin-bottom: 0vw;
 }
 #product-img-4s:hover {
     cursor: pointer;
@@ -165,13 +165,13 @@ body {
 
 #product-img-5s {
     border-radius: 0.4vw;
-    width: 90px;
-    height: 90px;
-    margin-top: 505px;
-    margin-left: 380px;
+    width: 6.5vw;
+    height: 6.5vw;
+    margin-top: 36vw;
+    margin-left:28vw;
     position: absolute;
-    opacity: 100%;
-    margin-bottom: 0px;
+    opacity: 100vw;
+    margin-bottom: 0vw;
 }
 #product-img-5s:hover {
     cursor: pointer;
@@ -179,41 +179,39 @@ body {
 }
 
 #name-product {
-    margin-left: 535px;
+    margin-left: 38vw;
     font-weight: bold;
-    font-size: 25px;
-    margin-top: 35px;
-    margin-bottom: 0px;
+    font-size: 2vw;
+    margin-top: 2.5vw;
+    margin-bottom: 0vw;
 }
 
 #price-product {
-    margin-top:0px;
-    margin-left: 535px;
-    font-size:20px;
-    margin-bottom: 25px;
+    margin-top:0vw;
+    margin-left: 38vw;
+    font-size:1.5vw;
+    margin-bottom: 1.8vw;
 }
 
 #text-dropdown {
-    margin-left: 535px;
-    line-height: 0px;
-    margin-top:30px;
-
+    margin-left: 38.25vw;
+    line-height: 0vw;
+    margin-top:2vw;
+    font-size: 1.15vw;
 }
 
 #Option-Dropdown{
-    margin-left:535px;
+    margin-left:38vw;
 }
 
 #option-button { 
-    border-radius: 7.5px;
+    border-radius: 0.5vw;
     background-color: white;
-    border-color: gray;
-    border-style: solid; 
-    font-size: 15px;
-    width: 375px;
-    height:45px;
+    border:solid gray 0.12vw;
+    font-size: 1vw;
+    width: 27vw;
+    height:3.25vw;
     text-align: left;
-    padding-left:10px;
     z-index: 1;
 }
 
@@ -222,12 +220,10 @@ body {
 }
 
 #optiondropdownmenu{
-    border-radius: 0.5vw;
-    position: absolute;
     background-color: white;
-    height: 245px;
-    margin-top:-2px;
-    width:372px;
+    height: 17.5vw;
+    margin-top:-0.15vw;
+    width:27vw;
     border: black;
     border-style: solid;
     opacity:100%;
@@ -235,19 +231,14 @@ body {
     z-index: 10;
 }
 
-#arrow {
-    width: 15px;
-    margin-left: 290px;
-}
-
 #option-1 {
     text-align: left;
     width:100%;
-    height: 35px;
-    margin-top: 5px;
+    height: 2.5vw;
+    margin-top: 0.35vw;
     border: hidden;
     background-color: white;
-    font-size:15px;
+    font-size:1vw;
 }
 
 #option-1:hover {
@@ -258,11 +249,11 @@ body {
 #option-2 {
     text-align: left;
     width:100%;
-    height: 35px;
-    margin-top: 5px;
+    height: 2.5vw;
+    margin-top: 0.35vw;
     border: hidden;
     background-color: white;
-    font-size:15px;
+    font-size:1vw;
 }
 
 #option-2:hover {
@@ -273,11 +264,11 @@ body {
 #option-3 {
     text-align: left;
     width:100%;
-    height: 35px;
-    margin-top: 5px;
+    height: 2.5vw;
+    margin-top: 0.35vw;
     border: hidden;
     background-color: white;
-    font-size:15px;
+    font-size:1vw;
 }
 
 #option-3:hover {
@@ -288,11 +279,11 @@ body {
 #option-4 {
     text-align: left;
     width:100%;
-    height: 35px;
-    margin-top: 5px;
+    height: 2.5vw;
+    margin-top: 0.35vw;
     border: hidden;
     background-color: white;
-    font-size:15px;
+    font-size:1vw;
 }
 
 #option-4:hover {
@@ -303,11 +294,11 @@ body {
 #option-5 {
     text-align: left;
     width:100%;
-    height: 35px;
-    margin-top: 5px;
+    height: 2.5vw;
+    margin-top: 0.35vw;
     border: hidden;
     background-color: white;
-    font-size:15px;
+    font-size:1vw;
 }
 
 #option-5:hover {
@@ -318,11 +309,11 @@ body {
 #option-6 {
     text-align: left;
     width:100%;
-    height: 35px;
-    margin-top: 5px;
+    height: 2.5vw;
+    margin-top: 0.35vw;
     border: hidden;
     background-color: white;
-    font-size:15px;
+    font-size:1vw;
 }
 
 #option-6:hover {
@@ -332,19 +323,19 @@ body {
 
 
 #Option-Dropdown{
-    margin-left:535px;
+    margin-left:38vw;
 }
 
 #option-button { 
-    border-radius: 7.5px;
+    border-radius: 0.5vw;
     background-color: white;
     border-color: gray;
     border-style: solid; 
-    font-size: 15px;
-    width: 375px;
-    height:45px;
+    font-size: 1vw;
+    width: 27vw;
+    height:3.25vw;
     text-align: left;
-    padding-left:10px;
+    padding-left:0.75vw;
     z-index: 1;
 }
 
@@ -356,9 +347,9 @@ body {
     border-radius: 0.5vw;
     position: absolute;
     background-color: white;
-    height: 245px;
-    margin-top:-2px;
-    width:372px;
+    height: 17.5vw;
+    margin-top:-0.15vw;
+    width:26.5vw;
     border: black;
     border-style: solid;
     opacity:100%;
@@ -367,18 +358,23 @@ body {
 }
 
 
-#arrow {
-    width: 15px;
-    margin-left: 290px;
+#arrowdropdown {
+    width: 1vw;
+    margin-left: 23vw;
+}
+
+#arrowdropdownframe {
+    width: 1vw;
+    margin-left: 23vw;
 }
 
 #framedropdownmenu{
-    border-radius: 7.5px;
-    position: fixed;
+    border-radius: 0.5vw;
+    position: absolute;
     background-color: white;
-    height: 85px;
-    margin-top:-2px;
-    width:372px;
+    height: 6vw;
+    margin-top:-0.15vw;
+    width:26.5vw;
     border: black;
     border-style: solid;
     opacity:100%;
@@ -387,15 +383,14 @@ body {
 }
 
 #frame-button { 
-    border-radius: 7.5px;
-   background-color: white;
-    border-color: gray;
-    border-style: solid; 
-    font-size: 15px;
-    width: 375px;
-    height: 45px;
+    border-radius: 0.5vw;
+    background-color: white;
+    border:solid gray 0.12vw;
+    font-size: 1vw;
+    width: 27vw;
+    height: 3.25vw;
     text-align: left;
-    padding-left:10px;
+    padding-left:0.75vw;
     z-index: 1;
 }
 
@@ -407,11 +402,11 @@ body {
 #frame-1 {
     text-align: left;
     width:100%;
-    height: 35px;
-    margin-top: 5px;
+    height: 2.5vw;
+    margin-top: 0.35vw;
     border: hidden;
     background-color: white;
-    font-size:15px;
+    font-size:1vw;
 }
 
 #frame-1:hover {
@@ -422,11 +417,11 @@ body {
 #frame-2 {
     text-align: left;
     width:100%;
-    height: 35px;
-    margin-top: 5px;
+    height: 2.5vw;
+    margin-top: 0.35vw;
     border: hidden;
     background-color: white;
-    font-size:15px;
+    font-size:1vw;
 }
 
 #frame-2:hover {
@@ -435,9 +430,10 @@ body {
 }
 
 #text-dropdown-frame {
-    line-height: 0px;
-    margin-top:30px;
-
+    line-height: 0vw;
+    margin-top:2vw;
+    font-size:1.15vw;
+    margin-left: 0.25vw;
 }
 
 #footer {
@@ -445,7 +441,7 @@ body {
     background-color: black;
     width:100vw;
     height: 13.6vw;
-    margin-top:0px;
-    padding-top:0px;
+    margin-top:0vw;
+    padding-top:0vw;
     color:white;
   }

@@ -2,27 +2,28 @@
 <html>
 <head>
     <link rel="stylesheet" href="product-page.css">
+    <link rel="icon" type="image/x-icon" href="/Users/Carsten/VSCode/Website/files/icon.ico" />
     <title >Product Page | MAYESTY</title>
 </head>
 
 <body>
  <!--MENU-->
  <div id="menu"style="border-left:solid #3300FF 10px;color:white;z-index:10;margin-left:70%;position:fixed;background-color:black; width:30%;height:1100px;">
-    <a href="#" onclick="menuClosed()"><img style="padding-left:25px; padding-bottom: 25px;width:35px; position: fixed;margin-top:15px; margin-left:325px;"src="/Users/Carsten/VSCode/Website/files/cross.png"></a>
-    <a id="HOME"href="/Users/Carsten/VSCode/Website/code/index.html"><p>HOME</p></a>
-    <a id="SHOP" href="/Users/Carsten/VSCode/Website/code/shop.html"><p>SHOP</p></a>
-    <a id="ABOUTUS" href="/Users/Carsten/VSCode/Website/code/about-us.html"><p>ABOUT US</p></a>
-    <a id="CONTACT"href="/Users/Carsten/VSCode/Website/code/contact.html"><p>CONTACT</p></a>
-  </div>
+  <a href="#" onclick="menuClosed()"><img style="padding-left:25px; padding-bottom: 25px;width:35px; position: fixed;margin-top:15px; margin-left:325px;"src="/Users/Carsten/VSCode/Website/files/cross.png"></a>
+  <a id="HOME"href="index.html"><p>HOME</p></a>
+  <a id="SHOP" href="shop.html"><p>SHOP</p></a>
+  <a id="ABOUTUS" href="about-us.html"><p>ABOUT US</p></a>
+  <a id="CONTACT"href="contact.html"><p>CONTACT</p></a>
+</div>
 
 </div>
     <div class="header">
         <p class=txtheader>FREE SHIPPING WORDWIDE</p>
       </div>
       <div class="whitebox">
-    <a href="index.html"><img class="imgheader" src="Mayestylogowhite.png"></a>
-    <a href="#" onclick="menuClicked()"><img style="position:absolute;margin-top:17.5px;margin-left:1230px;width:65px;"src="Menu.png"/></a>
-      </div> 
+        <a href="index.html"><img class="imgheader" src="/Users/Carsten/VSCode/Website/files/Mayestylogowhite.png"></a>
+        <a href="#" onclick="menuClicked()"><img style="position:absolute;margin-top:17.5px;margin-left:1230px;width:65px;"src="/Users/Carsten/VSCode/Website/files/Menu.png"/></a>
+          </div>
     </div>
 
     <div class="product-overview">
@@ -42,7 +43,7 @@
         <!--Dropdown menu - option-->
        <p id="text-dropdown">Options</p>
         <div id="Option-Dropdown">
-          <button onclick="optionDropdown()"id="option-button" ><p style="position:absolute;margin:0px;" id="select-option">Select</p><img style="margin-left: 325px;width:15px;"src="arrow.png"></button>
+          <button onclick="optionDropdown()"id="option-button" ><p style="position:absolute;margin:0px;" id="select-option">Select</p><img style="margin-left: 325px;width:15px;"src="/Users/Carsten/VSCode/Website/files/arrow.png"></button>
           <div id="optiondropdownmenu">
             <button onclick="optionClicked1()"id="option-1">- Only 1 Camera ($49.99)</button>
             <button onclick="optionClicked2()"id="option-2">- 1 Camera with 16GB ($54.99)</button>
@@ -54,7 +55,7 @@
           <!--Dropdown menu - plug-->
        <p id="text-dropdown-plug">Plug</p>
        <div id="plug-Dropdown">
-         <button onclick="plugDropdown()"id="plug-button" ><p style="position:absolute;margin:0px;" id="select-plug">Select</p><img style="margin-left: 325px;width:15px;"src="arrow.png"></button>
+         <button onclick="plugDropdown()"id="plug-button" ><p style="position:absolute;margin:0px;" id="select-plug">Select</p><img style="margin-left: 325px;width:15px;"src="/Users/Carsten/VSCode/Website/files/arrow.png"></button>
          <div id="plugdropdownmenu">
            <button onclick="plugClickedEU()"id="plug-1">- EU Plug</button>
            <button onclick="plugClickedUS()"id="plug-2">- US Plug</button>
@@ -81,15 +82,14 @@
 </div>
 
 
+<!--Footer-->
 <div id="footer">
-  <p style="line-height:30px;padding-top:40px;position:absolute;padding-left:469.5px;text-align: center; width:550px">Mayesty offers all sorts of products that our customers desire. We do our best to satisfy every customer we get. We want to keep providing desired products to people all around the world. Do you have any suggestions for products send us a e-mail.</p>
-
-  <p style="position:absolute;font-size:15px;padding-left:250px;line-height:30px;width:65px; height:75px; padding-top:40px; ">
-    <a style="color:white; text-decoration: none;"href="#">Shop</a>
+  <p style="position:absolute;font-size:1.1vw;padding-left:18vw;line-height:2.1vw;width:4.5vw; height:5.35vw; padding-top:2.8vw; ">
+    <a style="color:white; text-decoration: none;"href="shop.html">Shop</a>
     <a style="color:white; text-decoration: none;" href="about-us.html" >About us</a>
-    <a style="color:white; text-decoration: none;" href="#">Contact</a>
+    <a style="color:white; text-decoration: none;" href="contact.html">Contact</a>
   </p>
-
+  <p style="line-height:2.1vw;padding-top:2.8vw;position:absolute;padding-left:32vw;text-align: left; width:46vw">Mayesty offers all sorts of products that our customers desire. We do our best to satisfy every customer we get. We want to keep providing desired products to people all around the world. If you have any suggestions for products please send us a e-mail.</p>
 </div>
 
 <script src="product-page.js"></script>
