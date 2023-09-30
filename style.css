@@ -362,7 +362,7 @@ body {
   color:white;
 }
 
-@media screen and (max-width:481px) {
+@media screen and (max-width:750px) {
   .whitebox {height:15vw; display:none;}
   .blackbox {height:50vw;}
   #earthimg {height:50vw;}
