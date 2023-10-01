@@ -489,7 +489,7 @@ body {
 .product3-mobile {display:none;}
 
 @media screen and (max-width:750px) {
-  .whitebox {height:12.5vw; }
+  .whitebox {height:12.5vw; display:none;}
   #HomeHeader {display:none;}
   #ShopHeader {display:none;}
   #ContactHeader {display:none;}
