@@ -31,36 +31,76 @@
 
 <div class="fc">
   <h1 id="fctext">Featured Collection</h1>
+  <h2 id="bestproducts">Best Products</h2>
   
   <div id="products-slider">
 
     
   <!--PRODUCT 1-->
     <div>
-      <a href="3DLedDigitalClock.html"><img src="main1.webp"class="product1-img"/></a>
+      <div class="div-product1-img"><a href="3DLedDigitalClock.html"><img src="main1.webp"class="product1-img"/></a>
       <a href="3DLedDigitalClock.html"><p class="product1-txt" >3D LED Digital Clock</p></a>
       <a href="3DLedDigitalClock.html"><p class="product1-price" >$26.99</p></a>
+      <p class="product1-mobileh1">Take your timekeeping to the next level!</p>
+      <p class="product1-mobile">This stylish clock does it all, blending great looks with smart features. It's made with great attention to detail and designed for modern living, making it the ideal addition to your space. Whether you want it on your desk or hanging on your wall, it's a fantastic choice!</p>
+      <a href="3DLedDigitalClock.html"><button id="product1-button">Buy Now</button></a>
+      <button id="buttonproduct1"onclick="fromproduct1()"><img src="arrow.png"></button>
+    </div>
     </div>
   
   <!--PRODUCT 2-->
     
     <div>
-      <a href="ModernDeskLights.html"><img src="all_blackbackground.webp"class="product2-img"/></a>
+      <div class="div-product2-img"><a href="ModernDeskLights.html"><img src="all_blackbackground.webp"class="product2-img"/></a>
       <a href="ModernDeskLights.html"><p class="product2-txt" >Modern Desk Lights LED USB</p></a>
       <a href="ModernDeskLights.html"><p class="product2-price" >$22.49</p></a>
+      <p class="product2-mobileh1">Enhance your home</p>
+      <p class="product2-mobile">Adjustable brightness and a convenient night light mode. Three different brightness settings to perfectly illuminate any room or create a soothing atmosphere to accompany your children during bedtime. Easily control the lighting with a simple touch.</p>
+      <a href="ModernDeskLights.html"><button id="product2-button">Buy Now</button></a>
+      <button id="buttonproduct2" onclick="fromproduct2()"><img src="arrow.png"></button>
+    </div>
     </div>
 
   <!--PRODUCT 3-->
     
-  <div>
+  <div >
+  <div class="div-product3-img">
     <a href="ColorfulCupHolder.html"><img src="ColorfulCupHolder1.webp"class="product3-img"/></a>
     <a href="ColorfulCupHolder.html"><p class="product3-txt" >Colorful Cup Holder</p></a>
     <a href="ColorfulCupHolder.html"><p class="product3-price" >$12.49</p></a>
+    <p class="product3-mobileh1">7 LED COLORS</p>
+    <p class="product3-mobile">Various LED colors to choose. Convenient and safe to be used as a cup holder in the car, but also can be a car Interior decorative Light. You can control the light mode and change the light's color. It's an adorable gift to family, fiends, colleagues and most car owner.</p>
+    <a href="ColorfulCupHolder.html"><button id="product3-button">Buy Now</button></a>
+    <button id="buttonproduct3"onclick="fromproductLAST()"><img src="arrow upside.png"></button>
+  </div>
   </div>
 
     
-  </div>
+</div>
+
+<!--Playground-->
+<div class="divplaygroundgenF">
+  <img id="playground-img1"src="main3.webp">
+  <div id="playground-full1"><p id="playground-hdr1">Take your timekeeping to the next level!</p>
+  <p id="playground-text1">This stylish clock does it all, blending great looks with smart features. It's made with great attention to detail and designed for modern living, making it the ideal addition to your space. Whether you want it on your desk or hanging on your wall, it's a fantastic choice!</p></div>
+</div>
+
+<div class="divplaygroundgen">
+  <img id="playground-img2"src="bendingexample.webp">
+  <div id="playground-full2"><p id="playground-hdr2">Enhance your home</p>
+  <p id="playground-text2">Featuring adjustable brightness levels and a convenient night light mode. Choose from three different brightness settings to perfectly illuminate any room or create a soothing atmosphere to accompany your children during bedtime. Easily control the lighting with a simple touch.</p></div>
+</div>
+
+<div class="divplaygroundgen">
+  <img id="playground-img1"src="ColorfulCupHolder2.webp">
+  <div id="playground-full1"><p id="playground-hdr1">7 LED COLORS</p>
+  <p id="playground-text1">Various LED colors (White/Red/Blue/Green/Yellow/Pink/Ice blue) to choose. Convenient and safe to be used as a cup holder in the car, but also can be a car Interior decorative Light. You can control the light mode and change the light's color. It's an adorable gift to family, fiends, colleagues and most car owner.</p></div>
+</div>
+
 </div> 
+
+
+
 
  <!--Footer-->
 <div id="footer">
@@ -72,6 +112,7 @@
   <p style="line-height:2.1vw;padding-top:2.8vw;position:absolute;padding-left:32vw;text-align: left; width:46vw">Mayesty offers all sorts of products that our customers desire. We do our best to satisfy every customer we get. We want to keep providing desired products to people all around the world. If you have any suggestions for products please send us a e-mail.</p>
 </div>
 
+
 <script>
   function menuClicked(){
     document.querySelector('#menu').style.display= 'block';
@@ -82,11 +123,28 @@
   }
 
   function shopNow(){
-    document.querySelector('.fc').scrollIntoView({
+    document.querySelector('#products-slider').scrollIntoView({
       behavior: "smooth"
     });
   }
 
+  function fromproduct1(){
+    document.querySelector('.product2-mobileh1').scrollIntoView({
+      behavior: "smooth"
+    })
+  }
+
+  function fromproduct2(){
+    document.querySelector('.product3-mobileh1').scrollIntoView({
+      behavior: "smooth"
+    })
+  }
+
+  function fromproductLAST(){
+    document.querySelector('#bestproducts').scrollIntoView({
+      behavior: "smooth"
+    })
+  }
 
 </script>
 </body>
