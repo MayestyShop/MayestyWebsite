@@ -510,15 +510,15 @@ body {
   .product1-img {width:80vw; height:80vw; margin-left: 10vw; border-radius: 5vw; }
   .product1-txt {width:60vw;font-weight:bold;color:black;margin-top:135vw; font-size:4vw; margin-left: 20vw; text-shadow: none; text-align: center; }
   .product1-price {width:60vw;font-weight:300;color:black;margin-top:140vw; font-size:3.5vw; margin-left: 20vw; text-shadow: none; text-align: center;}
-  #product1-button {display:block;border-radius:15vw;margin-top:15vw;;width:30vw; height:12.5vw; margin-left:35vw; background-color: black;font-size:3.5vw; color:white; font-weight: bold;pointer-events:visible; cursor:pointer;}
+  #product1-button {display:block;border-radius:15vw;margin-top:19vw;;width:30vw; height:12.5vw; margin-left:35vw; background-color: black;font-size:3.5vw; color:white; font-weight: bold;pointer-events:visible; cursor:pointer;}
   .product2-img {width:80vw; height:80vw; margin-left: 10vw; margin-top:180vw; border-radius: 5vw; }
   .product2-txt {width:90vw;font-weight:bold;color:black;margin-top:317.5vw; font-size:4vw; margin-left: 5vw; text-shadow: none; text-align: center;}
   .product2-price {width:60vw;font-weight:300;line-height:0vw;color:black;margin-top:322.5vw; font-size:3.5vw; margin-left: 20vw; text-shadow: none; text-align: center;}
-  #product2-button {display:block;border-radius:15vw;margin-top:15vw;;width:30vw; height:12.5vw; margin-left:35vw; background-color: black;font-size:3.5vw; color:white; font-weight: bold;pointer-events:visible; cursor:pointer; text-align: center;}
+  #product2-button {display:block;border-radius:15vw;margin-top:20vw;;width:30vw; height:12.5vw; margin-left:35vw; background-color: black;font-size:3.5vw; color:white; font-weight: bold;pointer-events:visible; cursor:pointer; text-align: center;}
   .product3-img {width:80vw; height:80vw; margin-left: 10vw; margin-top:365vw; border-radius: 5vw; }
   .product3-txt {width:90vw;font-weight:bold;color:black;margin-top:510vw; font-size:4vw; margin-left: 5vw; text-shadow: none; text-align: center;}
   .product3-price {width:60vw;font-weight:300;color:black;margin-top:515vw; font-size:3.5vw; margin-left: 20vw; text-shadow: none; text-align: center;}
-  #product3-button {display:block;border-radius:15vw;margin-top:17.5vw;;width:30vw; height:12.5vw; margin-left:35vw; background-color: black;font-size:3.5vw; color:white; font-weight: bold;pointer-events:visible; cursor:pointer;}
+  #product3-button {display:block;border-radius:15vw;margin-top:20vw;;width:30vw; height:12.5vw; margin-left:35vw; background-color: black;font-size:3.5vw; color:white; font-weight: bold;pointer-events:visible; cursor:pointer;}
   .div-product1-img {pointer-events: none; margin-left:0vw;}
   .div-product2-img {pointer-events: none; margin-left:0vw;}
   .div-product3-img {pointer-events: none; margin-left:0vw; }
@@ -533,5 +533,8 @@ body {
   #buttonproduct1 {display:block;}
   #buttonproduct2 {display:block;}
   #buttonproduct3 {display:block;}
+  #playgroundbutton1 {display:none;}
+  #playgroundbutton2 {display:none;}
+  #playgroundbutton3 {display:none;}
   footer {display: none;}
 } 
