@@ -5,21 +5,21 @@ var option3 = 'Blue';
 
 
 function img1clicked(){
-    document.getElementById("product-img-1").src = "/Users/Carsten/VSCode/Website/files/Modern Desk Lights/all_blackbackground.webp"
+    document.getElementById("product-img-1").src = "Modern Desk Lights/all_blackbackground.webp"
 }
 function img2clicked(){
-    document.getElementById("product-img-1").src= "/Users/Carsten/VSCode/Website/files/Modern Desk Lights/bendingexample.webp"
+    document.getElementById("product-img-1").src= "Modern Desk Lights/bendingexample.webp"
 }
 
 function img3clicked(){
-    document.getElementById("product-img-1").src = "/Users/Carsten/VSCode/Website/files/Modern Desk Lights/green_whitebackground.webp"
+    document.getElementById("product-img-1").src = "Modern Desk Lights/green_whitebackground.webp"
 }
 
 function img4clicked(){
-    document.getElementById("product-img-1").src = "/Users/Carsten/VSCode/Website/files/Modern Desk Lights/blue_whitebackground.webp"
+    document.getElementById("product-img-1").src = "Modern Desk Lights/blue_whitebackground.webp"
 }
 function img5clicked(){
-    document.getElementById("product-img-1").src = "/Users/Carsten/VSCode/Website/files/Modern Desk Lights/pink_whitebackground.webp"
+    document.getElementById("product-img-1").src = "Modern Desk Lights/pink_whitebackground.webp"
 }
 
 
