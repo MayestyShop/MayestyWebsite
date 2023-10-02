@@ -510,7 +510,7 @@ body {
 .product3-mobile {display:none;}
 
 @media screen and (max-width:750px) {
-  .whitebox {height:12.5vw; }
+  .whitebox {height:12.5vw; display:none; }
   #HomeHeader {display:none;}
   #ShopHeader {display:none;}
   #ContactHeader {display:none;}
@@ -523,10 +523,10 @@ body {
   .shopnowbox {width:25vw; height:10vw; margin-left:37.5vw;margin-top:50vw; border-width: 0.5vw; border-radius: 5vw;}
   #shopnowtxt {font-size: 2.75vw; padding-top:12.5%;}
   .header{display:none;}
-  .fc {height: 57.5vw;}
+  .fc {height: 65vw;}
   #fctext{display:none;}
   #bestproducts{display:block;font-size:7.5vw; text-align:center;margin-bottom: 0vw; margin-top:4vw; margin-bottom: 4vw; width: 50vw; margin-left:25vw;}
-  #products-slider {background-color:white;height:575vw; border: 0p; border: none; width:100%; margin-left:0px; overflow-x: hidden;}
+  #products-slider {background-color:white;height:595vw; border: 0p; border: none; width:100%; margin-left:0px; overflow: hidden;}
   #footer {height:20vw;margin-top:67.5vw;}
   .product1-img {width:80vw; height:80vw; margin-left: 10vw; border-radius: 5vw; }
   .product1-txt {width:60vw;font-weight:bold;color:black;margin-top:140vw; font-size:4vw; margin-left: 20vw; text-shadow: none; text-align: center; }
@@ -537,8 +537,8 @@ body {
   .product2-price {width:60vw;font-weight:300;line-height:0vw;color:black;margin-top:332.5vw; font-size:3.5vw; margin-left: 20vw; text-shadow: none; text-align: center;}
   #product2-button {display:block;border-radius:15vw;margin-top:26vw;;width:30vw; height:12.5vw; margin-left:35vw; background-color: black;font-size:3.5vw; color:white; font-weight: bold;pointer-events:visible; cursor:pointer; text-align: center;}
   .product3-img {width:80vw; height:80vw; margin-left: 10vw; margin-top:385vw; border-radius: 5vw; }
-  .product3-txt {width:90vw;font-weight:bold;color:black;margin-top:530vw; font-size:4vw; margin-left: 5vw; text-shadow: none; text-align: center;}
-  .product3-price {width:60vw;font-weight:300;color:black;margin-top:535vw; font-size:3.5vw; margin-left: 20vw; text-shadow: none; text-align: center;}
+  .product3-txt {width:90vw;font-weight:bold;color:black;margin-top:525vw; font-size:4vw; margin-left: 5vw; text-shadow: none; text-align: center;}
+  .product3-price {width:60vw;font-weight:300;color:black;margin-top:530vw; font-size:3.5vw; margin-left: 20vw; text-shadow: none; text-align: center;}
   #product3-button {display:block;border-radius:15vw;margin-top:25vw;;width:30vw; height:12.5vw; margin-left:35vw; background-color: black;font-size:3.5vw; color:white; font-weight: bold;pointer-events:visible; cursor:pointer;}
   .div-product1-img {pointer-events: none; margin-left:0vw;}
   .div-product2-img {pointer-events: none; margin-left:0vw;}
@@ -550,7 +550,7 @@ body {
   .product2-mobileh1 {display:block; line-height:0vw;width: 90vw; font-size:9vw; margin-top:280vw; margin-left:5vw; font-weight: bold; text-align: center;}
   .product2-mobile {display:block;width: 80vw; font-size:4vw; margin-top:0vw; margin-left:10vw; text-align: center;} 
   .product3-mobileh1 {display:block; line-height:0vw;width: 80vw; font-size:9vw; margin-top:475vw; margin-left:10vw; font-weight: bold; text-align: center;}
-  .product3-mobile {display:block;width: 80vw; font-size:4vw; margin-top:0vw; margin-left:10vw; text-align: center;} 
+  .product3-mobile {display:block;width: 80vw; font-size:4vw; margin-top:0vw; margin-left:10vw; text-align: center; line-height: 4.75vw;} 
   #buttonproduct1 {display:block;}
   #buttonproduct2 {display:block;}
   #buttonproduct3 {display:block;}
