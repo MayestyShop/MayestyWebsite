@@ -99,9 +99,9 @@ body {
 #earthimg {
   position: absolute;
   height:32.5vw;
-  width: 140vw;
+  width: 160vw;
   opacity: 90%;
-  margin-left: -40vw;
+  margin-left: -60vw;
   transition: box-shadow 3s;
 }
 
