@@ -40,7 +40,7 @@ body {
     margin-bottom: 0vw;
     position: absolute;
     opacity:0%;
-    transition: opacity 3s;
+    transition: opacity 2s;
 }
 
 
@@ -52,7 +52,7 @@ body {
   margin-left:22.14vw;
   margin-top:1.4vw;
   opacity:0%;
-  transition: opacity 3s;
+  transition: opacity 2s;
 }
 
 #ShopHeader {
@@ -63,7 +63,7 @@ body {
   margin-left:32.14vw;
   margin-top:1.4vw;
   opacity:0%;
-  transition: opacity 3s;
+  transition: opacity 2s;
 }
 
 #ContactHeader {
@@ -74,7 +74,7 @@ body {
   margin-left:65vw;
   margin-top:1.4vw;
   opacity:0%;
-  transition: opacity 3s;
+  transition: opacity 2s;
 }
 
 #AboutusHeader {
@@ -85,7 +85,7 @@ body {
   margin-left:75vw;
   margin-top:1.4vw;
   opacity:0%;
-  transition: opacity 3s;
+  transition: opacity 2s;
 }
 
 .blackbox {
@@ -102,7 +102,7 @@ body {
   width: 160vw;
   opacity: 90%;
   margin-left: -60vw;
-  transition: box-shadow 3s;
+  transition: box-shadow 2s;
 }
 
 .biglogoimg {
@@ -112,7 +112,7 @@ body {
   margin-bottom: 0vw;
   margin-left: 32.5vw;
   opacity:0%;
-  transition: opacity 4s;
+  transition: opacity 2.5s;
 }
 
 #subtitle {
@@ -129,7 +129,7 @@ body {
   margin-right:20vw;
   font-size: 1.5vw;
   opacity:0%;
-  transition: opacity 4s;
+  transition: opacity 2.5s;
 }
 
 .shopnowbox {
@@ -143,7 +143,7 @@ body {
   background-color: rgba(255, 255, 255, 0.1);
   border: solid white 0.15vw;
   opacity:0%;
-  transition: opacity 4s;
+  transition: opacity 2.5s;
 }
 
 #shopnowtxt {
@@ -185,9 +185,10 @@ body {
   text-align: center;
   color: black;
   font-size: 3vw;
-  margin-left:35vw;
+  margin-left:100vw;
   margin-top: 3vw;
   margin-bottom: 3vw;
+  transition: margin 1.5s;
 }
 
 #bestproducts {
@@ -200,12 +201,13 @@ body {
   position: relative;
   overflow-x: scroll;
   margin-top: 0vw;
-  margin-left:17vw;
+  margin-left:-17vw;
   height: 24.5vw;
   width: 66vw;
   background-color:white;
   scrollbar-width: none;  
   -ms-overflow-style: none;  
+  transition: margin 1.5s;
 }
 
 #products-slider::-webkit-scrollbar {
