@@ -43,6 +43,13 @@ function img4clicked(){
     document.querySelector('#arrowdropdownframe').src= 'arrow.png';
 }
 
+function img5clicked(){
+    document.getElementById("product-img-1").src = CurrentSrc;
+    document.querySelector('#arrowdropdown').src= 'arrow.png';
+    document.querySelector('#optiondropdownmenu').style.display='none';
+    document.querySelector('#framedropdownmenu').style.display='none';
+    document.querySelector('#arrowdropdownframe').src= 'arrow.png';
+}
 
 
 function optionDropdown(){
@@ -58,9 +65,11 @@ document.querySelector('#arrowdropdown').src= 'arrow.png';
 switch (selectframe.textContent) {
     case frameY: 
         document.getElementById("product-img-1").src = "2.webp" ; 
+        document.getElementById("product-img-5s").src = "2.webp" ;
         break; 
     default:
         document.getElementById("product-img-1").src = "1.webp";
+        document.getElementById("product-img-5s").src = "1.webp"; 
         break;
      }
 }
@@ -73,9 +82,11 @@ document.querySelector('#arrowdropdown').src= 'arrow.png';
 switch (selectframe.textContent) {
     case frameY: 
         document.getElementById("product-img-1").src = "4.webp" ; 
+        document.getElementById("product-img-5s").src = "4.webp" ;
         break; 
     default:
         document.getElementById("product-img-1").src = "3.webp";
+        document.getElementById("product-img-5s").src = "3.webp"; 
         break;
     }
 }
@@ -88,9 +99,11 @@ document.querySelector('#arrowdropdown').src= 'arrow.png';
 switch (selectframe.textContent) {
     case frameY: 
         document.getElementById("product-img-1").src = "6.webp" ; 
+        document.getElementById("product-img-5s").src = "6.webp" ;
         break; 
     default:
         document.getElementById("product-img-1").src = "5.webp";
+        document.getElementById("product-img-5s").src = "5.webp"; 
         break }
 }
 
@@ -102,9 +115,11 @@ document.querySelector('#arrowdropdown').src= 'arrow.png';
 switch (selectframe.textContent) {
     case frameY: 
         document.getElementById("product-img-1").src = "8.webp" ; 
+        document.getElementById("product-img-5s").src = "8.webp" ;
         break; 
     default:
         document.getElementById("product-img-1").src = "7.webp";
+        document.getElementById("product-img-5s").src = "7.webp"; 
         break }
 }
 
@@ -116,9 +131,11 @@ document.querySelector('#arrowdropdown').src= 'arrow.png';
 switch (selectframe.textContent) {
     case frameY: 
         document.getElementById("product-img-1").src = "10.webp" ; 
+        document.getElementById("product-img-5s").src = "10.webp" ;
         break; 
     default:
         document.getElementById("product-img-1").src = "9.webp";
+        document.getElementById("product-img-5s").src = "9.webp"; 
         break }
 }
 
@@ -130,9 +147,11 @@ document.querySelector('#arrowdropdown').src= 'arrow.png';
 switch (selectframe.textContent) {
     case frameY: 
         document.getElementById("product-img-1").src = "12.webp" ; 
+        document.getElementById("product-img-5s").src = "12.webp" ;
         break; 
     default:
         document.getElementById("product-img-1").src = "11.webp";
+        document.getElementById("product-img-5s").src = "11.webp"; 
         break }
 }
 
@@ -151,21 +170,27 @@ function frameDropdown(){
     switch (selectoption.textContent) {
         case color1: 
             document.getElementById("product-img-1").src = "1.webp" ; 
+            document.getElementById("product-img-5s").src = "1.webp" ;
             break; 
         case color2: 
             document.getElementById("product-img-1").src = "3.webp" ; 
+            document.getElementById("product-img-5s").src = "3.webp" ;
             break;
         case color3: 
             document.getElementById("product-img-1").src = "5.webp" ; 
+            document.getElementById("product-img-5s").src = "5.webp" ;
             break;
         case color4: 
             document.getElementById("product-img-1").src = "7.webp" ; 
+            document.getElementById("product-img-5s").src = "7.webp" ;
             break;
         case color5: 
             document.getElementById("product-img-1").src = "9.webp" ; 
+            document.getElementById("product-img-5s").src = "9.webp" ;
             break;
         case color6: 
             document.getElementById("product-img-1").src = "11.webp" ; 
+            document.getElementById("product-img-5s").src = "11.webp" ;
             break;
     }
 }
@@ -177,21 +202,27 @@ function frameDropdown(){
     switch (selectoption.textContent) {
         case color1: 
             document.getElementById("product-img-1").src = "2.webp" ; 
+            document.getElementById("product-img-5s").src = "2.webp" ;
             break; 
         case color2: 
             document.getElementById("product-img-1").src = "4.webp" ; 
+            document.getElementById("product-img-5s").src = "4.webp" ;
             break;
         case color3: 
             document.getElementById("product-img-1").src = "6.webp" ; 
+            document.getElementById("product-img-5s").src = "6.webp" ;
             break;
         case color4: 
             document.getElementById("product-img-1").src = "8.webp" ; 
+            document.getElementById("product-img-5s").src = "8.webp" ;
             break;
         case color5: 
             document.getElementById("product-img-1").src = "10.webp" ; 
+            document.getElementById("product-img-5s").src = "10.webp" ;
             break;
         case color6: 
             document.getElementById("product-img-1").src = "12.webp" ; 
+            document.getElementById("product-img-5s").src = "12.webp" ;
             break;
     }
     }
@@ -212,3 +243,5 @@ switch (selectoption.textContent) {
         document.querySelector('#no-option').style.display= 'block';
         break
     }}
+
+    
