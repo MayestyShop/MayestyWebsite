@@ -3,6 +3,7 @@ body {
     font-family:Avenir, Arial,sans-serif;
     margin: 0vw;
     overflow-x: hidden;
+    overflow-y: visible;
   }
   
   .header {
@@ -80,13 +81,18 @@ body {
   }
 
 .product-overview {
-    width:auto;
-    height:77.5vw;
+    width:100vw;
+    height:200vw;
     margin-left: 18vw;
     margin-right: 18vw;
     background-color: white;
 }
 
+.pathlink {
+    color:black;
+    font-weight:bold; 
+    text-decoration: none;
+}
 .path-product-1 {
     font-weight: 200;
     font-size: 1vw;
@@ -194,15 +200,18 @@ body {
 }
 
 #text-dropdown {
-    margin-left: 38.25vw;
+    margin-left: 0.25vw;
     line-height: 0vw;
     margin-top:2vw;
     font-size: 1.15vw;
 }
 
-#Option-Dropdown{
-    margin-left:38vw;
+#fulldropdown {
+    width:30vw;
+    margin-left: 38vw;
 }
+
+
 
 #option-button { 
     border-radius: 0.5vw;
@@ -238,7 +247,7 @@ body {
     margin-top: 0.35vw;
     border: hidden;
     background-color: white;
-    font-size:1vw;
+    font-size:1.1vw;
 }
 
 #option-1:hover {
@@ -253,7 +262,7 @@ body {
     margin-top: 0.35vw;
     border: hidden;
     background-color: white;
-    font-size:1vw;
+    font-size:1.1vw;
 }
 
 #option-2:hover {
@@ -268,7 +277,7 @@ body {
     margin-top: 0.35vw;
     border: hidden;
     background-color: white;
-    font-size:1vw;
+    font-size:1.1vw;
 }
 
 #option-3:hover {
@@ -283,7 +292,7 @@ body {
     margin-top: 0.35vw;
     border: hidden;
     background-color: white;
-    font-size:1vw;
+    font-size:1.1vw;
 }
 
 #option-4:hover {
@@ -298,7 +307,7 @@ body {
     margin-top: 0.35vw;
     border: hidden;
     background-color: white;
-    font-size:1vw;
+    font-size:1.1vw;
 }
 
 #option-5:hover {
@@ -313,7 +322,7 @@ body {
     margin-top: 0.35vw;
     border: hidden;
     background-color: white;
-    font-size:1vw;
+    font-size:1.1vw;
 }
 
 #option-6:hover {
@@ -323,14 +332,13 @@ body {
 
 
 #Option-Dropdown{
-    margin-left:38vw;
+    margin-left:0vw;
 }
 
 #option-button { 
     border-radius: 0.5vw;
     background-color: white;
-    border-color: gray;
-    border-style: solid; 
+    border: solid black 0.12vw; 
     font-size: 1vw;
     width: 27vw;
     height:3.25vw;
@@ -343,15 +351,25 @@ body {
     cursor:pointer;
 }
 
+#select-option{
+    position:absolute;
+    margin:0vw; 
+    font-size:1.1vw;
+}
+
+#select-frame {
+    position:absolute;
+    margin:0vw; 
+    font-size:1.1vw;
+}
 #optiondropdownmenu{
     border-radius: 0.5vw;
     position: absolute;
     background-color: white;
     height: 17.5vw;
     margin-top:-0.15vw;
-    width:26.5vw;
-    border: black;
-    border-style: solid;
+    width:26.85vw;
+    border: solid black 0.12vw;
     opacity:100%;
     display: none;
     z-index: 11;
@@ -374,9 +392,8 @@ body {
     background-color: white;
     height: 6vw;
     margin-top:-0.15vw;
-    width:26.5vw;
-    border: black;
-    border-style: solid;
+    width:26.85vw;
+    border: solid black 0.12vw;
     opacity:100%;
     display: none;
     z-index: 10;
@@ -385,7 +402,7 @@ body {
 #frame-button { 
     border-radius: 0.5vw;
     background-color: white;
-    border:solid gray 0.12vw;
+    border:solid black 0.12vw;
     font-size: 1vw;
     width: 27vw;
     height: 3.25vw;
@@ -406,7 +423,7 @@ body {
     margin-top: 0.35vw;
     border: hidden;
     background-color: white;
-    font-size:1vw;
+    font-size:1.1vw;
 }
 
 #frame-1:hover {
@@ -421,7 +438,7 @@ body {
     margin-top: 0.35vw;
     border: hidden;
     background-color: white;
-    font-size:1vw;
+    font-size:1.1vw;
 }
 
 #frame-2:hover {
@@ -436,6 +453,42 @@ body {
     margin-left: 0.25vw;
 }
 
+#BuyNowButton {
+    font-size:1.25vw;
+    border-radius: 2.5vw;
+    cursor:pointer;
+    border-color:black;
+    border-style:solid;
+    color: white;
+    background-color:black;
+    height:3.25vw;
+    width:26.575vw; 
+    margin-top:2.85vw;
+}
+
+#BuyNowButtonText {
+    margin-top:0.8vw;
+    text-align: center; 
+    font-weight: 500;
+}
+
+#description {
+    width: 70vw;margin-top:37.5vw; position: absolute;
+}
+
+#descriptiontxt1 {
+    font-size:1.15vw;
+}
+
+#descriptiontxt2 {
+    font-size:1.5vw;
+}
+
+#descriptiontxt2-1{
+    font-size: 1.5vw;
+    margin-top: 15vw;
+}
+
 #footer {
     font-size:1vw;
     background-color: black;
@@ -445,3 +498,42 @@ body {
     padding-top:0vw;
     color:white;
   }
+
+  @media screen and (max-width:750px) {
+    .header {display:none;}
+    .product-overview {margin: 0; height: 400vw; width:100vw;}
+    #product-img-1 {width:95vw; height:95vw; opacity:100%; margin-left:2.5vw;}
+    #product-img-1s {margin-top:97.5vw; width:20vw; height:20vw; margin-left:2.5vw }
+    #product-img-2s {margin-top:97.5vw; width:20vw; height:20vw; margin-left:25vw;}
+    #product-img-3s {margin-top:97.5vw; width:20vw; height:20vw; margin-left:47.5vw;}
+    #product-img-4s {margin-top:97.5vw; width:20vw; height:20vw; margin-left:70vw;}
+    .path-product-1 {display:none;}
+    .pathlink {display:none;}
+    .whitebox {display:none;}
+    #name-product {position: absolute; margin-top: 125vw; font-size:7.5vw; margin-left: 2.5vw; width:80vw; text-align: left; padding:0vw; margin-left:10vw; text-align: center;}
+    #price-product {position: absolute; margin-top:135vw; width:30vw;font-size:5vw; margin-left:35vw; text-align: center;}
+    #fulldropdown {position:absolute;margin-top:145vw;margin-left: 0vw;}
+    #description {margin-top: 225vw;}
+    #option-button {width:90vw; height:10vw; border-radius: 5vw; margin-left: 5vw;}
+    #text-dropdown {font-size: 4vw; width:30vw; margin-left: 35vw; text-align: center; margin-bottom:3vw; margin-top: 5vw;}
+    #select-option {font-size:3.5vw; margin-top:-0.5vw; margin-left: 2vw; margin-left: 5vw;}
+    #frame-button {width:90vw; height:10vw; border-radius: 5vw; margin-left: 5vw;}
+    #text-dropdown-frame {font-size: 4vw; margin-top:7.5vw; width:30vw;margin-left: 35vw; text-align: center; margin-bottom: 3vw;}
+    #select-frame {font-size:3.5vw; margin-top:-0.5vw; margin-left: 2vw; margin-left: 5vw;}
+    #BuyNowButton {width:65vw; height:10vw; border-radius: 5vw; margin-top:12vw; margin-left:17.5vw;}
+    #BuyNowButtonText {font-size:4.5vw; margin-top:1.75vw;}
+    #optiondropdownmenu {width:90vw; margin-left:5vw; height:69.8vw; border-radius: 5vw;}
+    #option-1 {height:10vw; font-size:3vw; margin-top:1.4vw; border-radius: 5vw;}
+    #option-2 {height:10vw; font-size:3vw; margin-top:1.4vw; border-radius: 5vw;}
+    #option-3 {height:10vw; font-size:3vw; margin-top:1.4vw; border-radius: 5vw;}
+    #option-4 {height:10vw; font-size:3vw; margin-top:1.4vw; border-radius: 5vw;}
+    #option-5 {height:10vw; font-size:3vw; margin-top:1.4vw; border-radius: 5vw;}
+    #option-6 {height:10vw; font-size:3vw; margin-top:1.4vw; border-radius: 5vw;}
+    #framedropdownmenu {width:90vw; margin-left:5vw; height:24.2vw; border-radius: 5vw;}
+    #frame-1 {height:10vw; font-size:3vw; margin-top:1.4vw; border-radius: 5vw;}
+    #frame-2 {height:10vw; font-size:3vw; margin-top:1.4vw; border-radius: 5vw;}
+    #arrowdropdown {width:4vw; margin-left:80vw;}
+    #arrowdropdownframe {width:4vw; margin-left:80vw;}
+    #description {width:90vw; margin-left:5vw; text-align: center;}
+    .descriptiontxt2-1{margin-top:10vw;}
+    }
