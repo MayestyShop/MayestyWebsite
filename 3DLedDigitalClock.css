@@ -476,17 +476,21 @@ body {
     width: 70vw;margin-top:37.5vw; position: absolute;
 }
 
-#descriptiontxt1 {
+.descriptiontxt1 {
     font-size:1.15vw;
 }
 
-#descriptiontxt2 {
+.descriptiontxt1-1 {
+    font-size:1.15vw;
+}
+
+.descriptiontxt2 {
     font-size:1.5vw;
 }
 
-#descriptiontxt2-1{
+.descriptiontxt2-1{
     font-size: 1.5vw;
-    margin-top: 15vw;
+    margin-top: 2.5vw;
 }
 
 #footer {
@@ -501,12 +505,12 @@ body {
 
   @media screen and (max-width:750px) {
     .header {display:none;}
-    .product-overview {margin: 0; height: 400vw; width:100vw;}
-    #product-img-1 {width:95vw; height:95vw; opacity:100%; margin-left:2.5vw;}
-    #product-img-1s {margin-top:97.5vw; width:20vw; height:20vw; margin-left:2.5vw }
-    #product-img-2s {margin-top:97.5vw; width:20vw; height:20vw; margin-left:25vw;}
-    #product-img-3s {margin-top:97.5vw; width:20vw; height:20vw; margin-left:47.5vw;}
-    #product-img-4s {margin-top:97.5vw; width:20vw; height:20vw; margin-left:70vw;}
+    .product-overview {margin: 0; height: 425vw; width:100vw;}
+    #product-img-1 {width:95vw; height:95vw; opacity:100%; margin-left:2.5vw; margin-top:1vw; border-radius: 5vw;}
+    #product-img-1s {margin-top:97.5vw; width:20vw; height:20vw; margin-left:2.5vw; border-radius: 2.5vw;}
+    #product-img-2s {margin-top:97.5vw; width:20vw; height:20vw; margin-left:25vw; border-radius: 2.5vw;}
+    #product-img-3s {margin-top:97.5vw; width:20vw; height:20vw; margin-left:47.5vw; border-radius: 2.5vw;}
+    #product-img-4s {margin-top:97.5vw; width:20vw; height:20vw; margin-left:70vw; border-radius: 2.5vw;}
     .path-product-1 {display:none;}
     .pathlink {display:none;}
     .whitebox {display:none;}
@@ -534,6 +538,10 @@ body {
     #frame-2 {height:10vw; font-size:3vw; margin-top:1.4vw; border-radius: 5vw;}
     #arrowdropdown {width:4vw; margin-left:80vw;}
     #arrowdropdownframe {width:4vw; margin-left:80vw;}
-    #description {width:90vw; margin-left:5vw; text-align: center;}
-    .descriptiontxt2-1{margin-top:10vw;}
+    #description {width:95vw; margin-left:2.5vw; text-align: center;}
+    .descriptiontxt2-1{margin-top:10vw; font-size: 4vw;}
+    .descriptiontxt1-1{margin-top:-10vw; margin-bottom: 10vw; width:100vw; font-size:4vw;}
+    .descriptiontxt1 {font-size:3.5vw;}
+    .descriptiontxt2 {font-size: 4vw;}
+    #footer {display: none;}
     }
