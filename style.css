@@ -530,7 +530,7 @@ html {
   .shopnowbox {width:25vw; height:10vw; margin-left:37.5vw;margin-top:50vw; border-width: 0.5vw; border-radius: 5vw; opacity: 100%;}
   #shopnowtxt {font-size: 2.75vw; padding-top:12.5%; opacity: 100%;}
   .header{display:none;}
-  .fc {height: 600vw;}
+  .fc {height: 600vw; overflow-y:hidden;}
   #fctext{display:none; margin-left:0vw;}
   #bestproducts{display:block;font-size:7.5vw; text-align:center;margin-bottom: 0vw; margin-top:4vw; margin-bottom: 4vw; width: 50vw; margin-left:25vw;}
   #products-slider {background-color:white;height:595vw; border: 0p; border: none; width:100%; margin-left:0vw; overflow: hidden;}
