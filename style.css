@@ -18,6 +18,11 @@ html {
   position:static;
 }
 
+.arrow {
+  width:4.5vw;
+  display:none;
+}
+
 .txtheader {
     letter-spacing: 0.25vw;
     font-size: 0.8vw;
@@ -567,4 +572,5 @@ html {
   #footer {display: none;}
   body {overflow-x: hidden;}
   html {overflow-x: hidden;}
+  .arrow {display:block;}
 } 
