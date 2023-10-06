@@ -152,6 +152,7 @@
     let animationR = setInterval(animationRA,20);
   
     function loadin() {
+      if (window.innerWidth >= 750){
       document.querySelector('#earthimg').style.boxShadow = "0vw 0.5vw 1.25vw 0.05vw rgba(0, 0, 0, 0.8";      
       document.querySelector('.biglogoimg').style.opacity = "100%";
       document.querySelector('#subtitle').style.opacity = "100%";
@@ -164,7 +165,7 @@
       document.querySelector('#AboutusHeader').style.opacity = "100%";      
       document.querySelector('#products-slider').style.marginLeft = "17vw";      
       document.querySelector('#fctext').style.marginLeft = "35vw";      
-    }
+    }}
 
 </script>
 </body>
