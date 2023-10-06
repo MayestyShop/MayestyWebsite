@@ -519,16 +519,16 @@ body {
   #AboutusHeader {display:none;}
   .imgheader {width:40vw; margin-left:30vw; margin-top:2.5vw;}
   .blackbox {height:75vw;}
-  #earthimg {height:75vw;}
-  .biglogoimg {width: 70vw; margin-left:15vw; margin-top: 20vw;}
-  #subtitle {width: 92vw; margin-left:4vw; margin-top:37.5vw;font-size:2.7vw;}
-  .shopnowbox {width:25vw; height:10vw; margin-left:37.5vw;margin-top:50vw; border-width: 0.5vw; border-radius: 5vw;}
-  #shopnowtxt {font-size: 2.75vw; padding-top:12.5%;}
+  #earthimg {height:75vw; }
+  .biglogoimg {width: 70vw; margin-left:15vw; margin-top: 20vw; opacity: 100%;}
+  #subtitle {width: 92vw; margin-left:4vw; margin-top:37.5vw;font-size:2.7vw; opacity: 100%;}
+  .shopnowbox {width:25vw; height:10vw; margin-left:37.5vw;margin-top:50vw; border-width: 0.5vw; border-radius: 5vw; opacity: 100%;}
+  #shopnowtxt {font-size: 2.75vw; padding-top:12.5%; opacity: 100%;}
   .header{display:none;}
   .fc {height: 65vw;}
-  #fctext{display:none;}
+  #fctext{display:none; margin-left:0vw;}
   #bestproducts{display:block;font-size:7.5vw; text-align:center;margin-bottom: 0vw; margin-top:4vw; margin-bottom: 4vw; width: 50vw; margin-left:25vw;}
-  #products-slider {background-color:white;height:595vw; border: 0p; border: none; width:100%; margin-left:0px; overflow: hidden;}
+  #products-slider {background-color:white;height:595vw; border: 0p; border: none; width:100%; margin-left:0vw; overflow: hidden;}
   #footer {height:20vw;margin-top:67.5vw;}
   .product1-img {width:80vw; height:80vw; margin-left: 10vw; border-radius: 5vw; }
   .product1-txt {width:60vw;font-weight:bold;color:black;margin-top:140vw; font-size:4vw; margin-left: 20vw; text-shadow: none; text-align: center; }
@@ -559,5 +559,6 @@ body {
   #playgroundbutton1 {display:none;}
   #playgroundbutton2 {display:none;}
   #playgroundbutton3 {display:none;}
-  footer {display: none;}
+  #footer {display: none;}
+  body {overflow-x: hidden;}
 } 
