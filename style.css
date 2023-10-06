@@ -5,6 +5,10 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 .header {
   background-color: Black;
   width: 100vw;
@@ -561,4 +565,5 @@ body {
   #playgroundbutton3 {display:none;}
   #footer {display: none;}
   body {overflow-x: hidden;}
+  html {overflow-x: hidden;}
 } 
