@@ -538,10 +538,10 @@ body {
     #frame-2 {height:10vw; font-size:3vw; margin-top:1.4vw; border-radius: 5vw;}
     #arrowdropdown {width:4vw; margin-left:80vw;}
     #arrowdropdownframe {width:4vw; margin-left:80vw;}
-    #description {width:95vw; margin-left:2.5vw; text-align: center;}
-    .descriptiontxt2-1{margin-top:10vw; font-size: 4vw;}
-    .descriptiontxt1-1{margin-top:-10vw; margin-bottom: 10vw; width:100vw; font-size:4vw;}
-    .descriptiontxt1 {font-size:3.5vw;}
-    .descriptiontxt2 {font-size: 4vw;}
+    #description {width:95vw; text-align: center;}
+    .descriptiontxt2-1{margin-top:10vw; font-size: 4vw; width:95vw; text-align: center;}
+    .descriptiontxt1-1{margin-top:-10vw; margin-bottom: 10vw; width:95vw; font-size:4vw; text-align: center;}
+    .descriptiontxt1 {font-size:3.5vw; width:95vw; text-align: center;}
+    .descriptiontxt2 {font-size: 4vw; width:95vw; text-align: center;}
     #footer {display: none;}
     }
