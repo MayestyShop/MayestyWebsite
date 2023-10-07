@@ -205,15 +205,13 @@ body {
 }
 
 #option-button { 
-    border-radius: 7.5px;
+    border-radius: 0.5vw;
     background-color: white;
-    border-color: gray;
-    border-style: solid; 
-    font-size: 15px;
-    width: 375px;
-    height:45px;
+    border:solid gray 0.12vw;
+    font-size: 1vw;
+    width: 27vw;
+    height:3.25vw;
     text-align: left;
-    padding-left:10px;
     z-index: 1;
 }
 
