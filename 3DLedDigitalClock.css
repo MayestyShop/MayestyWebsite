@@ -100,7 +100,7 @@ body {
     margin-top:3vw;
 }
 #product-img-1 {
-    border-radius: 0.5vw;
+    border-radius: 1.5vw;
     width: 36vw;
     height:36vw;
     margin-top: -0.5vw;
@@ -110,7 +110,7 @@ body {
     border: solid black 0.01vw;
 }
 #product-img-1s {
-    border-radius: 0.4vw;
+    border-radius: 0.75vw;
     width: 6.5vw;
     height: 6.5vw;
     margin-top: 36vw;
@@ -125,7 +125,7 @@ body {
 }
 
 #product-img-2s {
-    border-radius: 0.4vw;
+    border-radius: 0.75vw;
     width: 6.5vw;
     height: 6.5vw;
     margin-top: 36vw;
@@ -140,7 +140,7 @@ body {
 }
 
 #product-img-3s {
-    border-radius: 0.4vw;
+    border-radius: 0.75vw;
     width: 6.5vw;
     height: 6.5vw;
     margin-top: 36vw;
@@ -155,7 +155,7 @@ body {
 }
 
 #product-img-4s {
-    border-radius: 0.4vw;
+    border-radius: 0.75vw;
     width: 6.5vw;
     height: 6.5vw;
     margin-top: 36vw;
@@ -170,7 +170,7 @@ body {
 }
 
 #product-img-5s {
-    border-radius: 0.4vw;
+    border-radius: 0.75vw;
     width: 6.5vw;
     height: 6.5vw;
     margin-top: 36vw;
