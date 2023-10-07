@@ -5,21 +5,21 @@ var option3 = 'Blue';
 
 
 function img1clicked(){
-    document.getElementById("product-img-1").src = "/Users/Carsten/VSCode/Website/files/Modern Desk Lights/all_blackbackground.webp"
+    document.getElementById("product-img-1").src = "all_blackbackground.webp"
 }
 function img2clicked(){
-    document.getElementById("product-img-1").src= "/Users/Carsten/VSCode/Website/files/Modern Desk Lights/bendingexample.webp"
+    document.getElementById("product-img-1").src= "bendingexample.webp"
 }
 
 function img3clicked(){
-    document.getElementById("product-img-1").src = "/Users/Carsten/VSCode/Website/files/Modern Desk Lights/green_whitebackground.webp"
+    document.getElementById("product-img-1").src = "green_whitebackground.webp"
 }
 
 function img4clicked(){
-    document.getElementById("product-img-1").src = "/Users/Carsten/VSCode/Website/files/Modern Desk Lights/blue_whitebackground.webp"
+    document.getElementById("product-img-1").src = "blue_whitebackground.webp"
 }
 function img5clicked(){
-    document.getElementById("product-img-1").src = "/Users/Carsten/VSCode/Website/files/Modern Desk Lights/pink_whitebackground.webp"
+    document.getElementById("product-img-1").src = "pink_whitebackground.webp"
 }
 
 
@@ -31,21 +31,21 @@ function optionClicked1(){
 document.querySelector('#optiondropdownmenu').style.display='none';
 document.querySelector('#select-option').innerHTML = option1;
 document.querySelector('#no-option').style.display= 'none';
-document.getElementById("product-img-1").src = "/Users/Carsten/VSCode/Website/files/Modern Desk Lights/green_whitebackground.webp"; 
+document.getElementById("product-img-1").src = "green_whitebackground.webp"; 
 
 }
 function optionClicked2(){
 document.querySelector('#optiondropdownmenu').style.display='none';
 document.querySelector('#select-option').innerHTML = option2;
 document.querySelector('#no-option').style.display= 'none';
-document.getElementById("product-img-1").src = "/Users/Carsten/VSCode/Website/files/Modern Desk Lights/pink_whitebackground.webp"; 
+document.getElementById("product-img-1").src = "pink_whitebackground.webp"; 
 
 }
 function optionClicked3(){
 document.querySelector('#optiondropdownmenu').style.display='none';
 document.querySelector('#select-option').innerHTML = option3;
 document.querySelector('#no-option').style.display= 'none';
-document.getElementById("product-img-1").src = "/Users/Carsten/VSCode/Website/files/Modern Desk Lights/blue_whitebackground.webp";
+document.getElementById("product-img-1").src = "blue_whitebackground.webp";
 }
 
 
