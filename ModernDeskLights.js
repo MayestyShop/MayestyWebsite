@@ -31,18 +31,21 @@ function optionClicked1(){
 document.querySelector('#optiondropdownmenu').style.display='none';
 document.querySelector('#select-option').innerHTML = option1;
 document.querySelector('#no-option').style.display= 'none';
+document.getElementById("product-img-1").src = "/Users/Carsten/VSCode/Website/files/Modern Desk Lights/green_whitebackground.webp"; 
+
 }
 function optionClicked2(){
 document.querySelector('#optiondropdownmenu').style.display='none';
 document.querySelector('#select-option').innerHTML = option2;
 document.querySelector('#no-option').style.display= 'none';
+document.getElementById("product-img-1").src = "/Users/Carsten/VSCode/Website/files/Modern Desk Lights/pink_whitebackground.webp"; 
 
 }
 function optionClicked3(){
 document.querySelector('#optiondropdownmenu').style.display='none';
 document.querySelector('#select-option').innerHTML = option3;
 document.querySelector('#no-option').style.display= 'none';
-
+document.getElementById("product-img-1").src = "/Users/Carsten/VSCode/Website/files/Modern Desk Lights/blue_whitebackground.webp";
 }
 
 
