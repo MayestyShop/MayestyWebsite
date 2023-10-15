@@ -5,6 +5,50 @@ body {
   overflow-x: hidden;
 }
 
+.menuslider{
+  margin-left:-80vw;width:60vw; height:200%;  position:fixed; background-color: white; z-index: 50; opacity:0%;
+  border-right:solid 0.5vw black;
+  box-shadow: 5vw 0vw 10vw -5vw black;
+}
+#menuhome{
+  margin-top: 12vh;
+  font-size:6vh;
+  width:60vw;
+  text-align: center;
+  line-height: 16.5vh;
+}
+
+.menutxt{
+  font-size:6vh;
+  width:60vw;
+  text-align: center;
+  line-height: 16.5vh;
+}
+
+#menumobile{
+  position: absolute;
+  width:6.5vw;
+  height:5vw;
+  margin-left:52.5vw;
+  margin-top:5vw;
+  opacity:90%;
+  cursor: pointer;
+}
+
+
+.headermobile{
+  width:100vw;
+  height:15vw;
+  border-bottom: solid 0.4vw black;
+  display:none;
+}
+
+#logoheadermobile {
+  width:25vw;
+  height:6.45vw;
+  margin-top: 4.275vw;
+  margin-left:7vw;
+}
 .header {
   background-color: Black;
   width: 100vw;
@@ -82,7 +126,7 @@ body {
   #txt-about-us {
     color:black;
     width:100vw;
-    height:40vw;
+    height:45vw;
     background-color: white;
     font-style: italic;
   }
@@ -99,3 +143,18 @@ body {
     padding-top:0vw;
     color:white;
   }
+
+  @media screen and (max-width:750px) {
+    .headermobile {display:block;}
+    .whitebox {height:12.5vw; display:none; }
+    #HomeHeader {display:none;}
+    #ShopHeader {display:none;}
+    #ContactHeader {display:none;}
+    #AboutusHeader {display:none;}
+    .imgheader {width:40vw; margin-left:30vw; margin-top:2.5vw;}
+    .blackbox {height:75vw; display:none;}
+    .header{display:none;}
+    #footer {height:20vw;margin-top:67.5vw; display: none;}
+    body {overflow-x: hidden;}
+    html {overflow-x: hidden;}
+  } 

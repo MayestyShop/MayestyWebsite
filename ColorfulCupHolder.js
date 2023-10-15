@@ -4,18 +4,18 @@ var option2 = 'Two Pieces';
 
 
 function img1clicked(){
-    document.getElementById("product-img-1").src = "ColorfulCupHolder1.webp"
+    document.getElementById("product-img-1").src = "/Users/Carsten/VSCode/Website/files/Colorful Cup Holder/ColorfulCupHolder1.webp"
 }
 function img2clicked(){
-    document.getElementById("product-img-1").src= "ColorfulCupHolder2.webp"
+    document.getElementById("product-img-1").src= "/Users/Carsten/VSCode/Website/files/Colorful Cup Holder/ColorfulCupHolder2.webp"
 }
 
 function img3clicked(){
-    document.getElementById("product-img-1").src = "ColorfulCupHolder3.webp"
+    document.getElementById("product-img-1").src = "/Users/Carsten/VSCode/Website/files/Colorful Cup Holder/ColorfulCupHolder3.webp"
 }
 
 function img4clicked(){
-    document.getElementById("product-img-1").src = "ColorfulCupHolder4.webp"
+    document.getElementById("product-img-1").src = "/Users/Carsten/VSCode/Website/files/Colorful Cup Holder/ColorfulCupHolder4.webp"
 }
 
 
@@ -55,3 +55,27 @@ switch (selectoption.textContent) {
         document.querySelector('#no-option').style.display= 'block';
         break
     }}
+
+    let menumargin=-60;
+    let menuopacity=4;
+    function menu(){
+    if(menuopacity<85){
+      const animationMenu = setInterval(menuanimation,5);
+      function menuanimation(){
+          if (menumargin > -0.01) {
+          clearInterval(animationMenu);
+          }
+          else{
+          menumargin += 5;
+          menuopacity += 7;
+          document.querySelector('.menuslider').style.marginLeft = menumargin + 'vw';
+          document.querySelector('.menuslider').style.opacity = menuopacity + '%';
+        }}
+    }
+    if(menuopacity>85){
+      menumargin = -60;
+      menuopacity = 4;
+      document.querySelector('.menuslider').style.marginLeft = -60 + 'vw';
+      document.querySelector('.menuslider').style.opacity = 0 + '%';
+    }
+    }

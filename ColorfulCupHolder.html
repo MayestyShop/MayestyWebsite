@@ -3,34 +3,44 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="ColorfulCupHolder.css">
-    <link rel="icon" type="image/x-icon" href="icon.ico" />
+    <link rel="icon" type="image/x-icon" href="/Users/Carsten/VSCode/Website/files/icon.ico" />
     <title >Colorful Cup Holder | MAYESTY</title>
 </head>
 
 <body>
- 
+  <div class="menuslider">
+    <a style="color:black; text-decoration: none;" href="index.html"><h1 id="menuhome">Home</h1></a>
+    <a style="color:black; text-decoration: none;" href="shop.html"><h1 class="menutxt">Shop</h1></a>
+    <a style="color:black; text-decoration: none;" href="contact.html"><h1 class="menutxt">Contact</h1></a>
+    <a style="color:black; text-decoration: none;" href="about-us.html"><h1 class="menutxt">About Us</h1></a>
+  </div>
 
 <!-- Headers-->
 <div class="header">
   <p class=txtheader>FREE SHIPPING WORDWIDE</p>
 </div>
 
+<div class="headermobile">
+  <a href="index.html"><img src="/Users/Carsten/VSCode/Website/files/logoheader.webp" alt="" id="logoheadermobile"></a>
+  <img src="/Users/Carsten/VSCode/Website/files/menu.webp" onclick="menu()"id="menumobile">
+</div>
+
 <div class="whitebox">
-  <a href="index"><img alt="Error" class="imgheader" src="logonobackground.png"></a>
-  <a id="HomeHeader"href="index" style="text-decoration: none; margin-top:0.2vw; color: black;"><p>Home</p></a>
-  <a id="ShopHeader"href="shop" style="text-decoration: none; margin-top:0.2vw; color: black;"><p>Shop</p></a>
-  <a id="AboutusHeader"href="about-us" style="text-decoration: none; margin-top:0.2vw; color: black;"><p>About Us</p></a>
-  <a id="ContactHeader"href="contact" style="text-decoration: none; margin-top:0.2vw; color: black; "><p>Contact</p></a>
+  <a href="index.html"><img alt="Error" class="imgheader" src="/Users/Carsten/VSCode/Website/files/logonobackground.png"></a>
+  <a id="HomeHeader"href="index.html" style="text-decoration: none; margin-top:0.2vw; color: black;"><p>Home</p></a>
+  <a id="ShopHeader"href="shop.html" style="text-decoration: none; margin-top:0.2vw; color: black;"><p>Shop</p></a>
+  <a id="AboutusHeader"href="about-us.html" style="text-decoration: none; margin-top:0.2vw; color: black;"><p>About Us</p></a>
+  <a id="ContactHeader"href="contact.html" style="text-decoration: none; margin-top:0.2vw; color: black; "><p>Contact</p></a>
 </div> 
 
     <div class="product-overview">
-        <h2 class="path-product-1"> <a class="pathlink"href="index">Home / </a>Colorful Cup Holder</h2>
+        <h2 class="path-product-1"> <a class="pathlink"href="index.html">Home / </a>Colorful Cup Holder</h2>
         <div id="product-div">
-            <img alt="Error" id="product-img-1" src="ColorfulCupHolder1.webp"/>
-            <img alt="Error" id="product-img-1s" onclick="img1clicked()" src="ColorfulCupHolder1.webp"/>
-            <img alt="Error" id="product-img-2s" onclick="img2clicked()"src="ColorfulCupHolder2.webp"/>
-            <img alt="Error" id="product-img-3s" onclick="img3clicked()"src="ColorfulCupHolder3.webp"/>
-            <img alt="Error" id="product-img-4s" onclick="img4clicked()"src="ColorfulCupHolder4.webp"/>
+            <img alt="Error" id="product-img-1" src="/Users/Carsten/VSCode/Website/files/Colorful Cup Holder/ColorfulCupHolder1.webp"/>
+            <img alt="Error" id="product-img-1s" onclick="img1clicked()" src="/Users/Carsten/VSCode/Website/files/Colorful Cup Holder/ColorfulCupHolder1.webp"/>
+            <img alt="Error" id="product-img-2s" onclick="img2clicked()"src="/Users/Carsten/VSCode/Website/files/Colorful Cup Holder/ColorfulCupHolder2.webp"/>
+            <img alt="Error" id="product-img-3s" onclick="img3clicked()"src="/Users/Carsten/VSCode/Website/files/Colorful Cup Holder/ColorfulCupHolder3.webp"/>
+            <img alt="Error" id="product-img-4s" onclick="img4clicked()"src="/Users/Carsten/VSCode/Website/files/Colorful Cup Holder/ColorfulCupHolder4.webp"/>
             <p id="name-product">Colorful Cup Holder</p>
             <p id="price-product">$12.49</p>
         </div>
@@ -49,7 +59,7 @@
         <!--Color-->
         <div id="Option-Dropdown">
           <p id="text-dropdown">Quantity</p>
-          <button onclick="optionDropdown()"id="option-button" ><p  id="select-option">Select</p><img alt="Error" id="arrowdropdown" src="arrow.png"></button>
+          <button onclick="optionDropdown()"id="option-button" ><p  id="select-option">Select</p><img alt="Error" id="arrowdropdown" src="/Users/Carsten/VSCode/Website/files/arrow.png"></button>
           <div id="optiondropdownmenu">
             <button onclick="optionClicked1()"id="option-1">- 1 Piece ($12.49)</button>
             <button onclick="optionClicked2()"id="option-2">- 2 Pieces ($14.49)</button>
@@ -68,9 +78,9 @@
 <!--Footer-->
 <div id="footer">
   <p style="position:absolute;font-size:1.1vw;padding-left:18vw;line-height:2.1vw;width:4.5vw; height:5.35vw; padding-top:2.8vw; ">
-    <a style="color:white; text-decoration: none;"href="shop">Shop</a>
-    <a style="color:white; text-decoration: none;" href="about-us" >About us</a>
-    <a style="color:white; text-decoration: none;" href="contact">Contact</a>
+    <a style="color:white; text-decoration: none;"href="shop.html">Shop</a>
+    <a style="color:white; text-decoration: none;" href="about-us.html" >About us</a>
+    <a style="color:white; text-decoration: none;" href="contact.html">Contact</a>
   </p>
   <p style="line-height:2.1vw;padding-top:2.8vw;position:absolute;padding-left:32vw;text-align: left; width:46vw">Mayesty offers all sorts of products that our customers desire. We do our best to satisfy every customer we get. We want to keep providing desired products to people all around the world. If you have any suggestions for products please send us a e-mail.</p>
 </div>

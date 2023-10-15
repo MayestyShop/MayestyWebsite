@@ -2,23 +2,34 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="about-us.css">
-    <link rel="icon" type="image/x-icon" href="icon.ico" />
+    <link rel="icon" type="image/x-icon" href="/Users/Carsten/VSCode/Website/files/icon.ico" />
     <title >About Us | MAYESTY</title>
 </head>
 
 <body>
+  <div class="menuslider">
+    <a style="color:black; text-decoration: none;" href="index.html"><h1 id="menuhome">Home</h1></a>
+    <a style="color:black; text-decoration: none;" href="shop.html"><h1 class="menutxt">Shop</h1></a>
+    <a style="color:black; text-decoration: none;" href="contact.html"><h1 class="menutxt">Contact</h1></a>
+    <a style="color:black; text-decoration: none;" href="about-us.html"><h1 class="menutxt">About Us</h1></a>
+  </div>
 
 <!-- Headers-->
 <div class="header">
   <p class=txtheader>FREE SHIPPING WORDWIDE</p>
 </div>
 
+<div class="headermobile">
+  <a href="index.html"><img src="/Users/Carsten/VSCode/Website/files/logoheader.webp" alt="" id="logoheadermobile"></a>
+  <img src="/Users/Carsten/VSCode/Website/files/menu.webp" onclick="menu()"id="menumobile">
+</div>
+
 <div class="whitebox">
-  <a href="index"><img alt="Error" alt="Error" class="imgheader" src="logonobackground.png"></a>
-  <a id="HomeHeader"href="index" style="text-decoration: none; margin-top:0.2vw; color: black;"><p>Home</p></a>
-  <a id="ShopHeader"href="shop" style="text-decoration: none; margin-top:0.2vw; color: black;"><p>Shop</p></a>
-  <a id="AboutusHeader"href="about-us" style="text-decoration: none; margin-top:0.2vw; color: black;"><p>About Us</p></a>
-  <a id="ContactHeader"href="contact" style="text-decoration: none; margin-top:0.2vw; color: black; "><p>Contact</p></a>
+  <a href="index.html"><img alt="Error" alt="Error" class="imgheader" src="/Users/Carsten/VSCode/Website/files/logonobackground.png"></a>
+  <a id="HomeHeader"href="index.html" style="text-decoration: none; margin-top:0.2vw; color: black;"><p>Home</p></a>
+  <a id="ShopHeader"href="shop.html" style="text-decoration: none; margin-top:0.2vw; color: black;"><p>Shop</p></a>
+  <a id="AboutusHeader"href="about-us.html" style="text-decoration: none; margin-top:0.2vw; color: black;"><p>About Us</p></a>
+  <a id="ContactHeader"href="contact.html" style="text-decoration: none; margin-top:0.2vw; color: black; "><p>Contact</p></a>
 </div> 
 
 
@@ -26,20 +37,34 @@
   <div id="txt-about-us">
       <p style="line-height:5vw;padding-top:1.4vw;margin-top:0vw;text-align:center; font-weight:bold; font-size:3.6vw;">About us</p>
       <p style="margin-top:-3vw;width:72vw;margin-right:14vw;margin-left:14vw;text-align:center; font-size:2.5vw; font-weight:600;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; line-height: 7.1vw;">Mayesty offers all sorts of products that our customers desire. We do our best to satisfy every customer we get. We want to keep providing desired products to people all around the world. If you have any suggestions for products please send us a e-mail.</p>
-      <a id="contactusclick"href="contact"><p id="contactusclick" style="margin-top:-2vw;width:10.5vw;margin-left:44.75vw;text-align:center; font-size:2.25vw; font-weight:600;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; line-height: 3vw;">Contact us</p></a>
+      <a id="contactusclick"href="contact.html"><p id="contactusclick" style="margin-top:-2vw;width:10.5vw;margin-left:44.75vw;text-align:center; font-size:2.25vw; font-weight:600;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; line-height: 3vw;">Contact us</p></a>
     </div>
 
 
-<!--Footer-->
-<div id="footer">
-  <p style="position:absolute;font-size:1.1vw;padding-left:18vw;line-height:2.1vw;width:4.5vw; height:5.35vw; padding-top:2.8vw; ">
-    <a style="color:white; text-decoration: none;"href="shop">Shop</a>
-    <a style="color:white; text-decoration: none;" href="about-us" >About us</a>
-    <a style="color:white; text-decoration: none;" href="contact">Contact</a>
-  </p>
-  <p style="line-height:2.1vw;padding-top:2.8vw;position:absolute;padding-left:32vw;text-align: left; width:46vw">Mayesty offers all sorts of products that our customers desire. We do our best to satisfy every customer we get. We want to keep providing desired products to people all around the world. If you have any suggestions for products please send us a e-mail.</p>
-</div>
     <script>
+      let menumargin=-60;
+  let menuopacity=4;
+  function menu(){
+  if(menuopacity<85){
+    const animationMenu = setInterval(menuanimation,5);
+    function menuanimation(){
+        if (menumargin > -0.01) {
+        clearInterval(animationMenu);
+        }
+        else{
+        menumargin += 5;
+        menuopacity += 7;
+        document.querySelector('.menuslider').style.marginLeft = menumargin + 'vw';
+        document.querySelector('.menuslider').style.opacity = menuopacity + '%';
+      }}
+  }
+  if(menuopacity>85){
+    menumargin = -60;
+    menuopacity = 4;
+    document.querySelector('.menuslider').style.marginLeft = -60 + 'vw';
+    document.querySelector('.menuslider').style.opacity = 0 + '%';
+  }
+  }
       function menuClicked(){
         document.querySelector('#menu').style.display= 'block';
     

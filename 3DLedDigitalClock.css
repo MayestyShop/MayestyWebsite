@@ -6,6 +6,51 @@ body {
     overflow-y: visible;
   }
   
+  .menuslider{
+    margin-left:-80vw;width:60vw; height:200%;  position:fixed; background-color: white; z-index: 50; opacity:0%;
+    border-right:solid 0.5vw black;
+    box-shadow: 5vw 0vw 10vw -5vw black;
+  }
+  #menuhome{
+    margin-top: 12vh;
+    font-size:6vh;
+    width:60vw;
+    text-align: center;
+    line-height: 16.5vh;
+  }
+  
+  .menutxt{
+    font-size:6vh;
+    width:60vw;
+    text-align: center;
+    line-height: 16.5vh;
+  }
+  
+  #menumobile{
+    position: absolute;
+    width:6.5vw;
+    height:5vw;
+    margin-left:52.5vw;
+    margin-top:5vw;
+    opacity:90%;
+    cursor: pointer;
+  }
+  
+  
+  .headermobile{
+    width:100vw;
+    height:15vw;
+    border-bottom: solid 0.4vw black;
+    display:none;
+  }
+  
+  #logoheadermobile {
+    width:25vw;
+    height:6.45vw;
+    margin-top: 4.275vw;
+    margin-left:7vw;
+  }
+
   .header {
     background-color: Black;
     width: 100vw;
@@ -100,7 +145,7 @@ body {
     margin-top:3vw;
 }
 #product-img-1 {
-    border-radius: 1.5vw;
+    border-radius: 0.5vw;
     width: 36vw;
     height:36vw;
     margin-top: -0.5vw;
@@ -110,7 +155,7 @@ body {
     border: solid black 0.01vw;
 }
 #product-img-1s {
-    border-radius: 0.75vw;
+    border-radius: 0.4vw;
     width: 6.5vw;
     height: 6.5vw;
     margin-top: 36vw;
@@ -125,7 +170,7 @@ body {
 }
 
 #product-img-2s {
-    border-radius: 0.75vw;
+    border-radius: 0.4vw;
     width: 6.5vw;
     height: 6.5vw;
     margin-top: 36vw;
@@ -140,7 +185,7 @@ body {
 }
 
 #product-img-3s {
-    border-radius: 0.75vw;
+    border-radius: 0.4vw;
     width: 6.5vw;
     height: 6.5vw;
     margin-top: 36vw;
@@ -155,7 +200,7 @@ body {
 }
 
 #product-img-4s {
-    border-radius: 0.75vw;
+    border-radius: 0.4vw;
     width: 6.5vw;
     height: 6.5vw;
     margin-top: 36vw;
@@ -170,7 +215,7 @@ body {
 }
 
 #product-img-5s {
-    border-radius: 0.75vw;
+    border-radius: 0.4vw;
     width: 6.5vw;
     height: 6.5vw;
     margin-top: 36vw;
@@ -216,7 +261,7 @@ body {
 #option-button { 
     border-radius: 0.5vw;
     background-color: white;
-    border:solid gray 0.12vw;
+    border:solid black 0.12vw;
     font-size: 1vw;
     width: 27vw;
     height:3.25vw;
@@ -335,26 +380,11 @@ body {
     margin-left:0vw;
 }
 
-#option-button { 
-    border-radius: 0.5vw;
-    background-color: white;
-    border: solid black 0.12vw; 
-    font-size: 1vw;
-    width: 27vw;
-    height:3.25vw;
-    text-align: left;
-    padding-left:0.75vw;
-    z-index: 1;
-}
-
-#option-button:hover{
-    cursor:pointer;
-}
-
 #select-option{
     position:absolute;
     margin:0vw; 
     font-size:1.1vw;
+    margin-left:0.25vw;
 }
 
 #select-frame {
@@ -504,6 +534,7 @@ body {
   }
 
   @media screen and (max-width:750px) {
+    .headermobile {display:block;}
     .header {display:none;}
     .product-overview {margin: 0; height: 425vw; width:100vw;}
     #product-img-1 {width:95vw; height:95vw; opacity:100%; margin-left:2.5vw; margin-top:1vw; border-radius: 5vw;}
