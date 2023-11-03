@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Shopify</title>
+</head>
+<body>
+<style>
+  body {
+    background-color: #CFCFCF;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #box {
+    background-color: white;
+    width:65vw;
+    height:65vh;
+    margin-left:17.5vw;
+    margin-top:17.5vh;
+    box-shadow: 0vw 0vw 5vw -1vw black;
+  }
+
+  .header1 {
+    font-size:4vw;
+    text-align: center;
+    padding-top:15%;
+  }
+
+  .header2 {
+    font-size:2vw;
+    text-align: center;
+    padding-top:-5%;
+  }
+
+  .header3 {
+    font-size:1.5vw;
+    text-align: center;
+  }
+
+  #timer {  
+  text-align: center;
+  font-size: 2vw;
+  width:100vw;
+  font-weight: 300;
+  color: black;
+  align-content: center;
+  
+  }
+
+  #countdown {
+    font-size:3vw;
+    position:absolute;
+    text-align: center;
+    display: none;
+    width:65vw;
+
+  }
+
+</style>
+
+<div id="box">
+
+  <h1 class="header1">Welcome to Mayesty</h1>
+  <h2 class="header2">This site is currently closed</h2>
+  <p class="header3">We are expected to launch at the <b style="text-decoration: underline; font-size:1.25vw;">23th of November</b></p>
+  <div id="timer">
+    <h1 id="countdown">0 days</h1>
+  </div>
+</div>
+
+<script>
+  function updateTimer() {
+  future  = Date.parse("November 23, 2023 00:00:00");
+  now     = new Date();
+  diff    = future - now;
+
+  days  = Math.floor( diff / (1000*60*60*24) );
+  hours = Math.floor( diff / (1000*60*60) );
+  mins  = Math.floor( diff / (1000*60) );
+  secs  = Math.floor( diff / 1000 );
+
+
+  d = days;
+  h = hours - days  * 24;
+  m = mins  - hours * 60;
+  s = secs  - mins * 60;
+
+
+  document.querySelector('#countdown').innerHTML = d + " day " + h + " hours " + m + " minutes " + s + " seconds";
+
+  
+  document.querySelector('#countdown').style.display = "block";
+
+}
+setInterval('updateTimer()', 200 );
+</script>
+</body>
+</html>
