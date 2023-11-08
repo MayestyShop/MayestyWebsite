@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>MAYESTY</title>
-    <link rel="icon" type="image/x-icon" href="/Users/carsten/VSCode/Website/files/logo.ico" />
+    <link rel="icon" type="image/x-icon" href="logo.ico" />
 
 </head>
 <body>
@@ -10,11 +10,10 @@
   body {
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
-    color:black;
+    color:white;
   }
 
   #box {
-    background-color: white;
     width:65vw;
     height:65vh;
     margin-left:17.5vw;
@@ -24,9 +23,9 @@
   }
 
   .header1 {
-    font-size:4vw;
+    font-size:4.5vw;
     text-align: center;
-    padding-top:17.5%;
+    padding-top:21.5%;
   }
 
   .header2 {
@@ -47,23 +46,26 @@
   font-weight: 300;
   color: black;
   align-content: center;
-  
   }
 
   #countdown {
-    font-size:3vw;
+    color:white;
+    font-size:2.5vw;
     position:absolute;
     text-align: center;
     display: none;
-    width:65vw;
+    margin-left:37.5vw;
+    width:25vw;
+    border-radius: 5vw;
+    background-color: rgba(255, 255, 255, 0.25);
 
   }
 
   #logo{
     position: absolute;
-    width:7.5vw;
-    padding-left:28.75vw;
-    padding-right:28.75vw;
+    width:15vw;
+    padding-left:42.5vw;
+    padding-right:42.5vw;
     padding-top:2vw;
     margin-left: auto;
     margin-right: auto;
@@ -71,16 +73,15 @@
   }
 </style>
 
-<div id="box">
-  <img id="logo"src="logo.png" alt="">
 
+  <img id="logo"src="logoWhite.png" alt="">
   <h1 class="header1">Welcome to Mayesty</h1>
   <h2 class="header2">This site is currently under construction</h2>
   <p class="header3">We plan to launch at the <b style="text-decoration: underline; font-size:1.25vw;">20th of November</b></p>
   <div id="timer">
     <h1 id="countdown"></h1>
   </div>
-</div>
+
 
 <script>
   function updateTimer() {
@@ -93,11 +94,12 @@
   mins  = Math.floor( diff / (1000*60) );
   secs  = Math.floor( diff / 1000 );
 
-
   d = days;
   h = hours - days  * 24;
   m = mins  - hours * 60;
   s = secs  - mins * 60;
+
+  percentage = (days/20)*100;
 
 
   document.querySelector('#countdown').innerHTML = d + "d " + h + "h " + m + "m " + s + "s";
