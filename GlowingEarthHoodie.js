@@ -4,7 +4,7 @@ x = 1;
     }
 
     function eglang(){
-      document.querySelector('#langimg').src = "/Users/Carsten/VSCode/Website/files/ukflag.png";
+      document.querySelector('#langimg').src = "ukflag.png";
       document.querySelector('#langmenu').style.display = "none";
       document.querySelector('#shopnowtxt').innerHTML = "Shop Now";
       document.querySelector('.txtheader').innerHTML = "NEW COLLECTION";
@@ -31,7 +31,7 @@ x = 1;
     }
 
     function frlang(){
-        document.querySelector('#langimg').src = "/Users/Carsten/VSCode/Website/files/frflag.png";
+        document.querySelector('#langimg').src = "frflag.png";
         document.querySelector('#langmenu').style.display = "none";
         document.querySelector('#shopnowtxt').innerHTML = "Acheter";
         document.querySelector('.txtheader').innerHTML = "NOUVELLE COLLECTION";
@@ -57,7 +57,7 @@ x = 1;
     }
 
     function delang(){
-        document.querySelector('#langimg').src = "/Users/Carsten/VSCode/Website/files/deflag.png";
+        document.querySelector('#langimg').src = "deflag.png";
         document.querySelector('#langmenu').style.display = "none";
         document.querySelector('#shopnowtxt').innerHTML = "Einkaufen";
         document.querySelector('.txtheader').innerHTML = "NEUE KOLLEKTION";
@@ -85,7 +85,7 @@ x = 1;
     }
 
     function nllang(){
-      document.querySelector('#langimg').src = "/Users/Carsten/VSCode/Website/files/nlflag.png";
+      document.querySelector('#langimg').src = "nlflag.png";
       document.querySelector('#langmenu').style.display = "none";
       document.querySelector('#langmenu').style.pointerEvents = "all";
       document.querySelector('#shopnowtxt').innerHTML = "Shop Nu";
@@ -119,13 +119,13 @@ var option4 = 'XL';
 
 
 function img1clicked(){
-    document.getElementById("product-img-1").src = "/Users/carsten/VSCode/Website/hoodies/GlowingEarthF.png"
+    document.getElementById("product-img-1").src = "GlowingEarthF.png"
     document.getElementById("div-product-1").style.border = "solid black 0.1vw";
     document.getElementById("div-product-2").style.border = "solid black 0vw";
 
 }
 function img2clicked(){
-    document.getElementById("product-img-1").src= "/Users/carsten/VSCode/Website/hoodies/blackB.png"
+    document.getElementById("product-img-1").src= "blackB.png"
     document.getElementById("div-product-2").style.border = "solid black 0.1vw";
     document.getElementById("div-product-1").style.border = "solid black 0vw";
 
@@ -206,19 +206,19 @@ switch (selectoption.textContent) {
     }
 
     document.querySelector('#Header1').addEventListener('click', function() {
-        window.location.href = '/Users/carsten/VSCode/Website/code/index.html';
+        window.location.href = 'index';
       });
       
       document.querySelector('#Header2').addEventListener('click', function() {
-        window.location.href = '/Users/carsten/VSCode/Website/code/shop.html';
+        window.location.href = 'shop';
       });
       
       document.querySelector('#Header3').addEventListener('click', function() {
-        window.location.href = '/Users/carsten/VSCode/Website/code/collections.html';
+        window.location.href = 'collections';
       });
       
       document.querySelector('#Header4').addEventListener('click', function() {
-        window.location.href = '/Users/carsten/VSCode/Website/code/support.html';
+        window.location.href = 'support';
       });
       
       a=0
