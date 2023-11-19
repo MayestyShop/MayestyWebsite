@@ -154,7 +154,7 @@ body {
 #collection1 {
   width: 100vw;
   height:35vw;
-  background: url("/Users/carsten/VSCode/Website/files/ufc fight.webp") no-repeat;
+  background: url("ufc fight.webp") no-repeat;
   background-size: 100vw;
   filter: brightness(80%);
   margin-top: 4.5vw;
@@ -207,7 +207,7 @@ body {
   display: inline-block;
   width: 21.75vw;
   height: 21.75vw;
-  background: url('/Users/carsten/VSCode/Website/hoodies/fighterB.png') no-repeat;
+  background: url('fighterB.png') no-repeat;
   background-size: 16.25vw;
   background-position: 2.75vw;
   margin-top:2.625vw;
@@ -220,7 +220,7 @@ body {
   display: inline-block;
   width: 21.75vw;
   height: 21.75vw;
-  background: url('/Users/carsten/VSCode/Website/hoodies/relentlessashgrayB.png') no-repeat;
+  background: url('relentlessashgrayB.png') no-repeat;
   background-size: 16.25vw;
   background-position: 2.75vw;
   background-color: whitesmoke;
@@ -232,7 +232,7 @@ body {
   display: inline-block;
   width: 21.75vw;
   height: 21.75vw;
-  background: url('/Users/carsten/VSCode/Website/hoodies/WarriorB.png') no-repeat;
+  background: url('WarriorB.png') no-repeat;
   background-size: 16.25vw;
   background-position: 2.75vw;
   background-color: whitesmoke;
@@ -244,7 +244,7 @@ body {
   display: inline-block;
   width: 21.75vw;
   height: 21.75vw;
-  background: url('/Users/carsten/VSCode/Website/hoodies/UnderCoverB.png') no-repeat;
+  background: url('UnderCoverB.png') no-repeat;
   background-size: 16.25vw;
   background-position: 2.75vw;
   background-color: whitesmoke;
