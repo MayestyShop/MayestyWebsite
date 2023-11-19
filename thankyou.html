@@ -3,7 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title >Bedankt Voor Uw Aankoop</title>
-    <link rel="icon" type="image/x-icon" href="/Users/carsten/VSCode/Website/logo.ico" />
+    <link rel="icon" type="image/x-icon" href="logo.ico" />
   </head>
 <style>
     body {width:100vw;font-family: Arial, Helvetica, sans-serif; background-color: black; overflow: hidden;}
@@ -30,11 +30,11 @@
     }
 </style>
 <body>
-    <img id="logo"src="/Users/carsten/VSCode/Website/files/logoWhite.png" alt=""/>
+    <img id="logo"src="logoWhite.png" alt=""/>
 <div>
     <h1 >Bedankt Voor Uw Aankoop</h1>
     <h6 >Wij versturen uw artikel zo snel mogelijk.</h6>
-    <a href="index.html" id="back">Ga Terug<p onload="timer()"id="timer">(5s)</p></a>
+    <a href="index" id="back">Ga Terug<p onload="timer()"id="timer">(5s)</p></a>
 </div>
 
 <script>
@@ -45,7 +45,7 @@
         console.log(x);
         document.querySelector('#timer').innerHTML = "(" + x + 's' + ")";
         if (x==0){
-            window.location = '/Users/carsten/VSCode/Website/code/index.html';
+            window.location = 'index';
             console.log('Now');
         }
     }
