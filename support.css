@@ -1,0 +1,458 @@
+body {
+  font-weight: 200;
+  font-family:Avenir, Arial,sans-serif;
+  margin: 0vw;
+  overflow-x: hidden;
+}
+
+.header {
+  background: rgb(110,157,186);
+  background: linear-gradient(90deg, rgba(110,157,186,1) 18%, rgba(0,170,255,1) 100%);  
+  width: 100vw;
+  height:1.5vw;
+  margin-top:0vw;
+  margin-bottom: auto;
+  position: fixed;
+  z-index:10;
+  top: 0;
+}
+
+.txtheader {
+    letter-spacing: 0.25vw;
+    font-size: 0.8vw;
+    color: white;
+    margin:0;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5vw;
+}
+
+
+.whitebox {
+  top:1.5vw;
+  background: #1E1E1E;
+  width: 100vw;
+  height: 3vw;
+  margin-top: 0vw;
+  margin-bottom: 0vw;
+  position: fixed;
+  z-index:10;
+  border-bottom: solid white 0.1vw;
+  border-top: solid white 0.1vw;
+}
+
+.imgheader {
+    opacity: 80%;
+    width: 15vw;
+    margin-left: 5vw;
+    padding-top: 1vw;
+    margin-bottom: 0vw;
+    position: absolute;
+    cursor: pointer;
+}
+
+
+#Header1 {
+  font-size:1vw;
+  font-style:italic;
+  font-weight: 500;
+  position: absolute;
+  margin-left:36vw;
+  padding: 0;
+  height:3vw;
+  width:7vw;
+  line-height: 3vw;
+  text-align: center;
+  pointer-events: visible;
+  cursor: pointer;
+  color: white;
+}
+
+#Header2 {
+  font-size:1vw;
+  font-style:italic;
+  font-weight: 500;
+  position: absolute;
+  margin-left:43vw;
+  padding: 0;
+  height:3vw;
+  width:7vw;
+  line-height: 3vw;
+  text-align: center;
+  pointer-events: visible;
+  cursor: pointer;
+  color: white;
+}
+
+#Header3 {
+  font-size:1vw;
+  font-style:italic;
+  font-weight: 500;
+  position: absolute;
+  margin-left:50vw;
+  padding: 0;
+  height:3vw;
+  width:7vw;
+  line-height: 3vw;
+  text-align: center;
+  pointer-events: visible;
+  cursor: pointer;
+  color: white;
+}
+
+#Header4 {
+  font-size:1vw;
+  font-style:italic;
+  font-weight: 500;
+  position: absolute;
+  margin-left:57vw;
+  padding: 0;
+  height:3vw;
+  width:7vw;
+  line-height: 3vw;
+  text-align: center;
+  pointer-events: visible;
+  cursor: pointer;
+  color: white;
+}
+
+#Header1:hover, #Header2:hover, #Header3:hover, #Header4:hover{
+  background-color: #ADADAD ;
+  color:white
+}
+
+#hdr {
+  width:100vw;
+  height:5vw;
+  margin-top:4.5vw;
+}
+
+#titlepage{
+  font-size: 3.5vw; line-height: 5vw; margin-left: 6.5vw; position: absolute; margin-top: 4.5vw;
+}
+
+#faqs {
+  width:65vw;
+  height:70vw;
+  margin-left: 17.5vw;
+  margin-top:9.5vw;
+  background-color: white;
+}
+
+#faq1 {
+  width:65vw;
+  height:5vw;
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+#faq1txt {
+  position:absolute;font-size:1.1vw;line-height: 5vw; margin-top: 0; margin-left: 1vw;user-select: none;
+}
+
+#faq1img {
+  height:1vw; margin-top: 2vw; margin-left: 60vw; user-select: none;
+}
+
+#faq1drop {
+  width: 65vw;
+  height:2.5vw;
+  background-color: white;
+  line-height:2.5vw;
+  display: none;
+  user-select: none;
+}
+
+
+#faq2 {
+  margin-top:1vw;
+  width:65vw;
+  height:5vw;
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+#faq2txt {
+  position:absolute;font-size:1.1vw;line-height: 5vw; margin-top: 0; margin-left: 1vw;user-select: none;
+}
+
+#faq2img {
+  height:1vw; margin-top: 2vw; margin-left: 60vw;user-select: none;
+}
+
+#faq2drop {
+  width: 65vw;
+  height:2.5vw;
+  background-color: white;
+  line-height:2.5vw;
+  display: none;
+  user-select: none;
+}
+
+#faq3 {
+  margin-top:1vw;
+  width:65vw;
+  height:5vw;
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+#faq3txt {
+  position:absolute;font-size:1.1vw;line-height: 5vw; margin-top: 0; margin-left: 1vw;user-select: none;
+}
+
+#faq3img {
+  height:1vw; margin-top: 2vw; margin-left: 60vw; user-select: none;
+}
+
+#faq3drop {
+  width: 65vw;
+  height:4vw;
+  background-color: white;
+  line-height:2vw;
+  display: none;
+  user-select: none;
+}
+
+#faq4 {
+  margin-top:1vw;
+  width:65vw;
+  height:5vw;
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+#faq4txt {
+  position:absolute;font-size:1.1vw;line-height: 5vw; margin-top: 0; margin-left: 1vw;  user-select: none;
+}
+
+#faq4img {
+  height:1vw; margin-top: 2vw; margin-left: 60vw;  user-select: none;
+}
+
+#faq4drop {
+  width: 65vw;
+  height:4vw;
+  background-color: white;
+  line-height:2vw;
+  display: none;
+  user-select: none;
+}
+
+#faq5 {
+  margin-top:1vw;
+  width:65vw;
+  height:5vw;
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+#faq5txt {
+  position:absolute;font-size:1.1vw;line-height: 5vw; margin-top: 0; margin-left: 1vw;  user-select: none;
+}
+
+#faq5img {
+  height:1vw; margin-top: 2vw; margin-left: 60vw;  user-select: none;
+}
+
+#faq5drop {
+  width: 65vw;
+  height:6vw;
+  background-color: white;
+  line-height:2vw;
+  display: none;
+  user-select: none;
+}
+
+#faq6 {
+  margin-top:1vw;
+  width:65vw;
+  height:5vw;
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+#faq6txt {
+  position:absolute;font-size:1.1vw;line-height: 5vw; margin-top: 0; margin-left: 1vw;  user-select: none;
+}
+
+#faq6img {
+  height:1vw; margin-top: 2vw; margin-left: 60vw;  user-select: none;
+}
+
+#faq6drop {
+  width: 65vw;
+  height:8vw;
+  background-color: white;
+  line-height:2vw;
+  display: none;
+  user-select: none;
+}
+
+#faq7 {
+  margin-top:1vw;
+  width:65vw;
+  height:5vw;
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+#faq7txt {
+  position:absolute;font-size:1.1vw;line-height: 5vw; margin-top: 0; margin-left: 1vw;  user-select: none;
+}
+
+#faq7img {
+  height:1vw; margin-top: 2vw; margin-left: 60vw;  user-select: none;
+}
+
+#faq7drop {
+  width: 65vw;
+  height:2.5vw;
+  background-color: white;
+  line-height:2vw;
+  display: none;
+  user-select: none;
+}
+
+#faq8 {
+  margin-top:1vw;
+  width:65vw;
+  height:5vw;
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+#faq8txt {
+  position:absolute;font-size:1.1vw;line-height: 5vw; margin-top: 0; margin-left: 1vw;  user-select: none;
+}
+
+#faq8img {
+  height:1vw; margin-top: 2vw; margin-left: 60vw;  user-select: none;
+}
+
+#faq8drop {
+  width: 65vw;
+  height:2.5vw;
+  background-color: white;
+  line-height:2vw;
+  display: none;
+  user-select: none;
+}
+
+#faq9 {
+  margin-top:1vw;
+  width:65vw;
+  height:5vw;
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+#faq9txt {
+  position:absolute;font-size:1.1vw;line-height: 5vw; margin-top: 0; margin-left: 1vw;  user-select: none;
+}
+
+#faq9img {
+  height:1vw; margin-top: 2vw; margin-left: 60vw;  user-select: none;
+}
+
+#faq9drop {
+  width: 65vw;
+  height:8vw;
+  background-color: white;
+  line-height:2vw;
+  display: none;
+  user-select: none;
+}
+
+#faq10 {
+  margin-top:1vw;
+  width:65vw;
+  height:5vw;
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+#faq10txt {
+  position:absolute;font-size:1.1vw;line-height: 5vw; margin-top: 0; margin-left: 1vw;  user-select: none;
+}
+
+#faq10img {
+  height:1vw; margin-top: 2vw; margin-left: 60vw;  user-select: none;
+}
+
+#faq10drop {
+  width: 65vw;
+  height:8vw;
+  background-color: white;
+  line-height:2vw;
+  display: none;
+  user-select: none;
+}
+
+#droptxt{
+  margin: 0; font-size: 1vw; margin-left: 1vw;
+}
+
+#footer {
+  bottom: 0;
+  font-size:1vw;
+  background-color: black;
+  width:100vw;
+  height: 13.6vw;
+  margin-top:0vw;
+  padding-top:0vw;
+  color:white;
+}
+
+@media screen and (max-width:750px) {
+  .header {height:6vw; top:0;}
+  .txtheader {line-height: 6vw; font-size: 2vw;}
+  .whitebox {height:12vw; top:6vw;}
+  #Header1 {height:12vw;font-size:3vw; width:20vw; margin-left: 10vw; line-height: 12vw;}
+  #Header2 {height:12vw;font-size:3vw; width:20vw; margin-left: 30vw; line-height: 12vw;}
+  #Header3 {height:12vw;font-size:3vw; width:20vw; margin-left: 50vw; line-height: 12vw;}
+  #Header4 {height:12vw;font-size:3vw; width:20vw; margin-left: 70vw; line-height: 12vw;}
+  #footer{display: none;}
+  #hdr{margin-top:18vw;}
+  #titlepage{font-size:5vw; line-height: 10vw;}
+  #faqs{margin-top: 15vw; width: 90vw; margin-left: 5vw;}
+  #faq1{width:80vw; margin-left: 5vw; height: 10vw;}
+  #faq2{width:80vw; margin-left: 5vw; height: 10vw; margin-top:2.5vw;}
+  #faq3{width:80vw; margin-left: 5vw; height: 10vw; margin-top:2.5vw;}
+  #faq4{width:80vw; margin-left: 5vw; height: 10vw; margin-top:2.5vw;}
+  #faq5{width:80vw; margin-left: 5vw; height: 10vw; margin-top:2.5vw;}
+  #faq6{width:80vw; margin-left: 5vw; height: 10vw; margin-top:2.5vw;}
+  #faq7{width:80vw; margin-left: 5vw; height: 10vw; margin-top:2.5vw;}
+  #faq8{width:80vw; margin-left: 5vw; height: 10vw; margin-top:2.5vw;}
+  #faq9{width:80vw; margin-left: 5vw; height: 10vw; margin-top:2.5vw;}
+  #faq1txt{font-size:2.25vw; line-height: 10vw; margin-left: 2.5vw;}
+  #faq2txt{font-size:2.25vw; line-height: 10vw; margin-left: 2.5vw;}
+  #faq3txt{font-size:2.25vw; line-height: 10vw; margin-left: 2.5vw;}
+  #faq4txt{font-size:2.25vw; line-height: 10vw; margin-left: 2.5vw;}
+  #faq5txt{font-size:2.25vw; line-height: 10vw; margin-left: 2.5vw;}
+  #faq6txt{font-size:2.25vw; line-height: 10vw; margin-left: 2.5vw;}
+  #faq7txt{font-size:2.25vw; line-height: 10vw; margin-left: 2.5vw;}
+  #faq8txt{font-size:2.25vw; line-height: 10vw; margin-left: 2.5vw;}
+  #faq9txt{font-size:2.25vw; line-height: 10vw; margin-left: 2.5vw;}
+  #faq1img{height:2vw; margin-top:4vw; margin-left: 70vw;}
+  #faq2img{height:2vw; margin-top:4vw; margin-left: 70vw;}
+  #faq3img{height:2vw; margin-top:4vw; margin-left: 70vw;}
+  #faq4img{height:2vw; margin-top:4vw; margin-left: 70vw;}
+  #faq5img{height:2vw; margin-top:4vw; margin-left: 70vw;}
+  #faq6img{height:2vw; margin-top:4vw; margin-left: 70vw;}
+  #faq7img{height:2vw; margin-top:4vw; margin-left: 70vw;}
+  #faq8img{height:2vw; margin-top:4vw; margin-left: 70vw;}
+  #faq9img{height:2vw; margin-top:4vw; margin-left: 70vw;}
+  #droptxt{font-size: 2.25vw;}
+  #faq1drop{width:80vw; margin-left: 5vw; height: 5vw; line-height: 5vw;}
+  #faq2drop{width:80vw; margin-left: 5vw; height: 5vw; line-height: 5vw;}
+  #faq3drop{width:80vw; margin-left: 5vw; height: 10vw; line-height: 3.5vw;}
+  #faq4drop{width:80vw; margin-left: 5vw; height: 10vw; line-height: 3.5vw;}
+  #faq5drop{width:80vw; margin-left: 5vw; height: 17.5vw; line-height: 3.5vw;}
+  #faq6drop{width:80vw; margin-left: 5vw; height: 25vw; line-height: 4vw;}
+  #faq7drop{width:80vw; margin-left: 5vw; height: 7.5vw; line-height: 3.5vw;}
+  #faq8drop{width:80vw; margin-left: 5vw; height: 7.5vw; line-height: 3.5vw;}
+  #faq9drop{width:80vw; margin-left: 5vw; height: 5vw; line-height: 5vw;}
+
+
+}

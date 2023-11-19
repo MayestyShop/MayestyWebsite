@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title >Bedankt Voor Uw Aankoop</title>
+    <link rel="icon" type="image/x-icon" href="/Users/carsten/VSCode/Website/logo.ico" />
+  </head>
+<style>
+    body {width:100vw;font-family: Arial, Helvetica, sans-serif; background-color: black; overflow: hidden;}
+
+    #logo{
+        width:12vw; position: absolute; margin-top: 10vw; margin-left: 44vw; padding: 0vw;
+    }
+
+    h1 {
+        position:absolute;font-size: 2.5vw; width:100vw; text-align: center; height:20vh; margin-top:27vw; color: white;
+    }
+    
+    h6 {
+        position:absolute;font-size: 1vw; width:100vw; text-align: center; height:20vh; margin-top:31vw; color: white;
+    }
+
+    #back{margin-top:32.5vw;position:absolute;font-size:1.5vw;color:blue; text-decoration: none; font-weight: bold;width:100vw; text-align: center;}
+
+    @media screen and (max-width:750px) {
+        #logo{width:25vw; margin-top:25vw; margin-left: 37.5vw;}
+        h1{margin-top: 65vw; font-size: 5vw;}
+        h6{margin-top: 72.5vw; font-size: 2.5vw;}
+        #back {margin-top: 80vw; font-size: 4vw;}
+    }
+</style>
+<body>
+    <img id="logo"src="/Users/carsten/VSCode/Website/files/logoWhite.png" alt=""/>
+<div>
+    <h1 >Bedankt Voor Uw Aankoop</h1>
+    <h6 >Wij versturen uw artikel zo snel mogelijk.</h6>
+    <a href="index.html" id="back">Ga Terug<p onload="timer()"id="timer">(5s)</p></a>
+</div>
+
+<script>
+    let timerAn = setInterval(timer,1000);
+    x = 5;
+    function timer(){
+        x -= 1;
+        console.log(x);
+        document.querySelector('#timer').innerHTML = "(" + x + 's' + ")";
+        if (x==0){
+            window.location = '/Users/carsten/VSCode/Website/code/index.html';
+            console.log('Now');
+        }
+    }
+</script>
+</body>
+</html>

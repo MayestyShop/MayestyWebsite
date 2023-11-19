@@ -1,0 +1,595 @@
+body {
+  font-weight: 200;
+  font-family:Avenir, Arial,sans-serif;
+  margin: 0vw;
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
+.header {
+  background: rgb(110,157,186);
+  background: linear-gradient(90deg, rgba(110,157,186,1) 18%, rgba(0,170,255,1) 100%);  
+  width: 100vw;
+  top:0;
+  height:1.5vw;
+  margin-top:0vw;
+  margin-bottom: auto;
+  position: fixed;
+  z-index:10;
+}
+
+.txtheader {
+    letter-spacing: 0.25vw;
+    font-size: 0.8vw;
+    color: white;
+    margin:0;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5vw;
+}
+
+
+.whitebox {
+  top:0vw;
+  background: #1E1E1E;
+  width: 100vw;
+  height: 3vw;
+  margin-top: 1.5vw;
+  margin-bottom: 0vw;
+  position: fixed;
+  z-index:10;
+  border-bottom: solid white 0.1vw;
+  border-top: solid white 0.1vw;
+}
+
+.imgheader {
+    opacity: 80%;
+    width: 15vw;
+    margin-left: 5vw;
+    padding-top: 1vw;
+    margin-bottom: 0vw;
+    position: absolute;
+    cursor: pointer;
+}
+
+
+#Header1 {
+  font-size:1vw;
+  font-style:italic;
+  font-weight: 500;
+  position: absolute;
+  margin-left:36vw;
+  padding: 0;
+  height:3vw;
+  width:7vw;
+  line-height: 3vw;
+  text-align: center;
+  pointer-events: visible;
+  cursor: pointer;
+  color: white;
+}
+
+#Header2 {
+  font-size:1vw;
+  font-style:italic;
+  font-weight: 500;
+  position: absolute;
+  margin-left:43vw;
+  padding: 0;
+  height:3vw;
+  width:7vw;
+  line-height: 3vw;
+  text-align: center;
+  pointer-events: visible;
+  cursor: pointer;
+  color: white;
+}
+
+#Header3 {
+  font-size:1vw;
+  font-style:italic;
+  font-weight: 500;
+  position: absolute;
+  margin-left:50vw;
+  padding: 0;
+  height:3vw;
+  width:7vw;
+  line-height: 3vw;
+  text-align: center;
+  pointer-events: visible;
+  cursor: pointer;
+  color: white;
+}
+
+#Header4 {
+  font-size:1vw;
+  font-style:italic;
+  font-weight: 500;
+  position: absolute;
+  margin-left:57vw;
+  padding: 0;
+  height:3vw;
+  width:7vw;
+  line-height: 3vw;
+  text-align: center;
+  pointer-events: visible;
+  cursor: pointer;
+  color: white;
+}
+
+#Header1:hover, #Header2:hover, #Header3:hover, #Header4:hover{
+  background-color: #ADADAD ;
+  color:white
+}
+
+  #headingtext{
+    font-weight: 200;
+    width:100vw;
+    height: 10vw;
+    position: relative;
+    margin-top: 5vw;
+    background-color: white;
+  }
+
+  #path {
+    padding-top:0.35vw;
+    padding-left:15.75vw;
+    color: black;
+    font-size:0.8vw;
+
+  }
+
+  #titlepage {
+    font-size: 3vw;
+    width: 100vw;
+    text-align: center;
+    padding-top:0vw;
+
+  }
+
+  #sortbutton{
+    width:15vw;
+    height:2vw;
+    float: right;   
+    margin-right:15.75vw; 
+    margin-top:-4.75vw;
+    background-color: white;
+    border: solid black 0.075vw;
+    font-size: 0.75vw;
+    text-align: left;
+    font-weight: bold;
+    padding-left:0.3vw;
+    cursor: pointer;
+  }
+
+  #container {
+    width: 70vw;
+    height:55vw;
+    margin-left:15vw;
+    font-size: 0;
+    position: relative;
+    margin-top: 3vw;
+  }
+
+  #product-1-div{
+    margin-right: 1vw;
+    height: 16.75vw;
+    display: inline-block;
+    cursor: pointer;
+    border: solid white 0.1vw;
+    box-shadow: 0vw 0vw 2vw -1vw white;
+    margin-left:-0.2vw;
+    margin-top:-0.2vw;
+    width:16.75vw;
+  }
+
+  #product-1-img{
+    position: absolute;
+    padding-top: 0.75vw;
+    width: 11.5vw;
+    padding-left: 2.625vw;
+    padding-right: 2.625vw;
+    object-fit: contain;
+  }
+  
+  #name-product-1{
+    position: absolute;
+    margin-top: 16.5vw;
+    font-size: 1vw;
+    font-weight: bold;
+    width:16.75vw;
+    text-align: center;
+    color:black;
+    line-height:2.5vw;
+  }
+
+  #price-product-1{
+    position: absolute;
+    margin-top: 18vw;
+    width:16.75vw;
+    text-align: center;
+    font-size: 0.75vw;
+    font-weight: bold;
+    color:black;
+    line-height:2.5vw;
+  }
+
+  #product-1-div:hover{
+    border: solid black 0.1vw;
+    box-shadow: 0vw 0vw 2vw -1vw black;
+    margin-left:-0.2vw;
+    margin-top:-0.2vw;
+    width:16.75vw;
+  }
+
+  #product-1-div:hover #view-product-1 {
+    display: block;
+  }
+
+  #product-1-div:hover #button-product-1{
+    display: block;
+  }
+
+  #view-product-1{
+    position: absolute; width: 16.75vw; height:16.75vw;
+    background-color: whitesmoke; opacity: 25%;
+    display: none;
+  }
+
+  #button-product-1{
+    position: absolute; width:15.5vw; margin-left:0.625vw; height:2vw; background-color: white; margin-top:12.5vw; border: solid black 0.1vw;font-size:0.75vw; text-align: center; color:black; line-height: 2vw;
+    display: none;
+  }
+
+  #product-2-div{
+    display: inline-block;
+    margin-right: 1vw;
+    height: 16.75vw;
+    cursor: pointer;
+    border: solid white 0.1vw;
+    box-shadow: 0vw 0vw 2vw -1vw white;
+    margin-left:-0.2vw;
+    margin-top:-0.2vw;
+    width:16.75vw;
+  }
+
+  #product-2-img{
+    position: absolute;
+    padding-top: 2.25vw;
+    width: 11.5vw;
+    padding-left: 2.625vw;
+    padding-right: 2.625vw;
+    object-fit: contain;
+  }
+  
+  #name-product-2{
+    position: absolute;
+    margin-top: 16.5vw;
+    font-size: 1vw;
+    font-weight: bold;
+    width:16.75vw;
+    text-align: center;
+    color:black;
+    line-height:2.5vw;
+  }
+
+  #price-product-2{
+    position: absolute;
+    margin-top: 18vw;
+    width:16.75vw;
+    text-align: center;
+    font-size: 0.75vw;
+    font-weight: bold;
+    color:black;
+    line-height:2.5vw;
+  }
+
+  #product-2-div:hover{
+    border: solid black 0.1vw;
+    box-shadow: 0vw 0vw 2vw -1vw black;
+    margin-left:-0.2vw;
+    margin-top:-0.2vw;
+    width:16.75vw; 
+  }
+
+  #product-2-div:hover #view-product-2 {
+    display: block;
+  }
+
+  #product-2-div:hover #button-product-2{
+    display: block;
+  }
+
+  #view-product-2{
+    position: absolute; width: 16.75vw; height:16.75vw;
+    background-color: whitesmoke; opacity: 25%;
+    display: none;
+  }
+
+  #button-product-2{
+    position: absolute; width:15.5vw; margin-left:0.625vw; height:2vw; background-color: white; margin-top:12.5vw; border: solid black 0.1vw;font-size:0.75vw; text-align: center; color:black; line-height: 2vw;
+    display: none;
+  }
+
+
+  #product-3-div{
+    display: inline-block;
+    margin-right: 1vw;
+    height: 16.75vw;
+    cursor: pointer;
+    border: solid white 0.1vw;
+    box-shadow: 0vw 0vw 2vw -1vw white;
+    margin-left:-0.2vw;
+    margin-top:-0.2vw;
+    width:16.75vw;
+  }
+
+  #product-3-img{
+    position: absolute;
+    padding-top: 0.75vw;
+    width: 11.5vw;
+    padding-left: 2.625vw;
+    padding-right: 2.625vw;
+    object-fit: contain;
+  }
+  
+  #name-product-3{
+    position: absolute;
+    margin-top: 16.5vw;
+    font-size: 1vw;
+    font-weight: bold;
+    width:16.75vw;
+    text-align: center;
+    color:black;
+    line-height:2.5vw;
+  }
+
+  #price-product-3{
+    position: absolute;
+    margin-top: 18vw;
+    width:16.75vw;
+    text-align: center;
+    font-size: 0.75vw;
+    font-weight: bold;
+    color:black;
+    line-height:2.5vw;
+  }
+
+  #product-3-div:hover{
+    border: solid black 0.1vw;
+    box-shadow: 0vw 0vw 2vw -1vw black;
+    margin-left:-0.2vw;
+    margin-top:-0.2vw;
+    width:16.75vw;  
+  }
+
+  #product-3-div:hover #view-product-3 {
+    display: block;
+  }
+
+  #product-3-div:hover #button-product-3{
+    display: block;
+  }
+
+  #view-product-3{
+    position: absolute; width: 16.75vw; height:16.75vw;
+    background-color: whitesmoke; opacity: 25%;
+    display: none;
+  }
+
+  #button-product-3{
+    position: absolute; width:15.5vw; margin-left:0.625vw; height:2vw; background-color: white; margin-top:12.5vw; border: solid black 0.1vw;font-size:0.75vw; text-align: center; color:black; line-height: 2vw;
+    display: none;
+  }
+
+  #product-4-div{
+    display: inline-block;
+    margin-right: 0vw;
+    height: 16.75vw;
+    cursor: pointer;
+    border: solid white 0.1vw;
+    box-shadow: 0vw 0vw 2vw -1vw white;
+    margin-left:-0.2vw;
+    margin-top:-0.2vw;
+    width:16.75vw;
+  }
+
+  #product-4-img{
+    position: absolute;
+    padding-top: 0.75vw;
+    width: 11.5vw;
+    padding-left: 2.625vw;
+    padding-right: 2.625vw;
+    object-fit: contain;
+  }
+  
+  #name-product-4{
+    position: absolute;
+    margin-top: 16.5vw;
+    font-size: 1vw;
+    font-weight: bold;
+    width:16.75vw;
+    text-align: center;
+    color:black;
+    line-height:2.5vw;
+  }
+
+  #price-product-4{
+    position: absolute;
+    margin-top: 18vw;
+    width:16.75vw;
+    text-align: center;
+    font-size: 0.75vw;
+    font-weight: bold;
+    color:black;
+    line-height:2.5vw;
+  }
+
+  #product-4-div:hover{
+    border: solid black 0.1vw;
+    box-shadow: 0vw 0vw 2vw -1vw black;
+    margin-left:-0.2vw;
+    margin-top: -0.2vw;
+    width:16.75vw;  
+  }
+  #product-4-div:hover #view-product-4 {
+    display: block;
+  }
+
+  #product-4-div:hover #button-product-4{
+    display: block;
+  }
+
+  #view-product-4{
+    position: absolute; width: 16.75vw; height:16.75vw;
+    background-color: whitesmoke; opacity: 25%;
+    display: none;
+  }
+
+  #button-product-4{
+    position: absolute; width:15.5vw; margin-left:0.625vw; height:2vw; background-color: white; margin-top:12.5vw; border: solid black 0.1vw;font-size:0.75vw; text-align: center; color:black; line-height: 2vw;
+    display: none;
+  }
+
+
+  #product-5-div{
+    display: inline-block;
+    margin-right: 0vw;
+    height: 16.75vw;
+    cursor: pointer;
+    border: solid white 0.1vw;
+    box-shadow: 0vw 0vw 2vw -1vw white;
+    margin-left:-0.2vw;
+    margin-top:7.5vw;
+    width:16.75vw;
+  }
+
+  #product-5-img{
+    position: absolute;
+    padding-top: 0.75vw;
+    width: 11.5vw;
+    padding-left: 2.625vw;
+    padding-right: 2.625vw;
+    object-fit: contain;
+  }
+  
+  #name-product-5{
+    position: absolute;
+    margin-top: 16.5vw;
+    font-size: 1vw;
+    font-weight: bold;
+    width:16.75vw;
+    text-align: center;
+    color:black;
+    line-height:2.5vw;
+  }
+
+  #price-product-5{
+    position: absolute;
+    margin-top: 18vw;
+    width:16.75vw;
+    text-align: center;
+    font-size: 0.75vw;
+    font-weight: bold;
+    color:black;
+    line-height:2.5vw;
+  }
+
+  #product-5-div:hover{
+    border: solid black 0.1vw;
+    box-shadow: 0vw 0vw 2vw -1vw black;
+    margin-left:-0.2vw;
+    margin-top: 7.5vw;
+    width:16.75vw;  
+  }
+  #product-5-div:hover #view-product-5 {
+    display: block;
+  }
+
+  #product-5-div:hover #button-product-5{
+    display: block;
+  }
+
+  #view-product-5{
+    position: absolute; width: 16.75vw; height:16.75vw;
+    background-color: whitesmoke; opacity: 25%;
+    display: none;
+  }
+
+  #button-product-5{
+    position: absolute; width:15.5vw; margin-left:0.625vw; height:2vw; background-color: white; margin-top:12.5vw; border: solid black 0.1vw;font-size:0.75vw; text-align: center; color:black; line-height: 2vw;
+    display: none;
+  }
+
+  #footer {
+    bottom: 0;
+    font-size:1vw;
+    background-color: black;
+    width:100vw;
+    height: 13.6vw;
+    margin-top:0vw;
+    padding-top:0vw;
+    color:white;
+  }
+
+  @media screen and (max-width:750px) {
+    .header {height:6vw;}
+    .txtheader {line-height: 6vw; font-size: 2vw;}
+    .whitebox {height:12vw; margin-top: 6vw;}
+    #Header1 {height:12vw;font-size:3vw; width:20vw; margin-left: 10vw; line-height: 12vw;}
+    #Header2 {height:12vw;font-size:3vw; width:20vw; margin-left: 30vw; line-height: 12vw;}
+    #Header3 {height:12vw;font-size:3vw; width:20vw; margin-left: 50vw; line-height: 12vw;}
+    #Header4 {height:12vw;font-size:3vw; width:20vw; margin-left: 70vw; line-height: 12vw;}
+    #headingtext{margin-top:22.5vw;} 
+    #path {font-size: 2vw;}
+    #titlepage{font-size: 6vw;}
+    #container {margin-top: 15vw; width:90vw; margin-left: 5vw; height: 190vw;}
+    #product-1-div {width:44vw; height: 44vw; margin-right:0; margin-bottom: 10vw;}
+    #product-2-div {width:44vw; height: 44vw; margin-right:0; margin-bottom: 10vw;}
+    #product-3-div {width:44vw; height: 44vw; margin-right:0; margin-bottom: 10vw;}
+    #product-4-div {width:44vw; height: 44vw; margin-right:0; margin-bottom: 10vw;}
+    #product-5-div {width:44vw; height: 44vw; margin-right:0; margin-bottom: 10vw;}
+    #product-1-img{width: 30vw; padding-left:7vw; padding-right: 7vw;}
+    #product-2-img{width: 30vw; padding-left:7vw; padding-right: 7vw; padding-top: 3.5vw;}
+    #product-3-img{width: 30vw; padding-left:7vw; padding-right: 7vw;}
+    #product-4-img{width: 30vw; padding-left:7vw; padding-right: 7vw;}
+    #product-5-img{width: 30vw; padding-left:7vw; padding-right: 7vw;}
+    #product-1-div:hover{width:44vw; height:44vw; border: solid 0.1vw white; box-shadow: 0vw 0vw 2vw -1vw white;}
+    #product-1-div:hover #view-product-1{display:none;}
+    #product-1-div:hover #button-product-1{display:none;}
+    #view-product-1{display:none;}
+    #button-product-1{display:none;}
+    #product-2-div:hover{width:44vw; height:44vw; border: solid 0.1vw white; box-shadow: 0vw 0vw 2vw -1vw white;}
+    #product-2-div:hover #view-product-2{display:none;}
+    #product-2-div:hover #button-product-2{display:none;}
+    #view-product-2{display:none;}
+    #button-product-2{display:none;}
+    #product-3-div:hover{width:44vw; height:44vw; border: solid 0.1vw white; box-shadow: 0vw 0vw 2vw -1vw white;}
+    #product-3-div:hover #view-product-3{display:none;}
+    #product-3-div:hover #button-product-3{display:none;}
+    #view-product-3{display:none;}
+    #button-product-3{display:none;}
+    #product-4-div:hover{width:44vw; height:44vw; border: solid 0.1vw white; box-shadow: 0vw 0vw 2vw -1vw white;}
+    #product-4-div:hover #view-product-4{display:none;}
+    #product-4-div:hover #button-product-4{display:none;}
+    #view-product-4{display:none;}
+    #button-product-4{display:none;}
+    #product-5-div:hover{width:44vw; height:44vw; border: solid 0.1vw white; box-shadow: 0vw 0vw 2vw -1vw white;}
+    #product-5-div:hover #view-product-5{display:none;}
+    #product-5-div:hover #button-product-5{display:none;}
+    #view-product-5{display:none;}
+    #button-product-5{display:none;}
+    #name-product-1{width:44vw; margin-top:42.5vw; font-size:3vw;}
+    #name-product-2{width:44vw; margin-top:42.5vw; font-size:3vw;}
+    #name-product-3{width:44vw; margin-top:42.5vw; font-size:3vw;}
+    #name-product-4{width:44vw; margin-top:42.5vw; font-size:3vw;}
+    #name-product-5{width:44vw; margin-top:42.5vw; font-size:3vw;}
+    #price-product-1{width:44vw; margin-top:46vw; font-size:2.25vw;}
+    #price-product-2{width:44vw; margin-top:46vw; font-size:2.25vw;}
+    #price-product-3{width:44vw; margin-top:46vw; font-size:2.25vw;}
+    #price-product-4{width:44vw; margin-top:46vw; font-size:2.25vw;}
+    #price-product-5{width:44vw; margin-top:46vw; font-size:2.25vw;}
+    #footer {display: none;}
+    body {overflow-x: hidden;}
+    html {overflow-x: hidden;}
+  } 

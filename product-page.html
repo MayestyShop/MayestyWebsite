@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="product-page.css">
+    <link rel="icon" type="image/x-icon" href="/Users/Carsten/VSCode/Website/files/icon.ico" />
+    <title >Product Page | MAYESTY</title>
+</head>
+
+<body>
+ <!--MENU-->
+ <div id="menu"style="border-left:solid #3300FF 10px;color:white;z-index:10;margin-left:70%;position:fixed;background-color:black; width:30%;height:1100px;">
+  <a href="#" onclick="menuClosed()"><img alt="Error" style="padding-left:25px; padding-bottom: 25px;width:35px; position: fixed;margin-top:15px; margin-left:325px;"src="/Users/Carsten/VSCode/Website/files/cross.png"></a>
+  <a id="HOME"href="index.html"><p>HOME</p></a>
+  <a id="SHOP" href="shop.html"><p>SHOP</p></a>
+  <a id="ABOUTUS" href="about-us.html"><p>ABOUT US</p></a>
+  <a id="CONTACT"href="contact.html"><p>CONTACT</p></a>
+</div>
+
+</div>
+    <div class="header">
+        <p class=txtheader>FREE SHIPPING WORDWIDE</p>
+      </div>
+      <div class="whitebox">
+        <a href="index.html"><img alt="Error" class="imgheader" src="/Users/Carsten/VSCode/Website/files/Mayestylogowhite.png"></a>
+        <a href="#" onclick="menuClicked()"><img alt="Error"style="position:absolute;margin-top:17.5px;margin-left:1230px;width:65px;"src="/Users/Carsten/VSCode/Website/files/Menu.png"/></a>
+          </div>
+    </div>
+
+    <div class="product-overview">
+        <h2 class="path-product-1"> <a style="color:black;font-weight:bold; text-decoration: none;"href="index.html">Home / </a>CCTV Camera Audio 2.4G Wifi</h2>
+        <div id="product-div">
+            <img alt="Error" id="product-img-1" src="https://www.ikea.com/gb/en/images/products/lilleplutt-soft-toy-cat-grey-white__0876952_pe611260_s5.jpg?f=s"/>
+            <img alt="Error" id="product-img-1s" onclick="img1clicked()" src="https://www.ikea.com/gb/en/images/products/lilleplutt-soft-toy-cat-grey-white__0876952_pe611260_s5.jpg?f=s"/>
+            <img alt="Error" id="product-img-2s" onclick="img2clicked()"src="https://www.cameradeals.nl/wp-content/uploads/2020/02/Fujifilm-X100V-Zilver-compact-camera-cameradeals.be-10.jpg"/>
+            <img alt="Error" id="product-img-3s" onclick="img3clicked()"src="https://www.sony.nl/image/3a882b48f293cc77c6a232424cf0615c?fmt=pjpeg&wid=330&bgcolor=FFFFFF&bgc=FFFFFF"/>
+            <img alt="Error" id="product-img-4s" onclick="img4clicked()"src="data:image/jpeg;base64,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"/>
+            <img alt="Error" id="product-img-5s" onclick="img5clicked()"src="https://media.wired.com/photos/64123456412651fa6ee1473c/2:3/w_1200,h_1800,c_limit/Sony-A7IV-Gear.jpg"/>
+            <p id="name-product">CCTV Camera Audio 2.4G Wifi</p>
+            <p id="price-product">$49.99</p>
+        </div>
+        
+
+        <!--Dropdown menu - option-->
+       <p id="text-dropdown">Options</p>
+        <div id="Option-Dropdown">
+          <button onclick="optionDropdown()"id="option-button" ><p style="position:absolute;margin:0px;" id="select-option">Select</p><img alt="Error" style="margin-left: 325px;width:15px;"src="/Users/Carsten/VSCode/Website/files/arrow.png"></button>
+          <div id="optiondropdownmenu">
+            <button onclick="optionClicked1()"id="option-1">- Only 1 Camera ($49.99)</button>
+            <button onclick="optionClicked2()"id="option-2">- 1 Camera with 16GB ($54.99)</button>
+            <button onclick="optionClicked3()"id="option-3">- 1 Camera with 32GB ($56.99)</button>
+            <button onclick="optionClicked4()"id="option-4">- 1 Camera with 64GB ($59.99)</button>      
+          </div>
+
+           
+          <!--Dropdown menu - plug-->
+       <p id="text-dropdown-plug">Plug</p>
+       <div id="plug-Dropdown">
+         <button onclick="plugDropdown()"id="plug-button" ><p style="position:absolute;margin:0px;" id="select-plug">Select</p><img alt="Error" style="margin-left: 325px;width:15px;"src="/Users/Carsten/VSCode/Website/files/arrow.png"></button>
+         <div id="plugdropdownmenu">
+           <button onclick="plugClickedEU()"id="plug-1">- EU Plug</button>
+           <button onclick="plugClickedUS()"id="plug-2">- US Plug</button>
+           <button onclick="plugClickedAU()"id="plug-3">- AU Plug</button>
+           <button onclick="plugClickedUK()"id="plug-4">- UK Plug</button>      
+         </div>
+        </div>
+       
+         <!--Quantity-->
+         <p style="line-height: 0px; margin-top:40px">Quantity</p>
+      <div style="cursor:text;width:75px; height:40px; background-color: white; margin-top: 0px; border-color: black; border-style: solid;">  
+        <p style="line-height: 0; margin-bottom: auto; margin-top: 20px; padding-left: 10px">1 </p>
+      </div>
+      
+      <!--Add to Cart
+      <div onclick="AddToCart()" style="cursor:pointer;border-style:solid;background-color:white;height:40px;width:375px; margin-top:30px;";><p style="margin-top:10px;text-align: center;">Add to Cart</p></div>
+     -->
+
+      <!--Buy Now-->
+      <div onclick="Checkout()" style="cursor:pointer;border-color:black;border-style:solid;color: white;background-color:black;height:45px;width:375px; margin-top:75px;";><p style="margin-top:12.5px;text-align: center;">Buy Now</p></div>
+      
+    </div>
+
+</div>
+
+
+<!--Footer-->
+<div id="footer">
+  <p style="position:absolute;font-size:1.1vw;padding-left:18vw;line-height:2.1vw;width:4.5vw; height:5.35vw; padding-top:2.8vw; ">
+    <a style="color:white; text-decoration: none;"href="shop.html">Shop</a>
+    <a style="color:white; text-decoration: none;" href="about-us.html" >About us</a>
+    <a style="color:white; text-decoration: none;" href="contact.html">Contact</a>
+  </p>
+  <p style="line-height:2.1vw;padding-top:2.8vw;position:absolute;padding-left:32vw;text-align: left; width:46vw">Mayesty offers all sorts of products that our customers desire. We do our best to satisfy every customer we get. We want to keep providing desired products to people all around the world. If you have any suggestions for products please send us a e-mail.</p>
+</div>
+
+<script src="product-page.js"></script>
+</body>
+</html>

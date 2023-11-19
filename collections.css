@@ -1,0 +1,395 @@
+body {
+  font-weight: 200;
+  font-family:Avenir, Arial,sans-serif;
+  margin: 0vw;
+  overflow-x: hidden;
+}
+
+.header {
+  background: rgb(110,157,186);
+  background: linear-gradient(90deg, rgba(110,157,186,1) 18%, rgba(0,170,255,1) 100%);  
+  width: 100vw;
+  height:1.5vw;
+  margin-top:0vw;
+  margin-bottom: auto;
+  position: fixed;
+  z-index:10;
+  top: 0;
+}
+
+.txtheader {
+    letter-spacing: 0.25vw;
+    font-size: 0.8vw;
+    color: white;
+    margin:0;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5vw;
+}
+
+
+.whitebox {
+  top:1.5vw;
+  background: #1E1E1E;
+  width: 100vw;
+  height: 3vw;
+  margin-top: 0vw;
+  margin-bottom: 0vw;
+  position: fixed;
+  z-index:10;
+  border-bottom: solid white 0.1vw;
+  border-top: solid white 0.1vw;
+}
+
+.imgheader {
+    opacity: 80%;
+    width: 15vw;
+    margin-left: 5vw;
+    padding-top: 1vw;
+    margin-bottom: 0vw;
+    position: absolute;
+    cursor: pointer;
+}
+
+
+#Header1 {
+  font-size:1vw;
+  font-style:italic;
+  font-weight: 500;
+  position: absolute;
+  margin-left:36vw;
+  padding: 0;
+  height:3vw;
+  width:7vw;
+  line-height: 3vw;
+  text-align: center;
+  pointer-events: visible;
+  cursor: pointer;
+  color: white;
+}
+
+#Header2 {
+  font-size:1vw;
+  font-style:italic;
+  font-weight: 500;
+  position: absolute;
+  margin-left:43vw;
+  padding: 0;
+  height:3vw;
+  width:7vw;
+  line-height: 3vw;
+  text-align: center;
+  pointer-events: visible;
+  cursor: pointer;
+  color: white;
+}
+
+#Header3 {
+  font-size:1vw;
+  font-style:italic;
+  font-weight: 500;
+  position: absolute;
+  margin-left:50vw;
+  padding: 0;
+  height:3vw;
+  width:7vw;
+  line-height: 3vw;
+  text-align: center;
+  pointer-events: visible;
+  cursor: pointer;
+  color: white;
+}
+
+#Header4 {
+  font-size:1vw;
+  font-style:italic;
+  font-weight: 500;
+  position: absolute;
+  margin-left:57vw;
+  padding: 0;
+  height:3vw;
+  width:7vw;
+  line-height: 3vw;
+  text-align: center;
+  pointer-events: visible;
+  cursor: pointer;
+  color: white;
+}
+
+#Header1:hover, #Header2:hover, #Header3:hover, #Header4:hover{
+  background-color: #ADADAD ;
+  color:white
+}
+
+
+#langbutton {
+  position: absolute; margin-left: 87.5vw; height:4vw; background-color: white; border:solid black 0vw; z-index:22; margin-top:1.5vw; position:fixed;
+}
+
+#langimg {
+  position: absolute;width:3vw; height:2vw; margin-top: 1vw; cursor: pointer; opacity: 100%; border-radius: 0.3vw;
+}
+
+#langmenu {
+  display:none;border-radius:0.25vw;z-index:21;position: absolute; margin-left: 86.5vw; height:16.5vw; width:5vw; background-color: white; border:solid black 0vw; margin-top:0vw;
+}
+
+
+#eglang {
+  border-radius:0.25vw;width:3vw; height:2vw; margin-top: 4.5vw; cursor: pointer; margin-left:1vw; cursor:pointer;
+}
+
+#frlang {
+  border-radius:0.25vw;width:3vw; height:2vw; margin-top: 0.5vw; cursor: pointer; margin-left:1vw; cursor:pointer;
+}
+
+#delang {
+  border-radius:0.25vw;width:3vw; height:2vw; margin-top: 0.5vw; cursor: pointer; margin-left:1vw; cursor:pointer;
+}
+
+#nllang {
+  border-radius:0.25vw;width:3vw; height:2vw; margin-top: 0.5vw; cursor: pointer; margin-left:1vw; cursor:pointer;
+}
+
+#collection1 {
+  width: 100vw;
+  height:35vw;
+  background: url("/Users/carsten/VSCode/Website/files/ufc fight.webp") no-repeat;
+  background-size: 100vw;
+  filter: brightness(80%);
+  margin-top: 4.5vw;
+  background-color: black;
+}
+
+#collectiontxt{
+  font-size: 4vw;
+  color: white;
+  width:25vw;
+  height:10vw;
+  text-align: center;
+  margin-left:37.5vw;
+  margin-top:11vw;
+  position: absolute;
+  text-shadow: 1vw 0vw 1vw black, -1vw 0vw 1vw black, 0vw 1vw 1vw black, 0vw -1vw 1vw black;
+}
+
+#container{
+  background-color: whitesmoke;
+  width: 100vw;
+  height:45vw;
+}
+
+#productstxt {
+  font-size:3vw;
+  position: absolute;
+  width:100vw;
+  text-align: center;
+  line-height:7.5vw;
+  margin-top: 0vw;
+}
+
+#innercontainer {
+  font-size: 0;
+  position: absolute;
+  width:90vw;
+  height:30vw;
+  margin-left:4.5vw;
+  margin-top:7.5vw;
+  background-color: whitesmoke;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  border: solid black 0.1vw;
+  box-shadow: 0vw 0vw 3vw -1vw;
+  border-radius: 0.75vw;
+}
+
+#product1{
+  display: inline-block;
+  width: 21.75vw;
+  height: 21.75vw;
+  background: url('/Users/carsten/VSCode/Website/hoodies/fighterB.png') no-repeat;
+  background-size: 16.25vw;
+  background-position: 2.75vw;
+  margin-top:2.625vw;
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+#product2{
+  margin-left:1vw;
+  display: inline-block;
+  width: 21.75vw;
+  height: 21.75vw;
+  background: url('/Users/carsten/VSCode/Website/hoodies/relentlessashgrayB.png') no-repeat;
+  background-size: 16.25vw;
+  background-position: 2.75vw;
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+#product3{
+  margin-left:1vw;
+  display: inline-block;
+  width: 21.75vw;
+  height: 21.75vw;
+  background: url('/Users/carsten/VSCode/Website/hoodies/WarriorB.png') no-repeat;
+  background-size: 16.25vw;
+  background-position: 2.75vw;
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+#product4{
+  margin-left:1vw;
+  display: inline-block;
+  width: 21.75vw;
+  height: 21.75vw;
+  background: url('/Users/carsten/VSCode/Website/hoodies/UnderCoverB.png') no-repeat;
+  background-size: 16.25vw;
+  background-position: 2.75vw;
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+#txtproduct1 {
+  position: absolute;
+  font-size:1.35vw;
+  width:17.5vw;
+  margin-left:1vw;
+  line-height: 3vw;
+  margin-top:0vw;
+  cursor: pointer;
+  color:black;
+}
+
+#priceproduct1 {
+  font-size:1.1vw;
+  line-height: 3vw;
+  position: absolute;
+  margin-left: 17vw;
+  margin-top:0vw;
+  width:5vw;
+  cursor: pointer;
+  color:black;
+}
+
+#txtproduct2 {
+  position: absolute;
+  font-size:1.35vw;
+  width:17.5vw;
+  margin-left:23.75vw;
+  line-height: 3vw;
+  margin-top:0vw;
+  cursor: pointer;
+  color:black;
+}
+
+#priceproduct2 {
+  font-size:1.1vw;
+  line-height: 3vw;
+  position: absolute;
+  margin-left: 39.75vw;
+  margin-top:0vw;
+  cursor: pointer;
+  color:black;
+}
+
+#txtproduct3 {
+  position: absolute;
+  font-size:1.35vw;
+  width:17.5vw;
+  margin-left:46.5vw;
+  line-height: 3vw;
+  margin-top:0vw;
+  cursor: pointer;
+  color:black;
+}
+
+#priceproduct3 {
+  font-size:1.1vw;
+  line-height: 3vw;
+  position: absolute;
+  margin-left: 62.25vw;
+  margin-top:0vw;
+  cursor: pointer;
+  color:black;
+}
+
+#txtproduct4 {
+  position: absolute;
+  font-size:1.35vw;
+  width:17.5vw;
+  margin-left:69.25vw;
+  line-height: 3vw;
+  margin-top:0vw;
+  cursor: pointer;
+  color:black;
+}
+
+#priceproduct4 {
+  font-size:1.1vw;
+  line-height: 3vw;
+  position: absolute;
+  margin-left: 85vw;
+  margin-top:0vw;
+  cursor: pointer;
+  color:black;
+}
+
+#product1:hover, #product2:hover, #product3:hover, #product4:hover{
+  opacity: 0.5;
+}
+
+#disclaimer {
+  position: absolute;
+  font-size: 1.5vw;
+  font-weight: 200;
+  color:white;
+  margin-top:37.5vw;
+  line-height: 7.5vw;
+  width: 100vw;
+  text-align: center;
+  text-shadow: 0 0.07vw 0.2vw black;
+}
+
+#footer {
+  bottom: 0;
+  font-size:1vw;
+  background-color: black;
+  width:100vw;
+  height: 13.6vw;
+  margin-top:0vw;
+  padding-top:0vw;
+  color:white;
+}
+
+@media screen and (max-width:750px) {
+  .header {height:6vw; top:0;}
+  .txtheader {line-height: 6vw; font-size: 2vw;}
+  .whitebox {height:12vw; top:6vw;}
+  #Header1 {height:12vw;font-size:3vw; width:20vw; margin-left: 10vw; line-height: 12vw;}
+  #Header2 {height:12vw;font-size:3vw; width:20vw; margin-left: 30vw; line-height: 12vw;}
+  #Header3 {height:12vw;font-size:3vw; width:20vw; margin-left: 50vw; line-height: 12vw;}
+  #Header4 {height:12vw;font-size:3vw; width:20vw; margin-left: 70vw; line-height: 12vw;}
+  #headingtext{margin-top:22.5vw;}   
+  #collection1{margin-top: 18vw;height:45vw;}
+  #collectiontxt{font-size: 5vw; width:40vw; margin-left: 30vw; margin-top: 15vw;}
+  #footer{display: none;}
+  #container{height:100vw;}
+  #productstxt{  line-height:7.5vw; font-size: 6vw; margin-top:3.5vw;}
+  #innercontainer{height: 350vw; margin-top: 15vw; border-radius: 0vw;}
+  #product1{width:90vw; height: 70vw; position: absolute; margin-top: 3vw; background-size: 50vw; background-position: 20vw; margin-left: 0;}
+  #product2{width:90vw; height: 70vw; position: absolute; margin-top: 90vw; background-size: 50vw; background-position: 20vw; margin-left: 0;}
+  #product3{width:90vw; height: 70vw; position: absolute; margin-top: 175vw; background-size: 50vw; background-position: 20vw; margin-left: 0;}
+  #product4{width:90vw; height: 70vw; position: absolute; margin-top: 260vw; background-size: 50vw; background-position: 20vw; margin-left: 0;}
+  #txtproduct1{position: absolute; margin-top: 75vw; font-size: 5vw; width:90vw; text-align: center;}
+  #txtproduct2{position: absolute; margin-top: 160vw; font-size: 5vw; width:90vw; text-align: center; margin-left: 0;}
+  #txtproduct3{position: absolute; margin-top: 247.5vw; font-size: 5vw; width:90vw; text-align:center;margin-left: 0;}
+  #txtproduct4{position: absolute; margin-top: 332.5vw; font-size: 5vw; width:90vw; text-align:center;margin-left: 0;}
+  #priceproduct1{position: absolute; margin-top: 80vw; font-size: 3.5vw; width:90vw; text-align: center; margin-left: 0;}
+  #priceproduct2{position: absolute; margin-top: 165vw; font-size: 3.5vw; width:90vw; text-align:center;margin-left: 0vw;}
+  #priceproduct3{position: absolute; margin-top: 252.5vw; font-size: 3.5vw; width:90vw; text-align:center;margin-left: 0;}
+  #priceproduct4{position: absolute; margin-top: 337.5vw; font-size: 3.5vw; width:90vw; text-align:center;margin-left:0;}
+  #disclaimer{margin-top: 370vw; font-size: 4.5vw; color:gray}
+
+}
