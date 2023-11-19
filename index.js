@@ -41,7 +41,7 @@
     }
 
     function eglang(){
-      document.querySelector('#langimg').src = "/Users/Carsten/VSCode/Website/files/ukflag.png";
+      document.querySelector('#langimg').src = "ukflag.png";
       document.querySelector('#langmenu').style.display = "none";
       document.querySelector('#shopnowtxt').innerHTML = "Shop Now";
       document.querySelector('.txtheader').innerHTML = "NEW COLLECTION";
@@ -68,7 +68,7 @@
     }
 
     function frlang(){
-        document.querySelector('#langimg').src = "/Users/Carsten/VSCode/Website/files/frflag.png";
+        document.querySelector('#langimg').src = "frflag.png";
         document.querySelector('#langmenu').style.display = "none";
         document.querySelector('#shopnowtxt').innerHTML = "Acheter";
         document.querySelector('.txtheader').innerHTML = "NOUVELLE COLLECTION";
@@ -94,7 +94,7 @@
     }
 
     function delang(){
-        document.querySelector('#langimg').src = "/Users/Carsten/VSCode/Website/files/deflag.png";
+        document.querySelector('#langimg').src = "deflag.png";
         document.querySelector('#langmenu').style.display = "none";
         document.querySelector('#shopnowtxt').innerHTML = "Einkaufen";
         document.querySelector('.txtheader').innerHTML = "NEUE KOLLEKTION";
@@ -122,7 +122,7 @@
     }
 
     function nllang(){
-      document.querySelector('#langimg').src = "/Users/Carsten/VSCode/Website/files/nlflag.png";
+      document.querySelector('#langimg').src = "nlflag.png";
       document.querySelector('#langmenu').style.display = "none";
       document.querySelector('#langmenu').style.pointerEvents = "all";
       document.querySelector('#shopnowtxt').innerHTML = "Shop Nu";
@@ -206,31 +206,31 @@ setTimeout(function() {
 }, 2600);
 
 document.querySelector('.div-product1-img').addEventListener('click', function() {
-  window.location.href = '/Users/carsten/VSCode/Website/code/FighterHoodie.html';
+  window.location.href = 'FighterHoodie';
 });
 
 document.querySelector('.div-product2-img').addEventListener('click', function() {
-  window.location.href = '/Users/carsten/VSCode/Website/code/GlowingEarthHoodie.html';
+  window.location.href = 'GlowingEarthHoodie';
 });
 
 document.querySelector('.div-product3-img').addEventListener('click', function() {
-  window.location.href = '/Users/carsten/VSCode/Website/code/RelentlessHoodie.html';
+  window.location.href = 'RelentlessHoodie';
 });
 
 document.querySelector('#Header1').addEventListener('click', function() {
-  window.location.href = '/Users/carsten/VSCode/Website/code/index.html';
+  window.location.href = 'index';
 });
 
 document.querySelector('#Header2').addEventListener('click', function() {
-  window.location.href = '/Users/carsten/VSCode/Website/code/shop.html';
+  window.location.href = 'shop';
 });
 
 document.querySelector('#Header3').addEventListener('click', function() {
-  window.location.href = '/Users/carsten/VSCode/Website/code/collections.html';
+  window.location.href = 'collections';
 });
 
 document.querySelector('#Header4').addEventListener('click', function() {
-  window.location.href = '/Users/carsten/VSCode/Website/code/support.html';
+  window.location.href = 'support';
 });
 
 
@@ -246,10 +246,10 @@ function shop(){
     document.querySelector('html').style.overflowY = "hidden";
     window.scrollTo(0, 0);
     document.querySelector('#loadingscreen').style.opacity = shopopacity ;
-    window.open('/Users/carsten/VSCode/Website/code/shop.html', "_self");
+    window.open('shop', "_self");
     if (shopopacity >80){
         clearInterval(shoploading);
-        window.open('/Users/carsten/VSCode/Website/code/shop.html', "_self");
+        window.open('shop', "_self");
     };
 
 }
