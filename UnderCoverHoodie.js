@@ -1,13 +1,13 @@
 var option1 = 'S';
 var option2 = 'M';
-color1B = "/Users/carsten/VSCode/Website/hoodies/UnderCoverB.png";
-color1F = "/Users/carsten/VSCode/Website/hoodies/UnderCoverF.png";
-color2B = "/Users/carsten/VSCode/Website/hoodies/ashgreyUnderCoverB.png";
-color2F = "/Users/carsten/VSCode/Website/hoodies/ashgreyUnderCoverF.png";
+color1B = "UnderCoverB.png";
+color1F = "UnderCoverF.png";
+color2B = "ashgreyUnderCoverB.png";
+color2F = "ashgreyUnderCoverF.png";
 
 
-colorF = "/Users/carsten/VSCode/Website/hoodies/UnderCoverF.png";
-colorB = "/Users/carsten/VSCode/Website/hoodies/UndercoverB.png";
+colorF = "UnderCoverF.png";
+colorB = "UndercoverB.png";
 
 function img1clicked(){
     document.getElementById("product-img-1").src = colorF;
@@ -25,8 +25,8 @@ function color1(){
   document.getElementById("product-img-1").src= color1F;
   document.getElementById("product-img-1s").src= color1F;
   document.getElementById("product-img-2s").src= color1B;
-  colorF = "/Users/carsten/VSCode/Website/hoodies/UnderCoverF.png";
-  colorB = "/Users/carsten/VSCode/Website/hoodies/UnderCoverB.png";
+  colorF = "UnderCoverF.png";
+  colorB = "UnderCoverB.png";
   document.getElementById("div-product-1").style.border = "solid black 0.1vw";
   document.getElementById("div-product-2").style.border = "solid black 0vw"
 }
@@ -35,8 +35,8 @@ function color2(){
   document.getElementById("product-img-1").src= color2F;
   document.getElementById("product-img-1s").src= color2F;
   document.getElementById("product-img-2s").src= color2B;
-  colorF = "/Users/carsten/VSCode/Website/hoodies/ashgreyUnderCoverF.png";
-  colorB = "/Users/carsten/VSCode/Website/hoodies/ashgreyUnderCoverB.png";
+  colorF = "ashgreyUnderCoverF.png";
+  colorB = "ashgreyUnderCoverB.png";
   document.getElementById("div-product-1").style.border = "solid black 0.1vw";
   document.getElementById("div-product-2").style.border = "solid black 0vw"
 }
@@ -103,19 +103,19 @@ function Checkout(){ /*BLACKFRIDAY*/
     }
 
     document.querySelector('#Header1').addEventListener('click', function() {
-        window.location.href = '/Users/carsten/VSCode/Website/code/index.html';
+        window.location.href = 'index';
       });
       
       document.querySelector('#Header2').addEventListener('click', function() {
-        window.location.href = '/Users/carsten/VSCode/Website/code/shop.html';
+        window.location.href = 'shop';
       });
       
       document.querySelector('#Header3').addEventListener('click', function() {
-        window.location.href = '/Users/carsten/VSCode/Website/code/collections.html';
+        window.location.href = 'collections';
       });
       
       document.querySelector('#Header4').addEventListener('click', function() {
-        window.location.href = '/Users/carsten/VSCode/Website/code/support.html';
+        window.location.href = 'support';
       });
       
       a=0
