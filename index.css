@@ -286,14 +286,14 @@ html {
 
 /*Product 1*/
 .div-product1-img {margin-top:2.25vw;margin-left:2.25vw;border-radius: 0.75vw;height:25vw;width:25vw;position: absolute; box-shadow: 0vw 0vw 5vw -3vw darkgray;
-  background: url("/Users/carsten/VSCode/Website/hoodies/fighterB.png") no-repeat;
+  background: url("fighterB.png") no-repeat;
   background-position: 5.25vw 1.15vw;
   background-size:14.5vw ;
   background-color: #EAEAEA;
   cursor: pointer;
 }
 .div-product1-img:hover {text-decoration: underline;
-  background: url("/Users/carsten/VSCode/Website/hoodies/fighterF.png") no-repeat;
+  background: url("fighterF.png") no-repeat;
   background-position: 5.25vw 2.5vw;
   background-size:14.5vw ;
   background-color: #EAEAEA;
@@ -347,14 +347,14 @@ html {
 
 /* Product 2*/
 .div-product2-img {margin-top:2.225vw;margin-left:28.25vw;border-radius: 0.75vw;height:25vw;width:25vw;;position: absolute; background-color: #EAEAEA; background-color: #EAEAEA; box-shadow: 0vw 0vw 5vw -3vw darkgray;
-  background: url("/Users/carsten/VSCode/Website/hoodies/GlowingEarthF.png") no-repeat;
+  background: url("GlowingEarthF.png") no-repeat;
   background-position: 5.25vw 2.5vw;
   background-size:14.5vw ;
   background-color: #EAEAEA;
 }
 
 .div-product2-img:hover {text-decoration: underline;
-  background: url("/Users/carsten/VSCode/Website/hoodies/blackB.png") no-repeat;
+  background: url("blackB.png") no-repeat;
   background-position: 5.25vw 1.15vw;
   background-size:14.5vw ;
   background-color: #EAEAEA;
@@ -408,7 +408,7 @@ html {
 
 /* Product 3*/
 .div-product3-img {margin-top:2.25vw;margin-left:54.25vw;border-radius: 0.75vw;height:25vw;width:25vw;;position: absolute; background-color: #EAEAEA; box-shadow: 0vw 0vw 5vw -3vw darkgray;
-  background: url("/Users/carsten/VSCode/Website/hoodies/RelentlessB.png") no-repeat;
+  background: url("RelentlessB.png") no-repeat;
   background-position: 5.25vw 1.15vw;
   background-size:14.5vw ;
   background-color: #EAEAEA;
@@ -416,7 +416,7 @@ html {
 }
 
 .div-product3-img:hover {text-decoration: underline;
-  background: url("/Users/carsten/VSCode/Website/hoodies/RelentlessF.png") no-repeat;
+  background: url("RelentlessF.png") no-repeat;
   background-position: 5.25vw 2.5vw;
   background-size:14.5vw ;
   background-color: #EAEAEA;
@@ -490,7 +490,7 @@ html {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   object-fit: cover;
-  background: url("/Users/carsten/VSCode/Website/files/ufc fight.webp") no-repeat;
+  background: url("ufc fight.webp") no-repeat;
   background-size: 110vw;
 }
 
@@ -541,7 +541,7 @@ html {
 
 #collection1 {
   position: absolute;
-  background: url("/Users/carsten/VSCode/Website/hoodies/fighterB.png") no-repeat;
+  background: url("fighterB.png") no-repeat;
   background-position: 3.5vw 0.5vw;
   background-size:17vw ;
   width:24vw;
@@ -551,14 +551,14 @@ html {
 }
 
 #collection1:hover{
-  background: url("/Users/carsten/VSCode/Website/hoodies/fighterF.png") no-repeat;
+  background: url("fighterF.png") no-repeat;
   background-position: 3.5vw 2.5vw;
   background-size: 17vw;
   background-color: #EEEEEE;
 }
 
 #collection2 {
-  background: url("/Users/carsten/VSCode/Website/hoodies/relentlessashgrayB.png") no-repeat;
+  background: url("relentlessashgrayB.png") no-repeat;
   background-position: 3.5vw 0.7vw;
   background-size:17vw ;
   margin-left:25vw;
@@ -570,14 +570,14 @@ html {
 }
 
 #collection2:hover{
-  background: url("/Users/carsten/VSCode/Website/hoodies/relentlessashgrayF.png") no-repeat;
+  background: url("relentlessashgrayF.png") no-repeat;
   background-position: 3.5vw 2.5vw;
   background-size: 17vw;
   background-color: #EEEEEE;
 }
 
 #collection3 {
-  background: url("/Users/carsten/VSCode/Website/hoodies/WarriorB.png") no-repeat;
+  background: url("WarriorB.png") no-repeat;
   background-position: 3.5vw 0.7vw;
   background-size:17vw ;
   margin-left:50vw;
@@ -589,14 +589,14 @@ html {
 }
 
 #collection3:hover{
-  background: url("/Users/carsten/VSCode/Website/hoodies/WarriorF.png") no-repeat;
+  background: url("WarriorF.png") no-repeat;
   background-position: 3vw 2.5vw;
   background-size: 17vw;
   background-color: #EEEEEE;
 }
 
 #collection4 {
-  background: url("/Users/carsten/VSCode/Website/hoodies/UnderCoverB.png") no-repeat;
+  background: url("UnderCoverB.png") no-repeat;
   background-position: 3.5vw 0.7vw;
   background-size:17vw ;
   margin-left:75vw;
@@ -608,7 +608,7 @@ html {
 }
 
 #collection4:hover{
-  background: url("/Users/carsten/VSCode/Website/hoodies/UnderCoverF.png") no-repeat;
+  background: url("UnderCoverF.png") no-repeat;
   background-position: 4vw 2.5vw;
   background-size: 17vw;
   background-color: #EEEEEE;
