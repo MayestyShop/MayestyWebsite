@@ -136,19 +136,19 @@ function changeListener(){
 */
 
 document.querySelector('#Header1').addEventListener('click', function() {
-    window.location.href = 'index';
+    window.location.href = 'index.html';
   });
   
   document.querySelector('#Header2').addEventListener('click', function() {
-    window.location.href = 'shop';
+    window.location.href = 'shop.html';
   });
   
   document.querySelector('#Header3').addEventListener('click', function() {
-    window.location.href = 'collections';
+    window.location.href = 'collections.html';
   });
   
   document.querySelector('#Header4').addEventListener('click', function() {
-    window.location.href = 'support';
+    window.location.href = 'support.html';
   });
 
   document.querySelector('#product-1-div').addEventListener('click', function() {
