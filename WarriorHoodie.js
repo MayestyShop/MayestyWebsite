@@ -4,7 +4,7 @@ x = 1;
     }
 
     function eglang(){
-      document.querySelector('#langimg').src = "/Users/Carsten/VSCode/Website/files/ukflag.png";
+      document.querySelector('#langimg').src = "ukflag.png";
       document.querySelector('#langmenu').style.display = "none";
       document.querySelector('#shopnowtxt').innerHTML = "Shop Now";
       document.querySelector('.txtheader').innerHTML = "NEW COLLECTION";
@@ -31,7 +31,7 @@ x = 1;
     }
 
     function frlang(){
-        document.querySelector('#langimg').src = "/Users/Carsten/VSCode/Website/files/frflag.png";
+        document.querySelector('#langimg').src = "frflag.png";
         document.querySelector('#langmenu').style.display = "none";
         document.querySelector('#shopnowtxt').innerHTML = "Acheter";
         document.querySelector('.txtheader').innerHTML = "NOUVELLE COLLECTION";
@@ -57,7 +57,7 @@ x = 1;
     }
 
     function delang(){
-        document.querySelector('#langimg').src = "/Users/Carsten/VSCode/Website/files/deflag.png";
+        document.querySelector('#langimg').src = "deflag.png";
         document.querySelector('#langmenu').style.display = "none";
         document.querySelector('#shopnowtxt').innerHTML = "Einkaufen";
         document.querySelector('.txtheader').innerHTML = "NEUE KOLLEKTION";
@@ -85,7 +85,7 @@ x = 1;
     }
 
     function nllang(){
-      document.querySelector('#langimg').src = "/Users/Carsten/VSCode/Website/files/nlflag.png";
+      document.querySelector('#langimg').src = "nlflag.png";
       document.querySelector('#langmenu').style.display = "none";
       document.querySelector('#langmenu').style.pointerEvents = "all";
       document.querySelector('#shopnowtxt').innerHTML = "Shop Nu";
@@ -116,14 +116,14 @@ var option2 = 'M';
 var option3 = 'L';
 var option4 = 'XL';
 
-color1B = "/Users/carsten/VSCode/Website/hoodies/WarriorB.png";
-color1F = "/Users/carsten/VSCode/Website/hoodies/WarriorF.png";
-color2B = "/Users/carsten/VSCode/Website/hoodies/WarriorashgrayB.png";
-color2F = "/Users/carsten/VSCode/Website/hoodies/warriorashgrayF.png";
+color1B = "WarriorB.png";
+color1F = "WarriorF.png";
+color2B = "WarriorashgrayB.png";
+color2F = "warriorashgrayF.png";
 
 
-colorF = "/Users/carsten/VSCode/Website/hoodies/WarriorF.png";
-colorB = "/Users/carsten/VSCode/Website/hoodies/WarriorB.png";
+colorF = "WarriorF.png";
+colorB = "WarriorB.png";
 
 function img1clicked(){
     document.getElementById("product-img-1").src = colorF;
@@ -170,8 +170,8 @@ function color1(){
     document.getElementById("product-img-1").src= color1F;
     document.getElementById("product-img-1s").src= color1F;
     document.getElementById("product-img-2s").src= color1B;
-    colorF = "/Users/carsten/VSCode/Website/hoodies/WarriorF.png";
-    colorB = "/Users/carsten/VSCode/Website/hoodies/WarriorB.png";
+    colorF = "WarriorF.png";
+    colorB = "WarriorB.png";
     document.getElementById("div-product-1").style.border = "solid black 0.1vw";
     document.getElementById("div-product-2").style.border = "solid black 0vw"
 }
@@ -180,8 +180,8 @@ function color2(){
     document.getElementById("product-img-1").src= color2F;
     document.getElementById("product-img-1s").src= color2F;
     document.getElementById("product-img-2s").src= color2B;
-    colorF = "/Users/carsten/VSCode/Website/hoodies/WarriorashgrayF.png";
-    colorB = "/Users/carsten/VSCode/Website/hoodies/WarriorashgrayB.png";
+    colorF = "WarriorashgrayF.png";
+    colorB = "WarriorashgrayB.png";
     document.getElementById("div-product-1").style.border = "solid black 0.1vw";
     document.getElementById("div-product-2").style.border = "solid black 0vw"
 }
@@ -223,19 +223,19 @@ function Checkout(){ /*BLACKFRIDAY*/
     }
 
     document.querySelector('#Header1').addEventListener('click', function() {
-        window.location.href = '/Users/carsten/VSCode/Website/code/index.html';
+        window.location.href = 'index.html';
       });
       
       document.querySelector('#Header2').addEventListener('click', function() {
-        window.location.href = '/Users/carsten/VSCode/Website/code/shop.html';
+        window.location.href = 'shop.html';
       });
       
       document.querySelector('#Header3').addEventListener('click', function() {
-        window.location.href = '/Users/carsten/VSCode/Website/code/collections.html';
+        window.location.href = 'collections.html';
       });
       
       document.querySelector('#Header4').addEventListener('click', function() {
-        window.location.href = '/Users/carsten/VSCode/Website/code/support.html';
+        window.location.href = 'support.html';
       });
       
       
