@@ -2,8 +2,8 @@ var option1 = 'S';
 var option2 = 'M';
 color1B = "UnderCoverB.png";
 color1F = "UnderCoverF.png";
-color2B = "ashgreyUnderCoverB.png";
-color2F = "ashgreyUnderCoverF.png";
+color2B = "AshgreyUnderCoverB.png";
+color2F = "AshgreyUnderCoverF.png";
 
 
 colorF = "UnderCoverF.png";
