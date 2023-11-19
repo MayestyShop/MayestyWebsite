@@ -1,7 +1,7 @@
-hoodie1 = "/Users/carsten/VSCode/Website/hoodies/fighterB.png";
-hoodie2 = "/Users/carsten/VSCode/Website/hoodies/GlowingEarthF.png";
-hoodie3 = "/Users/carsten/VSCode/Website/hoodies/RelentlessB.png";
-hoodie4 = "/Users/carsten/VSCode/Website/hoodies/blackB.png";
+hoodie1 = "fighterB.png";
+hoodie2 = "GlowingEarthF.png";
+hoodie3 = "RelentlessB.png";
+hoodie4 = "blackB.png";
 
 hoodie1txt = "Fighter hoodie";
 hoodie2txt = "Khabib Hoodie";
@@ -13,11 +13,11 @@ hoodie2price = "€39.49";
 hoodie3price = "€29.49";
 hoodie4price = "€24.49";
 
-hoodie1link = "/Users/carsten/VSCode/Website/code/FighterHoodie.html";
-hoodie2link = "/Users/carsten/VSCode/Website/code/GlowingEarthHoodie.html";
-hoodie3link = "/Users/carsten/VSCode/Website/code/RelentlessHoodie.html";
-hoodie4link = "/Users/carsten/VSCode/Website/code/UnderCoverHoodie.html";
-hoodie5link = "/Users/carsten/VSCode/Website/code/WarriorHoodie.html";
+hoodie1link = "FighterHoodie";
+hoodie2link = "GlowingEarthHoodie";
+hoodie3link = "RelentlessHoodie";
+hoodie4link = "UnderCoverHoodie";
+hoodie5link = "WarriorHoodie";
 
 hoodie1href = hoodie1link;
 hoodie2href = hoodie2link;
@@ -136,19 +136,19 @@ function changeListener(){
 */
 
 document.querySelector('#Header1').addEventListener('click', function() {
-    window.location.href = '/Users/carsten/VSCode/Website/code/index.html';
+    window.location.href = 'index';
   });
   
   document.querySelector('#Header2').addEventListener('click', function() {
-    window.location.href = '/Users/carsten/VSCode/Website/code/shop.html';
+    window.location.href = 'shop';
   });
   
   document.querySelector('#Header3').addEventListener('click', function() {
-    window.location.href = '/Users/carsten/VSCode/Website/code/collections.html';
+    window.location.href = 'collections';
   });
   
   document.querySelector('#Header4').addEventListener('click', function() {
-    window.location.href = '/Users/carsten/VSCode/Website/code/support.html';
+    window.location.href = 'support';
   });
 
   document.querySelector('#product-1-div').addEventListener('click', function() {
