@@ -349,7 +349,7 @@ body {
   display: inline-block;
   width:4.5vw;
   height:5vw;
-  background: url("/Users/carsten/VSCode/Website/hoodies/WarriorB.png") no-repeat;
+  background: url("WarriorB.png") no-repeat;
   background-size: 3.5vw;
   background-position: 0.5vw ;
   background-color: #F0F0F0;
@@ -362,7 +362,7 @@ body {
   display: inline-block;
   width:4.5vw;
   height:5vw;
-  background: url("/Users/carsten/VSCode/Website/hoodies/warriorashgrayB.png") no-repeat;
+  background: url("WarriorashgrayB.png") no-repeat;
   background-size: 3.5vw;
   background-position: 0.5vw ;
   background-color: #F0F0F0;
