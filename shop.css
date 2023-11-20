@@ -532,7 +532,7 @@ body {
     color:white;
   }
 
-  @media screen and (max-width:750px) {
+@media screen and (max-width:750px) {
     .header {height:6vw;}
     .txtheader {line-height: 6vw; font-size: 2vw;}
     .whitebox {height:12vw; margin-top: 6vw;}
