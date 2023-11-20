@@ -167,19 +167,10 @@ var selectplug = document.getElementById("select-frame");
 
 
 function Checkout(){
-switch (selectoption.textContent) {
-    //Option 1
-    case option1:
-        window.location.href = "https://buy.stripe.com/28o4jo2CleNI0yk3ck";
-    break
-    //Option 2
-    case option2:
-        window.location.href = "https://buy.stripe.com/28o2bg1yhgVQch26ox";
-    break
-    default:
-        document.querySelector('#no-option').style.display= 'block';
-        break
-    }}
+switch (selectoption.textContent) { /*BLACKFRIDAY*/
+        window.location.href = "https://buy.stripe.com/cN23fk3GpfRMfteaEY?prefilled_promo_code=BLACKFRIDAY";
+}
+
 
     let menumargin=-60;
     let menuopacity=4;
