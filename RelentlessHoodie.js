@@ -117,12 +117,12 @@ var option3 = 'L';
 var option4 = 'XL';
 
 color1B = "RelentlessB.png";
-color1F = "RelentlessF.png";
+color1F = "relentlessF.png";
 color2B = "relentlessashgrayB.png";
 color2F = "relentlessashgrayF.png";
 
 
-colorF = "RelentlessF.png";
+colorF = "relentlessF.png";
 colorB = "RelentlessB.png";
 
 function img1clicked(){
