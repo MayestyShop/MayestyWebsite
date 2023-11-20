@@ -347,15 +347,15 @@ html {
 
 /* Product 2*/
 .div-product2-img {margin-top:2.225vw;margin-left:28.25vw;border-radius: 0.75vw;height:25vw;width:25vw;;position: absolute; background-color: #EAEAEA; background-color: #EAEAEA; box-shadow: 0vw 0vw 5vw -3vw darkgray;
-  background: url("GlowingEarthF.png") no-repeat;
-  background-position: 5.25vw 2.5vw;
+  background: url("UnderCoverB.png") no-repeat;
+  background-position: 5.25vw 1.15vw;
   background-size:14.5vw ;
   background-color: #EAEAEA;
 }
 
 .div-product2-img:hover {text-decoration: underline;
-  background: url("blackB.png") no-repeat;
-  background-position: 5.25vw 1.15vw;
+  background: url("UnderCoverF.png") no-repeat;
+  background-position: 5.25vw 2.5vw;
   background-size:14.5vw ;
   background-color: #EAEAEA;
   border:solid darkgrey 0.05vw;
