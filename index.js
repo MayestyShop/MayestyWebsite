@@ -210,7 +210,7 @@ document.querySelector('.div-product1-img').addEventListener('click', function()
 });
 
 document.querySelector('.div-product2-img').addEventListener('click', function() {
-  window.location.href = 'GlowingEarthHoodie';
+  window.location.href = 'UnderCoverHoodie';
 });
 
 document.querySelector('.div-product3-img').addEventListener('click', function() {
