@@ -119,7 +119,7 @@ var option4 = 'XL';
 color1B = "WarriorB.png";
 color1F = "WarriorF.png";
 color2B = "WarriorashgrayB.png";
-color2F = "warriorashgrayF.png";
+color2F = "WarriorashgrayF.png";
 
 
 colorF = "WarriorF.png";
