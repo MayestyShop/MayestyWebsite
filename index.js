@@ -198,6 +198,7 @@ setTimeout(function() {
 
 setTimeout(function() {
     document.querySelector('html').style.overflowY = "scroll";
+    document.querySelector('html').style.overflowX = "none";
 
 }, 2300);
 
