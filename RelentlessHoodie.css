@@ -349,7 +349,7 @@ body {
   display: inline-block;
   width:4.5vw;
   height:5vw;
-  background: url("/Users/carsten/VSCode/Website/hoodies/RelentlessB.png") no-repeat;
+  background: url("RelentlessB.png") no-repeat;
   background-size: 3.5vw;
   background-position: 0.5vw ;
   background-color: #F0F0F0;
@@ -362,7 +362,7 @@ body {
   display: inline-block;
   width:4.5vw;
   height:5vw;
-  background: url("/Users/carsten/VSCode/Website/hoodies/relentlessashgrayB.png") no-repeat;
+  background: url("relentlessashgrayB.png") no-repeat;
   background-size: 3.5vw;
   background-position: 0.5vw ;
   background-color: #F0F0F0;
