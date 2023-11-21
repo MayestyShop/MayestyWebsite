@@ -35,8 +35,8 @@ function color2(){
   document.getElementById("product-img-1").src= color2F;
   document.getElementById("product-img-1s").src= color2F;
   document.getElementById("product-img-2s").src= color2B;
-  colorF = "ashgreyUnderCoverF.png";
-  colorB = "ashgreyUnderCoverB.png";
+  colorF = "AshgreyUnderCoverF.png";
+  colorB = "AshgreyUnderCoverB.png";
   document.getElementById("div-product-1").style.border = "solid black 0.1vw";
   document.getElementById("div-product-2").style.border = "solid black 0vw"
 }
