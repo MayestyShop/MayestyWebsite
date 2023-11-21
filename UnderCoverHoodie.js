@@ -7,7 +7,7 @@ color2F = "AshGreyUnderCoverF.png";
 
 
 colorF = "UnderCoverF.png";
-colorB = "UndercoverB.png";
+colorB = "UnderCoverB.png";
 
 function img1clicked(){
     document.getElementById("product-img-1").src = colorF;
