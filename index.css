@@ -808,9 +808,11 @@ html {
   #collection2price{width:40vw; font-size:2vw; margin-top: 50vw; text-align: center; margin-left: 52vw;}
   #collection3price{width:40vw; font-size:2vw; margin-top: 102.5vw; text-align: center; margin-left: 8vw;}
   #collection4price{width:40vw; font-size:2vw; margin-top: 102.5vw; text-align: center; margin-left: 52vw;}
-  
+
   #collection1new{display: none;}
   #collection2new{display: none;}
+  #collection3new{display:none}
+  #collection4new{display:none}
   #newprodut{display: none;}
   #footer {display: none;}
   body {overflow-x: hidden;}
